@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Engine Stores Page
+ * Ocean Serenity Marine Pvt Ltd - Engine Stores Page
  *
  * Comprehensive engine room supplies and equipment solutions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -24,7 +24,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in High Temp. Gaskets. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about High Temp. Gaskets\n\nDear ASP Global Marine Trading,\n\nI'm interested in High Temp. Gaskets. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about High Temp. Gaskets\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in High Temp. Gaskets. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Pipe Bender. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Pipe Bender\n\nDear ASP Global Marine Trading,\n\nI'm interested in Pipe Bender. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Pipe Bender\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Pipe Bender. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Cargo Sling Bag. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Cargo Sling Bag\n\nDear ASP Global Marine Trading,\n\nI'm interested in Cargo Sling Bag. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Cargo Sling Bag\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Cargo Sling Bag. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Submersible Pumps. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Submersible Pumps\n\nDear ASP Global Marine Trading,\n\nI'm interested in Submersible Pumps. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Submersible Pumps\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Submersible Pumps. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 5,
@@ -71,7 +71,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Red Silicon. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Red Silicon\n\nDear ASP Global Marine Trading,\n\nI'm interested in Red Silicon. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Red Silicon\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Red Silicon. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 6,
@@ -83,7 +83,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Rust Removers. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Rust Removers\n\nDear ASP Global Marine Trading,\n\nI'm interested in Rust Removers. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Rust Removers\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Rust Removers. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 7,
@@ -95,7 +95,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Insulation Test Kit. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Insulation Test Kit\n\nDear ASP Global Marine Trading,\n\nI'm interested in Insulation Test Kit. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Insulation Test Kit\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Insulation Test Kit. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 8,
@@ -106,7 +106,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Clamp Meter. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Clamp Meter\n\nDear ASP Global Marine Trading,\n\nI'm interested in Clamp Meter. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Clamp Meter\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Clamp Meter. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 9,
@@ -117,7 +117,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Gas/Smoke Detectors. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Gas/Smoke Detectors\n\nDear ASP Global Marine Trading,\n\nI'm interested in Gas/Smoke Detectors. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Gas/Smoke Detectors\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Gas/Smoke Detectors. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 10,
@@ -128,7 +128,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Magnetic Drilling Machine. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Magnetic Drilling Machine\n\nDear ASP Global Marine Trading,\n\nI'm interested in Magnetic Drilling Machine. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Magnetic Drilling Machine\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Magnetic Drilling Machine. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 11,
@@ -140,7 +140,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Adhesives. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Adhesives\n\nDear ASP Global Marine Trading,\n\nI'm interested in Adhesives. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Adhesives\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Adhesives. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 12,
@@ -152,7 +152,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in CRC. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about CRC\n\nDear ASP Global Marine Trading,\n\nI'm interested in CRC. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about CRC\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in CRC. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 13,
@@ -164,7 +164,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Explossion Proof Hand Lamp. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Explossion Proof Hand Lamp\n\nDear ASP Global Marine Trading,\n\nI'm interested in Explossion Proof Hand Lamp. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Explossion Proof Hand Lamp\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Explossion Proof Hand Lamp. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 14,
@@ -175,7 +175,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Bearing Puller. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Bearing Puller\n\nDear ASP Global Marine Trading,\n\nI'm interested in Bearing Puller. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Bearing Puller\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Bearing Puller. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 15,
@@ -186,7 +186,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Emery Tape. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Emery Tape\n\nDear ASP Global Marine Trading,\n\nI'm interested in Emery Tape. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Emery Tape\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Emery Tape. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 16,
@@ -197,7 +197,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Diaphragm Pump. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Diaphragm Pump\n\nDear ASP Global Marine Trading,\n\nI'm interested in Diaphragm Pump. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Diaphragm Pump\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Diaphragm Pump. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 17,
@@ -209,7 +209,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Mechanical Seal. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Mechanical Seal\n\nDear ASP Global Marine Trading,\n\nI'm interested in Mechanical Seal. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Mechanical Seal\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Mechanical Seal. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 18,
@@ -220,7 +220,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in O Rings. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about O Rings\n\nDear ASP Global Marine Trading,\n\nI'm interested in O Rings. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about O Rings\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in O Rings. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 19,
@@ -231,7 +231,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Gland Packing. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Gland Packing\n\nDear ASP Global Marine Trading,\n\nI'm interested in Gland Packing. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Gland Packing\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Gland Packing. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 20,
@@ -242,7 +242,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Chain Block. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Chain Block\n\nDear ASP Global Marine Trading,\n\nI'm interested in Chain Block. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Chain Block\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Chain Block. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 21,
@@ -254,7 +254,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Vacuum Pump. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Vacuum Pump\n\nDear ASP Global Marine Trading,\n\nI'm interested in Vacuum Pump. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Vacuum Pump\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Vacuum Pump. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 22,
@@ -266,7 +266,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in RHIB-Boat Repair Kit. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about RHIB-Boat Repair Kit\n\nDear ASP Global Marine Trading,\n\nI'm interested in RHIB-Boat Repair Kit. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about RHIB-Boat Repair Kit\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in RHIB-Boat Repair Kit. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 23,
@@ -278,7 +278,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Bearings. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Bearings\n\nDear ASP Global Marine Trading,\n\nI'm interested in Bearings. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Bearings\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Bearings. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 24,
@@ -289,7 +289,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in A/C Split & Tower. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about A/C Split & Tower\n\nDear ASP Global Marine Trading,\n\nI'm interested in A/C Split & Tower. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about A/C Split & Tower\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in A/C Split & Tower. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 25,
@@ -301,7 +301,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Water Filters. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Water Filters\n\nDear ASP Global Marine Trading,\n\nI'm interested in Water Filters. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Water Filters\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Water Filters. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 26,
@@ -313,7 +313,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Switches. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Switches\n\nDear ASP Global Marine Trading,\n\nI'm interested in Switches. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Switches\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Switches. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 27,
@@ -325,7 +325,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Thermo Meters. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Thermo Meters\n\nDear ASP Global Marine Trading,\n\nI'm interested in Thermo Meters. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Thermo Meters\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Thermo Meters. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 28,
@@ -337,7 +337,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Coolants. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Coolants\n\nDear ASP Global Marine Trading,\n\nI'm interested in Coolants. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Coolants\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Coolants. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 29,
@@ -349,7 +349,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Battery/Charger. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Battery/Charger\n\nDear ASP Global Marine Trading,\n\nI'm interested in Battery/Charger. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Battery/Charger\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Battery/Charger. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 30,
@@ -360,7 +360,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Transformers. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Transformers\n\nDear ASP Global Marine Trading,\n\nI'm interested in Transformers. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Transformers\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Transformers. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 31,
@@ -371,7 +371,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Flood / Tube Lights. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Flood / Tube Lights\n\nDear ASP Global Marine Trading,\n\nI'm interested in Flood / Tube Lights. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Flood / Tube Lights\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Flood / Tube Lights. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 32,
@@ -382,7 +382,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Junction Box. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Junction Box\n\nDear ASP Global Marine Trading,\n\nI'm interested in Junction Box. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Junction Box\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Junction Box. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 33,
@@ -393,7 +393,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Carbon Brushes. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Carbon Brushes\n\nDear ASP Global Marine Trading,\n\nI'm interested in Carbon Brushes. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Carbon Brushes\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Carbon Brushes. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 34,
@@ -404,7 +404,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Relays. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Relays\n\nDear ASP Global Marine Trading,\n\nI'm interested in Relays. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Relays\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Relays. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 35,
@@ -415,7 +415,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Blower. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Blower\n\nDear ASP Global Marine Trading,\n\nI'm interested in Blower. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Blower\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Blower. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 36,
@@ -426,7 +426,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Engine Log Book. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Engine Log Book\n\nDear ASP Global Marine Trading,\n\nI'm interested in Engine Log Book. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Engine Log Book\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Engine Log Book. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 37,
@@ -437,7 +437,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Refregerant. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Refregerant\n\nDear ASP Global Marine Trading,\n\nI'm interested in Refregerant. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Refregerant\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Refregerant. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 38,
@@ -448,7 +448,7 @@ const EngineStores = () => {
       whatsappMessage:
         "Hi, I'm interested in Welding Consumables. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Welding Consumables\n\nDear ASP Global Marine Trading,\n\nI'm interested in Welding Consumables. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Welding Consumables\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Welding Consumables. Please provide more information and pricing.\n\nThank you.",
     },
   ];
 
@@ -532,7 +532,7 @@ const EngineStores = () => {
                                 .slice(2)
                                 .join("\n")
                                 .trim()
-                            : "Dear ASP Global Marine Trading,\n\nI'm interested in " +
+                            : "Dear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in " +
                                 product.name +
                                 ". Please provide more information and pricing.\n\nThank you.",
                         )}`}

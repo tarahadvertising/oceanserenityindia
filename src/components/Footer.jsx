@@ -1,9 +1,9 @@
 /**
- * Ocean Infinity - Footer Section
+ * Ocean Serenity Marine Pvt Ltd - Footer Section
  *
  * Modern footer design with ocean wave SVG
  * Newsletter subscription and maritime theme
- * Ocean Infinity Deep Blue Theme
+ * Ocean Serenity Marine Pvt Ltd Deep Blue Theme
  */
 
 import { useEffect } from "react";
@@ -12,31 +12,12 @@ import "../styles/components/Footer.css";
 
 const Footer = () => {
   useEffect(() => {
-    // Use Font Loading API for better font loading detection
-    const loadFont = async () => {
-      try {
-        const font = new FontFace(
-          "Amsterdam Signature",
-          "url(./amsterdam-signature.otf)",
-        );
-        await font.load();
-        document.fonts.add(font);
-
-        // Add font-loaded class to headline
-        const headline = document.querySelector(".footer-headline");
-        if (headline) {
-          headline.classList.add("font-loaded");
-        }
-      } catch (error) {
-        console.log("Font loading failed, using fallback");
-        const headline = document.querySelector(".footer-headline");
-        if (headline) {
-          headline.classList.add("font-loaded");
-        }
-      }
-    };
-
-    loadFont();
+    // Temporarily disable custom font loading due to file corruption
+    // Use fallback font instead
+    const headline = document.querySelector(".footer-headline");
+    if (headline) {
+      headline.classList.add("font-loaded");
+    }
   }, []);
 
   return (
@@ -48,20 +29,20 @@ const Footer = () => {
           <div className="footer-brand">
             <div className="footer-logo">
               <img
-                src="/logo.webp"
-                alt="Knot & Sail"
+                src="/logo.svg"
+                alt="Ocean Serenity Marine Pvt Ltd"
                 className="footer-logo-image footer-logo-first"
               />
-              {/* <img
-                src="/asp.webp"
-                alt="Knot & Sail"
+              <img
+                src="/logo2.svg"
+                alt="Ocean Serenity Marine Pvt Ltd"
                 className="footer-logo-image footer-logo-second"
-              /> */}
+              />
             </div>
             <p className="footer-description">
               Specialized marine service provider delivering high-quality
-              solutions for ship owners and management companies across all UAE
-              ports.
+              solutions for ship owners and management companies across major
+              ports in India and worldwide.
             </p>
             <p className="footer-headline">
               &quot;Delivering Expectations for Every Voyage&quot;
@@ -126,22 +107,20 @@ const Footer = () => {
               <h4 className="footer-links-title">Group Companies</h4>
               <div className="footer-companies">
                 <span>Ocean Serenity FZ-LLC</span>
-                <span>Ocean Infinity Marine Service</span>
+                <span>Ocean Serenity Marine Pvt Ltd</span>
                 <span>Warmsol Marine & Industrial</span>
                 <span>ANC Arabia Contracting</span>
+                <span>Knot & Sail</span>
               </div>
             </div>
-
             {/* Contact */}
             <div className="footer-links-group">
               <h4 className="footer-links-title">Contact</h4>
               <div className="footer-contact-info">
                 <address>
-                  Xavier Business Center
+                  Ocean Serenity Marine Pvt Ltd
                   <br />
-                  Office Suite No: A5 - 18
-                  <br />
-                  Dubai - UAE
+                  India
                 </address>
                 <div className="footer-contact-details">
                   <a href="tel:+971527756765" className="footer-contact-link">
@@ -172,7 +151,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="copyright">
-              Copyright © Ocean Infinity | Designed by{" "}
+              Copyright © Ocean Serenity Marine Pvt Ltd | Designed by{" "}
               <a
                 href="https://tarah.ae/"
                 target="_blank"

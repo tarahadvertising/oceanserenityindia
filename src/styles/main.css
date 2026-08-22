@@ -1,9 +1,13 @@
 /**
- * Ocean Infinity - Enhanced Main CSS File
+ * Ocean Serenity Marine Pvt Ltd - Enhanced Main CSS File
  * 
  * Modern animations, micro-interactions, and improved visual hierarchy
- * Ocean Infinity Green Theme Override
+ * Ocean Serenity Marine Pvt Ltd Green Theme Override with Tailwind CSS
  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Base Styles */
 @import "./base/variables.css";
 @import "./base/reset.css";
@@ -21,6 +25,7 @@
 @import "./components/Certifications.css";
 @import "./components/Contact.css";
 @import "./components/Footer.css";
+@import "./components/LazyImage.css";
 
 /* Page Styles */
 @import "./pages/Home.css";
@@ -28,61 +33,63 @@
 @import "./pages/Products.css";
 @import "./pages/Services.css";
 @import "./pages/Contact.css";
+@import "./pages/Careers.css";
+@import "./pages/Blog.css";
 
-/* Premium Dark Ocean Green Theme - Infinity Wave Inspired */
+/* Premium Royal Navy & Cerulean Theme - Matched to logo.svg */
 :root {
-  /* Dark Ocean Color Palette */
-  --primary-color: #0f7f7a !important;
-  --secondary-color: #0a4f4c !important;
-  --accent-color: #3fe0d0 !important;
-  --ocean-primary: #041f1e !important;
-  --ocean-secondary: #062f2e !important;
-  --ocean-accent: #0a4f4c !important;
-  --ocean-light: #3fe0d0 !important;
-  --ocean-dark: #041f1e !important;
-  --text-primary: #eaf7f6 !important;
-  --text-secondary: #a0b3b2 !important;
+  /* Logo.svg Color Palette */
+  --primary-color: #0b62a9 !important;
+  --secondary-color: #273171 !important;
+  --accent-color: #21ade4 !important;
+  --ocean-primary: #0f1738 !important;
+  --ocean-secondary: #162050 !important;
+  --ocean-accent: #273171 !important;
+  --ocean-light: #21ade4 !important;
+  --ocean-dark: #0f1738 !important;
+  --text-primary: #f0f7ff !important;
+  --text-secondary: #94a3b8 !important;
 }
 
-/* Premium Dark Ocean Theme - Infinity Wave Inspired */
+/* Premium Dark Ocean Theme - Infinity Wave Inspired (logo.svg) */
 .navbar {
   background: linear-gradient(
     135deg,
-    #041f1e 0%,
-    #062f2e 50%,
-    #0a4f4c 100%
+    #0f1738 0%,
+    #162050 50%,
+    #273171 100%
   ) !important;
-  box-shadow: 0 4px 20px rgba(3, 224, 208, 0.1) !important;
-  border-bottom: 1px solid rgba(63, 224, 208, 0.2) !important;
+  box-shadow: 0 4px 20px rgba(33, 173, 228, 0.15) !important;
+  border-bottom: 1px solid rgba(33, 173, 228, 0.2) !important;
 }
 .navbar.scrolled {
   background: linear-gradient(
     135deg,
-    #041f1e 0%,
-    #062f2e 50%,
-    #0a4f4c 100%
+    #0f1738 0%,
+    #162050 50%,
+    #273171 100%
   ) !important;
-  box-shadow: 0 6px 30px rgba(3, 224, 208, 0.2) !important;
+  box-shadow: 0 6px 30px rgba(33, 173, 228, 0.25) !important;
 }
 
 /* Update navbar text colors for dark ocean background */
 .navbar * {
-  color: #eaf7f6 !important;
+  color: #f0f7ff !important;
 }
 
 .navbar .nav-list a {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.3) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.3) !important;
 }
 
 .navbar .nav-list a:hover {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.6) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.6) !important;
 }
 
 .navbar .nav-list a.active {
-  color: #0f7f7a !important;
-  text-shadow: 0 0 12px rgba(15, 127, 122, 0.5) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 12px rgba(33, 173, 228, 0.5) !important;
 }
 
 .navbar .nav-list a.active::after,
@@ -90,10 +97,10 @@
   background: linear-gradient(
     90deg,
     transparent,
-    #3fe0d0,
+    #21ade4,
     transparent
   ) !important;
-  box-shadow: 0 0 10px rgba(63, 224, 208, 0.5) !important;
+  box-shadow: 0 0 10px rgba(33, 173, 228, 0.5) !important;
 }
 
 /* Update logo to show exact original colors */
@@ -106,11 +113,11 @@
 footer {
   background: linear-gradient(
     135deg,
-    #041f1e 0%,
-    #062f2e 50%,
-    #0a4f4c 100%
+    #0f1738 0%,
+    #162050 50%,
+    #273171 100%
   ) !important;
-  color: #eaf7f6 !important;
+  color: #f0f7ff !important;
   backdrop-filter: blur(10px) !important;
   position: relative !important;
 }
@@ -124,72 +131,72 @@ footer {
   bottom: 0 !important;
   background: linear-gradient(
     135deg,
-    rgba(63, 224, 208, 0.05),
-    rgba(15, 127, 122, 0.02)
+    rgba(33, 173, 228, 0.05),
+    rgba(11, 98, 169, 0.02)
   ) !important;
   z-index: -1 !important;
 }
 
 /* Update footer text colors for dark ocean background */
 .footer * {
-  color: #eaf7f6 !important;
+  color: #f0f7ff !important;
 }
 
 .footer-section h3,
 .footer-section h4 {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.3) !important;
 }
 
 .footer-links a {
-  color: #a0b3b2 !important;
+  color: #94a3b8 !important;
   transition: all 0.3s ease !important;
 }
 
 .footer-links a:hover {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.4) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.4) !important;
   transform: translateY(-1px) !important;
 }
 
 .footer-contact p,
 .business-hours p {
-  color: rgba(234, 247, 246, 0.8) !important;
+  color: rgba(240, 247, 255, 0.8) !important;
 }
 
 .social-link {
-  background: rgba(63, 224, 208, 0.1) !important;
-  border: 1px solid rgba(63, 224, 208, 0.2) !important;
+  background: rgba(33, 173, 228, 0.1) !important;
+  border: 1px solid rgba(33, 173, 228, 0.2) !important;
   backdrop-filter: blur(5px) !important;
 }
 
 .social-link:hover {
-  background: rgba(63, 224, 208, 0.2) !important;
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  background: rgba(33, 173, 228, 0.2) !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
   transform: translateY(-2px) !important;
 }
 
 .footer-bottom-links a {
-  color: rgba(234, 247, 246, 0.6) !important;
+  color: rgba(240, 247, 255, 0.6) !important;
 }
 
 .footer-bottom-links a:hover {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 5px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 5px rgba(33, 173, 228, 0.3) !important;
 }
 
 .copyright p {
-  color: rgba(234, 247, 246, 0.5) !important;
+  color: rgba(240, 247, 255, 0.5) !important;
 }
 
-/* Premium Dark Ocean Buttons with Glowing Effects */
+/* Premium Ocean Blue Buttons with Glowing Effects */
 .btn-primary {
-  background: linear-gradient(135deg, #0f7f7a 0%, #0a4f4c 100%) !important;
-  color: #eaf7f6 !important;
-  border: 1px solid rgba(63, 224, 208, 0.3) !important;
-  box-shadow: 0 4px 15px rgba(15, 127, 122, 0.3) !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.3) !important;
+  background: linear-gradient(135deg, #0b62a9 0%, #273171 100%) !important;
+  color: #f0f7ff !important;
+  border: 1px solid rgba(33, 173, 228, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(11, 98, 169, 0.3) !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.3) !important;
   backdrop-filter: blur(5px) !important;
   position: relative !important;
   overflow: hidden !important;
@@ -205,17 +212,17 @@ footer {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(63, 224, 208, 0.3),
+    rgba(33, 173, 228, 0.3),
     transparent
   ) !important;
   transition: left 0.5s ease !important;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #3fe0d0 0%, #0f7f7a 100%) !important;
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 6px 25px rgba(63, 224, 208, 0.4) !important;
-  text-shadow: 0 0 12px rgba(63, 224, 208, 0.5) !important;
+  background: linear-gradient(135deg, #21ade4 0%, #0b62a9 100%) !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 6px 25px rgba(33, 173, 228, 0.4) !important;
+  text-shadow: 0 0 12px rgba(33, 173, 228, 0.5) !important;
   transform: translateY(-2px) !important;
 }
 
@@ -224,26 +231,26 @@ footer {
 }
 
 .btn-secondary {
-  background: rgba(15, 127, 122, 0.1) !important;
-  color: #3fe0d0 !important;
-  border: 2px solid #3fe0d0 !important;
+  background: rgba(11, 98, 169, 0.1) !important;
+  color: #21ade4 !important;
+  border: 2px solid #21ade4 !important;
   backdrop-filter: blur(10px) !important;
-  text-shadow: 0 0 6px rgba(63, 224, 208, 0.4) !important;
+  text-shadow: 0 0 6px rgba(33, 173, 228, 0.4) !important;
 }
 
 .btn-secondary:hover {
-  background: rgba(63, 224, 208, 0.2) !important;
-  color: #eaf7f6 !important;
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 4px 20px rgba(63, 224, 208, 0.3) !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.5) !important;
+  background: rgba(33, 173, 228, 0.2) !important;
+  color: #f0f7ff !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 4px 20px rgba(33, 173, 228, 0.3) !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.5) !important;
   transform: translateY(-2px) !important;
 }
 
 /* Premium Dark Ocean Section Titles */
 .section-title {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
   font-weight: 700 !important;
   letter-spacing: 0.02em !important;
 }
@@ -252,23 +259,17 @@ footer {
   background: linear-gradient(
     90deg,
     transparent,
-    #3fe0d0,
+    #21ade4,
     transparent
   ) !important;
   height: 3px !important;
-  box-shadow: 0 0 10px rgba(63, 224, 208, 0.4) !important;
+  box-shadow: 0 0 10px rgba(33, 173, 228, 0.4) !important;
 }
 
 /* Premium Dark Ocean Body Theme */
 body {
-  /* background: linear-gradient(
-    135deg,
-    #041f1e 0%,
-    #062f2e 50%,
-    #0a4f4c 100%
-  ) !important; */
   background: transparent !important;
-  color: #eaf7f6 !important;
+  color: #f0f7ff !important;
   min-height: 100vh !important;
 }
 
@@ -278,9 +279,9 @@ body {
 .certification-item,
 .contact-info-card,
 .faq-item {
-  background: rgba(15, 127, 122, 0.05) !important;
+  background: rgba(11, 98, 169, 0.05) !important;
   backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(63, 224, 208, 0.2) !important;
+  border: 1px solid rgba(33, 173, 228, 0.2) !important;
   border-radius: 16px !important;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
   position: relative !important;
@@ -300,8 +301,8 @@ body {
   bottom: 0 !important;
   background: linear-gradient(
     135deg,
-    rgba(63, 224, 208, 0.03),
-    rgba(15, 127, 122, 0.01)
+    rgba(33, 173, 228, 0.03),
+    rgba(11, 98, 169, 0.01)
   ) !important;
   z-index: -1 !important;
 }
@@ -311,9 +312,9 @@ body {
 .certification-item:hover,
 .contact-info-card:hover,
 .faq-item:hover {
-  background: rgba(15, 127, 122, 0.1) !important;
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 8px 30px rgba(63, 224, 208, 0.2) !important;
+  background: rgba(11, 98, 169, 0.1) !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 8px 30px rgba(33, 173, 228, 0.2) !important;
   transform: translateY(-5px) !important;
 }
 
@@ -322,67 +323,67 @@ body {
 .certification-item h3,
 .contact-info-card h3,
 .faq-item h4 {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.2) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.2) !important;
 }
 
 /* Premium Dark Ocean Hero Section */
 .hero-subtitle {
-  color: #f9fcfd !important;
+  color: #f0f7ff !important;
   text-shadow: none !important;
 }
 
 .hero-title {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 25px rgba(55, 148, 139, 0.3) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 25px rgba(33, 173, 228, 0.3) !important;
 }
 
 .hero-headline {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 30px rgba(55, 148, 139, 0.4) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 30px rgba(33, 173, 228, 0.4) !important;
 }
 
 /* Premium Dark Ocean Icons */
 .product-icon,
 .strength-icon,
 .certification-icon {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
-  background: rgba(63, 224, 208, 0.1) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
+  background: rgba(33, 173, 228, 0.1) !important;
   backdrop-filter: blur(5px) !important;
-  border: 1px solid rgba(63, 224, 208, 0.3) !important;
+  border: 1px solid rgba(33, 173, 228, 0.3) !important;
   border-radius: 12px !important;
 }
 
 /* Premium Dark Ocean Strength Cards */
 .strength-card:hover {
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 8px 30px rgba(63, 224, 208, 0.2) !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 8px 30px rgba(33, 173, 228, 0.2) !important;
 }
 
 .strength-icon {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
 }
 
 /* Premium Dark Ocean Certification Section */
 .certification-icon {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
 }
 
 /* Premium Dark Ocean Contact Section */
 .contact-info h3,
 .contact-form h3 {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.3) !important;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #3fe0d0 !important;
-  box-shadow: 0 0 0 3px rgba(63, 224, 208, 0.2) !important;
-  background: rgba(15, 127, 122, 0.05) !important;
+  border-color: #21ade4 !important;
+  box-shadow: 0 0 0 3px rgba(33, 173, 228, 0.2) !important;
+  background: rgba(11, 98, 169, 0.05) !important;
 }
 
 .footer {
@@ -397,35 +398,35 @@ body {
 /* Premium Dark Ocean Footer Elements */
 .footer-section h3,
 .footer-section h4 {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.3) !important;
 }
 
 .footer-links a:hover {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.4) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.4) !important;
 }
 
 .social-link:hover {
-  background: #3fe0d0 !important;
-  box-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  background: #21ade4 !important;
+  box-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
 }
 
 .floating-quote {
-  background: linear-gradient(135deg, #041f1e, #062f2e) !important;
-  border: 1px solid rgba(63, 224, 208, 0.3) !important;
-  box-shadow: 0 4px 20px rgba(63, 224, 208, 0.2) !important;
+  background: linear-gradient(135deg, #0f1738, #162050) !important;
+  border: 1px solid rgba(33, 173, 228, 0.3) !important;
+  box-shadow: 0 4px 20px rgba(33, 173, 228, 0.2) !important;
 }
 
 /* Premium Dark Ocean Navigation */
 .nav-list a.active {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.3) !important;
 }
 
 .nav-list a:hover {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.3) !important;
 }
 
 .nav-list a.active::after,
@@ -433,18 +434,13 @@ body {
   background: linear-gradient(
     90deg,
     transparent,
-    #3fe0d0,
+    #21ade4,
     transparent
   ) !important;
-  box-shadow: 0 0 10px rgba(63, 224, 208, 0.4) !important;
+  box-shadow: 0 0 10px rgba(33, 173, 228, 0.4) !important;
 }
 
 /* Premium Dark Ocean Trust Badges */
-.hero-headline {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 30px rgba(63, 224, 208, 0.4) !important;
-}
-
 .trust-badge {
   background: var(--ocean-secondary) !important;
   border: var(--ocean-secondary) !important;
@@ -456,30 +452,30 @@ body {
   background: var(--ocean-secondary) !important;
   border-color: var(--ocean-secondary) !important;
   box-shadow: none !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.4) !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.4) !important;
 }
 
 /* Premium Dark Ocean Icons */
 .icon {
-  background: linear-gradient(135deg, #0f7f7a, #0a4f4c) !important;
-  border: 1px solid rgba(63, 224, 208, 0.3) !important;
-  box-shadow: 0 4px 15px rgba(15, 127, 122, 0.3) !important;
+  background: linear-gradient(135deg, #0b62a9, #273171) !important;
+  border: 1px solid rgba(33, 173, 228, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(11, 98, 169, 0.3) !important;
 }
 
 .icon:hover {
-  box-shadow: 0 6px 25px rgba(63, 224, 208, 0.4) !important;
+  box-shadow: 0 6px 25px rgba(33, 173, 228, 0.4) !important;
   transform: translateY(-2px) !important;
 }
 
 /* Premium Dark Ocean Page Titles */
 .page-title {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 15px rgba(63, 224, 208, 0.3) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 15px rgba(33, 173, 228, 0.3) !important;
 }
 
 .page-subtitle {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 10px rgba(63, 224, 208, 0.2) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 10px rgba(33, 173, 228, 0.2) !important;
 }
 
 /* Premium Dark Ocean Text Elements */
@@ -489,22 +485,22 @@ h3,
 h4,
 h5,
 h6 {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.1) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.1) !important;
 }
 
 p {
-  color: #a0b3b2 !important;
+  color: #94a3b8 !important;
 }
 
 a {
-  color: #3fe0d0 !important;
-  text-shadow: 0 0 5px rgba(63, 224, 208, 0.2) !important;
+  color: #21ade4 !important;
+  text-shadow: 0 0 5px rgba(33, 173, 228, 0.2) !important;
 }
 
 a:hover {
-  color: #eaf7f6 !important;
-  text-shadow: 0 0 8px rgba(63, 224, 208, 0.3) !important;
+  color: #f0f7ff !important;
+  text-shadow: 0 0 8px rgba(33, 173, 228, 0.3) !important;
 }
 
 .core-values h3,
@@ -601,7 +597,7 @@ a:hover {
 
 .strength-card:hover {
   border-color: var(--ocean-dark) !important;
-  box-shadow: 0 15px 40px rgba(11, 63, 51, 0.2) !important;
+  box-shadow: 0 15px 40px rgba(22, 32, 80, 0.2) !important;
 }
 
 .certification-item {
@@ -611,7 +607,7 @@ a:hover {
 
 .certification-item:hover {
   border-color: var(--ocean-dark) !important;
-  box-shadow: 0 5px 20px rgba(11, 63, 51, 0.2) !important;
+  box-shadow: 0 5px 20px rgba(22, 32, 80, 0.2) !important;
 }
 
 .badge-placeholder {
@@ -621,7 +617,7 @@ a:hover {
 
 .badge-placeholder:hover {
   border-color: var(--ocean-dark) !important;
-  box-shadow: 0 3px 15px rgba(11, 63, 51, 0.2) !important;
+  box-shadow: 0 3px 15px rgba(22, 32, 80, 0.2) !important;
 }
 
 .quality-badge {
@@ -631,7 +627,7 @@ a:hover {
 
 .quality-badge:hover {
   border-color: var(--ocean-dark) !important;
-  box-shadow: 0 3px 15px rgba(11, 63, 51, 0.2) !important;
+  box-shadow: 0 3px 15px rgba(22, 32, 80, 0.2) !important;
 }
 
 /* Update all icons to dark ocean green */

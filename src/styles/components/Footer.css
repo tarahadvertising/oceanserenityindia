@@ -1,22 +1,22 @@
 /**
- * ASP Global Marine Trading LLC - Footer Styles
+ * Ocean Serenity Marine Pvt Ltd - Footer Styles
  *
  * Modern footer design with newsletter subscription
  * ASP Ocean Blue Theme
  */
 
-/* Custom Font - Amsterdam Signature Italic */
-@font-face {
+/* Custom Font - Amsterdam Signature Italic - Temporarily disabled due to font file corruption */
+/* @font-face {
   font-family: "Amsterdam Signature";
-  src: url("./amsterdam-signature.otf") format("opentype");
+  src: url("/amsterdam-signature.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
   font-display: block;
-}
+} */
 
 /* Footer Container with Reduced Size */
 .footer {
-  background: #0a3d4a;
+  background: #273171;
   color: #f8fafc;
   position: relative;
   overflow: hidden;
@@ -83,19 +83,13 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
-  background: #0f7f7a;
+  background: #0b62a9;
   color: #ffffff;
   border: none;
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-}
-
-.newsletter-btn:hover {
-  transform: translateY(-2px);
-  background: #6fd1c7;
-  box-shadow: 0 8px 20px rgba(15, 127, 122, 0.2);
 }
 
 /* Footer Content Wrapper */
@@ -129,24 +123,22 @@
 }
 
 .footer-logo-image {
-  height: 80px;
+  height: 70px;
   width: auto;
-  filter: brightness(1.1);
+  object-fit: contain;
+  filter: brightness(1.1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
   transition: transform 0.3s ease;
-  transform: scale(1.05);
 }
 
 .footer-logo-image.footer-logo-first {
-  max-width: 220px;
+  max-width: 160px;
+  max-height: 70px;
 }
 
 .footer-logo-image.footer-logo-second {
-  max-width: 190px;
-  height: 30px;
-}
-
-.footer-logo-image:hover {
-  transform: scale(1.05);
+  max-width: 170px;
+  max-height: 40px;
+  height: auto;
 }
 
 .footer-brand-text {
@@ -183,9 +175,9 @@
   max-width: 380px;
 }
 
-/* Amsterdam Font Tagline - Special Styling */
+/* Footer Tagline - Special Styling with fallback fonts */
 .footer-headline {
-  font-family: "Amsterdam Signature", "Parisienne", "Dancing Script", cursive;
+  font-family: "Parisienne", "Dancing Script", "Brush Script MT", cursive;
   font-size: 1.6rem;
   font-weight: normal;
   font-style: italic;
@@ -193,8 +185,9 @@
   margin: 16px 0 0;
   line-height: 1.3;
   letter-spacing: 0.5px;
-  text-shadow: 0 2px 8px rgba(42, 186, 163, 0.3);
+
   position: relative;
+
   padding-left: 20px;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -210,7 +203,7 @@
   left: 0;
   top: 0;
   font-size: 2rem;
-  color: rgba(42, 186, 163, 0.4);
+  color: rgba(33, 173, 228, 0.4);
   font-family: Georgia, serif;
   line-height: 1;
 }
@@ -269,7 +262,6 @@
   align-items: center;
   gap: 8px;
 }
-
 .footer-link::before {
   content: "›";
   color: #51a2d5;
@@ -277,16 +269,6 @@
   opacity: 0;
   transform: translateX(-8px);
   transition: all 0.3s ease;
-}
-
-.footer-link:hover {
-  color: #51a2d5;
-  transform: translateX(4px);
-}
-
-.footer-link:hover::before {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 /* Contact Info Special Styling */
@@ -323,10 +305,6 @@
   gap: 10px;
 }
 
-.footer-contact-link:hover {
-  color: #51a2d5;
-}
-
 /* Group Companies */
 .footer-companies {
   display: flex;
@@ -341,10 +319,6 @@
   line-height: 1.5;
   transition: color 0.3s ease;
   padding: 4px 0;
-}
-
-.footer-companies span:hover {
-  color: #51a2d5;
 }
 
 /* Footer Bottom Bar */
@@ -394,20 +368,12 @@
   transition: color 0.3s ease;
 }
 
-.footer-bottom-link:hover {
-  color: #51a2d5;
-}
-
 /* Design Link Styling */
 .footer-design-link {
   color: #51a2d5;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
-}
-
-.footer-design-link:hover {
-  color: #ffffff;
 }
 
 /* Social Links (Optional Enhancement) */
@@ -430,13 +396,17 @@
   text-decoration: none;
 }
 
-.social-link:hover {
-  background: #51a2d5;
-  color: #ffffff;
-  transform: translateY(-3px);
+/* Enhanced Responsive Design */
+@media (max-width: 1400px) {
+  .footer-content {
+    padding: 0 50px;
+  }
+
+  .footer-main {
+    gap: 60px;
+  }
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
   .footer-content {
     padding: 0 40px;
@@ -444,73 +414,142 @@
 
   .footer-main {
     gap: 50px;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .footer-description {
+    max-width: 320px;
   }
 }
 
 @media (max-width: 992px) {
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer-content {
+    padding: 0 30px;
+  }
+
   .footer-main {
     grid-template-columns: 1fr;
-    gap: 50px;
-    padding: 30px 0 25px;
+    gap: 40px;
+    padding: 25px 0 20px;
   }
 
   .footer-links-section {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 35px;
+  }
+
+  .footer-brand {
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
   }
 
   .footer-headline {
     font-size: 1.4rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-content {
-    padding: 0 24px;
-  }
-
-  .footer-main {
-    padding: 25px 0 20px;
-    gap: 40px;
-  }
-
-  .footer-links-section {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .footer-headline {
-    font-size: 1.3rem;
-    padding-left: 16px;
-  }
-
-  .footer-bottom-content {
-    flex-direction: column;
-    gap: 15px;
     text-align: center;
+    padding-left: 0;
   }
 
-  .footer-company-name {
-    font-size: 1.3rem;
+  .footer-social {
+    justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 40px;
+  }
 
-@media (max-width: 480px) {
   .footer-content {
     padding: 0 20px;
   }
 
+  .footer-main {
+    padding: 20px 0 15px;
+    gap: 30px;
+  }
+
+  .footer-links-section {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .footer-links-group {
+    text-align: center;
+  }
+
+  .footer-headline {
+    font-size: 1.3rem;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-brand {
+    gap: 20px;
+  }
+
+  .footer-description {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-contact-info {
+    text-align: center;
+  }
+
+  .footer-contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer-content {
+    padding: 0 15px;
+  }
+
+  .footer-main {
+    gap: 25px;
+    padding: 15px 0 10px;
+  }
+
+  .footer-brand {
+    gap: 15px;
+  }
+
+  .footer-logo {
+    gap: 12px;
+  }
+
   .footer-logo-image.footer-logo-first {
-    height: 50px;
+    height: 60px;
+    max-width: 140px;
   }
 
   .footer-logo-image.footer-logo-second {
-    height: 35px;
-    max-width: 80px;
+    height: 30px;
+    max-width: 70px;
   }
 
-  .footer-company-name {
-    font-size: 1.2rem;
+  .footer-description {
+    font-size: 0.9rem;
   }
 
   .footer-headline {
@@ -518,7 +557,8 @@
   }
 
   .footer-links-title {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
   }
 
   .footer-link,
@@ -526,5 +566,373 @@
   .footer-contact-info address,
   .footer-contact-link {
     font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .footer-link {
+    padding: 4px 0;
+  }
+
+  .footer-companies {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .footer-companies span {
+    font-size: 0.8rem;
+  }
+
+  .footer-contact-info address {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .footer-social {
+    gap: 15px;
+  }
+
+  .social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer {
+    padding-top: 25px;
+  }
+
+  .footer-content {
+    padding: 0 12px;
+  }
+
+  .footer-main {
+    gap: 20px;
+    padding: 12px 0 8px;
+  }
+
+  .footer-brand {
+    gap: 12px;
+  }
+
+  .footer-logo {
+    gap: 10px;
+  }
+
+  .footer-logo-image.footer-logo-first {
+    height: 50px;
+    max-width: 120px;
+  }
+
+  .footer-logo-image.footer-logo-second {
+    height: 25px;
+    max-width: 60px;
+  }
+
+  .footer-description {
+    font-size: 0.85rem;
+  }
+
+  .footer-headline {
+    font-size: 1.1rem;
+  }
+  .footer-links-title {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-link,
+  .footer-companies span,
+  .footer-contact-info address,
+  .footer-contact-link {
+    font-size: 0.8rem;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
+
+/* Additional Responsive Breakpoints for All Devices */
+
+/* Large Desktops (1600px and up) */
+@media (min-width: 1600px) {
+  .footer-content {
+    max-width: 1600px;
+    padding: 0 80px;
+  }
+
+  .footer-main {
+    gap: 80px;
+  }
+
+  .footer-logo-image.footer-logo-first {
+    max-width: 260px;
+  }
+
+  .footer-logo-image.footer-logo-second {
+    max-width: 220px;
+    height: 35px;
+  }
+
+  .footer-description {
+    max-width: 450px;
+    font-size: 1.1rem;
+  }
+
+  .footer-headline {
+    font-size: 1.6rem;
+  }
+
+  .footer-link,
+  .footer-companies span,
+  .footer-contact-info address,
+  .footer-contact-link {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets Landscape (1024px - 1200px) */
+@media (max-width: 1024px) and (min-width: 993px) {
+  .footer-content {
+    padding: 0 35px;
+  }
+
+  .footer-main {
+    gap: 45px;
+    grid-template-columns: 1.2fr 1.8fr;
+  }
+
+  .footer-links-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .footer-description {
+    max-width: 340px;
+  }
+}
+
+/* Tablets Portrait (768px - 992px) */
+@media (max-width: 896px) and (min-width: 769px) {
+  .footer-main {
+    gap: 35px;
+  }
+
+  .footer-links-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .footer-brand {
+    text-align: center;
+  }
+
+  .footer-description {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* Large Mobile (480px - 576px) */
+@media (max-width: 540px) and (min-width: 481px) {
+  .footer-content {
+    padding: 0 18px;
+  }
+
+  .footer-main {
+    gap: 22px;
+    padding: 18px 0 12px;
+  }
+
+  .footer-logo-image.footer-logo-first {
+    height: 75px;
+    max-width: 170px;
+  }
+
+  .footer-logo-image.footer-logo-second {
+    height: 28px;
+    max-width: 65px;
+  }
+
+  .footer-description {
+    font-size: 0.95rem;
+  }
+
+  .footer-headline {
+    font-size: 1.25rem;
+  }
+
+  .footer-links-title {
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+  }
+
+  .footer-link,
+  .footer-companies span,
+  .footer-contact-info address,
+  .footer-contact-link {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile (320px - 380px) */
+@media (max-width: 360px) and (min-width: 321px) {
+  .footer {
+    padding-top: 20px;
+  }
+
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .footer-main {
+    gap: 18px;
+    padding: 10px 0 6px;
+  }
+
+  .footer-brand {
+    gap: 10px;
+  }
+
+  .footer-logo {
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo-image.footer-logo-first {
+    height: 60px;
+    max-width: 140px;
+  }
+
+  .footer-logo-image.footer-logo-second {
+    height: 22px;
+    max-width: 55px;
+  }
+
+  .footer-description {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .footer-headline {
+    font-size: 1rem;
+  }
+
+  .footer-links-title {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+
+  .footer-link,
+  .footer-companies span,
+  .footer-contact-info address,
+  .footer-contact-link {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .footer-bottom-content {
+    padding: 15px 0;
+    gap: 10px;
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+  }
+
+  .footer-bottom-links {
+    gap: 15px;
+  }
+}
+
+/* Ultra Small Mobile (320px and below) */
+@media (max-width: 320px) {
+  .footer {
+    padding-top: 15px;
+  }
+
+  .footer-content {
+    padding: 0 8px;
+  }
+
+  .footer-main {
+    gap: 15px;
+    padding: 8px 0 5px;
+  }
+
+  .footer-logo-image.footer-logo-first {
+    height: 40px;
+    max-width: 100px;
+  }
+
+  .footer-logo-image.footer-logo-second {
+    height: 20px;
+    max-width: 50px;
+  }
+
+  .footer-description {
+    font-size: 0.75rem;
+  }
+
+  .footer-headline {
+    font-size: 0.95rem;
+  }
+
+  .footer-links-title {
+    font-size: 0.75rem;
+    margin-bottom: 6px;
+  }
+
+  .footer-link,
+  .footer-companies span,
+  .footer-contact-info address,
+  .footer-contact-link {
+    font-size: 0.7rem;
+  }
+
+  .social-link {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-bottom-content {
+    padding: 12px 0;
+  }
+
+  .copyright {
+    font-size: 0.65rem;
+  }
+}
+
+/* High DPI/Retina Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .footer-logo-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background: linear-gradient(135deg, #0a1929 0%, #1a2332 100%);
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .footer-link,
+  .social-link,
+  .footer-bottom-link {
+    transition: none;
   }
 }

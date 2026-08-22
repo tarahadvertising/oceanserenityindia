@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Safety Services Page
+ * Ocean Serenity Marine Pvt Ltd - Safety Services Page
  *
  * Comprehensive safety services including safety audits,
  * training programs, and compliance management
@@ -7,6 +7,7 @@
 
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero.jsx";
 import {
   Shield,
@@ -18,7 +19,6 @@ import {
   X,
 } from "lucide-react";
 import "../styles/pages/Services.css";
-
 const SafetyServices = () => {
   const [selectedService, setSelectedService] = useState(null);
 
@@ -29,9 +29,9 @@ const SafetyServices = () => {
       icon: Shield,
       image: "/safety/safe2.webp",
       shortDescription:
-        "Commercial ships' life rafts need to be serviced once a year. Samudhra Marine..",
+        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Pvt Ltd..",
       fullDescription:
-        "Commercial ships' life rafts need to be serviced once a year. Samudhra Marine provides comprehensive life raft servicing, inspection, and certification to ensure compliance with maritime safety regulations and operational readiness.",
+        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Pvt Ltd comprehensive life raft servicing, inspection, and certification to ensure compliance with maritime safety regulations and operational readiness.",
       features: [
         "Annual life raft servicing and certification",
         "Life raft inspection and maintenance",
@@ -40,9 +40,9 @@ const SafetyServices = () => {
         "Professional servicing by certified technicians",
       ],
       images: [
-        "/safety/safe2.webp",
-        "/safety/safe8.webp",
-        "/safety/safe2.webp",
+        "/infinity/liferaft1.webp",
+        "/infinity/liferaft2.webp",
+        "/infinity/liferaft3.webp",
       ],
     },
     {
@@ -62,9 +62,9 @@ const SafetyServices = () => {
         "SOLAS and regulatory compliance",
       ],
       images: [
-        "/safety/safe8.webp",
-        "/safety/safe8.webp",
-        "/safety/safe8.webp",
+        "/infinity/lifeboat1.webp",
+        "/infinity/lifeboat2.webp",
+        "/infinity/lifeboat3.webp",
       ],
     },
     {
@@ -83,11 +83,7 @@ const SafetyServices = () => {
         "Breathing apparatus calibration",
         "Emergency equipment readiness verification",
       ],
-      images: [
-        "/safety/safe4.webp",
-        "/safety/safe4.webp",
-        "/safety/safe4.webp",
-      ],
+      images: ["/safety/safe4.webp", "/infinity/88.webp", "/infinity/89.webp"],
     },
     {
       id: 4,
@@ -95,9 +91,9 @@ const SafetyServices = () => {
       icon: CheckCircle,
       image: "/safety/safe5.webp",
       shortDescription:
-        "Samudhra Marine provides a variety of marine deck equipment supply and...",
+        "Ocean Serenity Marine Pvt Ltd provides a variety of marine deck equipment supply and...",
       fullDescription:
-        "Samudhra Marine provides a variety of marine deck equipment supply and services including inspection, maintenance, and certification of all deck machinery and safety equipment to ensure safe vessel operations.",
+        "Ocean Serenity Marine Pvt Ltd provides a variety of marine deck equipment supply and services including inspection, maintenance, and certification of all deck machinery and safety equipment to ensure safe vessel operations.",
       features: [
         "Deck equipment supply and installation",
         "Mooring equipment maintenance",
@@ -105,11 +101,7 @@ const SafetyServices = () => {
         "Access equipment servicing",
         "Operational safety checks and certification",
       ],
-      images: [
-        "/safety/safe5.webp",
-        "/safety/safe5.webp",
-        "/safety/safe5.webp",
-      ],
+      images: ["/safety/safe5.webp", "/infinity/90.webp", "/infinity/91.webp"],
     },
     {
       id: 5,
@@ -127,11 +119,7 @@ const SafetyServices = () => {
         "Flexible rental terms",
         "Quick equipment replacement services",
       ],
-      images: [
-        "/safety/safe9.webp",
-        "/safety/safe9.webp",
-        "/safety/safe9.webp",
-      ],
+      images: ["/safety/safe9.webp", "/infinity/92.webp", "/infinity/93.webp"],
     },
     {
       id: 6,
@@ -149,11 +137,7 @@ const SafetyServices = () => {
         "Project management and supervision",
         "Certification and commissioning",
       ],
-      images: [
-        "/safety/safe3.webp",
-        "/safety/safe3.webp",
-        "/safety/safe3.webp",
-      ],
+      images: ["/safety/safe3.webp", "/infinity/94.webp", "/infinity/95.webp"],
     },
     {
       id: 7,
@@ -161,9 +145,9 @@ const SafetyServices = () => {
       icon: Users,
       image: "/safety/safe1.webp",
       shortDescription:
-        "Samudhra Marine provides instrumentation and calibration services in the UAE onboard..",
+        "Ocean Serenity Marine Pvt Ltd instrumentation and calibration services in India onboard..",
       fullDescription:
-        "Samudhra Marine provides instrumentation and calibration services in the UAE onboard vessels for all types of marine navigation and safety equipment to ensure accuracy and compliance with international standards.",
+        "Ocean Serenity Marine Pvt Ltd provides instrumentation and calibration services in India onboard vessels for all types of marine navigation and safety equipment to ensure accuracy and compliance with international standards.",
       features: [
         "Navigation instrument calibration",
         "Safety equipment testing and certification",
@@ -171,11 +155,7 @@ const SafetyServices = () => {
         "Pressure gauge certification",
         "Onboard calibration services",
       ],
-      images: [
-        "/safety/safe1.webp",
-        "/safety/safe1.webp",
-        "/safety/safe1.webp",
-      ],
+      images: ["/safety/safe1.webp", "/infinity/96.webp", "/infinity/97.webp"],
     },
     {
       id: 8,
@@ -183,9 +163,9 @@ const SafetyServices = () => {
       icon: AlertTriangle,
       image: "/safety/safe6.webp",
       shortDescription:
-        "We at Samudhra marine conduct a thorough inspection of each unit to ensure..",
+        "Ocean Serenity Marine Pvt Ltd conducts a thorough inspection of each unit to ensure..",
       fullDescription:
-        "We at Samudhra marine conduct a thorough inspection of each unit to ensure optimal performance and compliance with fire safety regulations for all types of marine fire fighting equipment.",
+        "Ocean Serenity Marine Pvt Ltd conducts a thorough inspection of each unit to ensure optimal performance and compliance with fire safety regulations for all types of marine fire fighting equipment.",
       features: [
         "Fire extinguisher inspection and servicing",
         "Fire detection system maintenance",
@@ -193,11 +173,7 @@ const SafetyServices = () => {
         "Fixed fire suppression systems",
         "Fire safety compliance certification",
       ],
-      images: [
-        "/safety/safe6.webp",
-        "/safety/safe6.webp",
-        "/safety/safe6.webp",
-      ],
+      images: ["/infinity/98.webp", "/infinity/99.webp", "/infinity/100.webp"],
     },
     {
       id: 9,
@@ -205,9 +181,9 @@ const SafetyServices = () => {
       icon: CheckCircle,
       image: "/safety/safe7.webp",
       shortDescription:
-        "We at Samudhra Marine provide our clients with quality servicing of marine..",
+        "Ocean Serenity Marine Pvt Ltd provides our clients with quality servicing of marine..",
       fullDescription:
-        "We at Samudhra Marine provide our clients with quality servicing of marine life saving equipment including life jackets, immersion suits, lifebuoys, and other essential safety appliances.",
+        "Ocean Serenity Marine Pvt Ltd provides our clients with quality servicing of marine life saving equipment including life jackets, immersion suits, lifebuoys, and other essential safety appliances.",
       features: [
         "Life jacket inspection and maintenance",
         "Immersion suit servicing",
@@ -216,17 +192,16 @@ const SafetyServices = () => {
         "SOLAS compliance certification",
       ],
       images: [
-        "/safety/safe7.webp",
-        "/safety/safe7.webp",
-        "/safety/safe7.webp",
+        "/infinity/101.webp",
+        "/infinity/102.webp",
+        "/infinity/103.webp",
       ],
     },
   ];
-
   return (
     <>
       <Helmet>
-        <title>Safety Services | Ocean Infinity</title>
+        <title>Safety Services | Ocean Serenity Marine Pvt Ltd</title>
         <meta
           name="description"
           content="Professional maritime safety equipment services including life rafts, lifeboats, breathing apparatus, deck equipment, fire fighting equipment, and life saving appliances."
@@ -235,10 +210,10 @@ const SafetyServices = () => {
           name="keywords"
           content="maritime safety equipment, life rafts, lifeboats, davits, breathing apparatus, SCBA, marine deck equipment, fire fighting equipment, life saving equipment, calibration services"
         />
-        <meta property="og:title" content="Safety Services | Ocean Infinity" />
+        <meta property="og:title" content="Safety Services | Ocean Serenity Marine Pvt Ltd" />
         <meta
           property="og:description"
-          content="Comprehensive maritime safety equipment services by Ocean Infinity including life rafts, lifeboats, breathing apparatus, and fire fighting equipment."
+          content="Comprehensive maritime safety equipment services by Ocean Serenity Marine Pvt Ltd including life rafts, lifeboats, breathing apparatus, and fire fighting equipment."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -246,7 +221,7 @@ const SafetyServices = () => {
           content="https://oceaninfinity.com/safety-services"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Safety Services | Ocean Infinity" />
+        <meta name="twitter:title" content="Safety Services | Ocean Serenity Marine Pvt Ltd" />
         <meta
           name="twitter:description"
           content="Professional maritime safety equipment services including life rafts, lifeboats, breathing apparatus, and life saving appliances."
@@ -258,8 +233,7 @@ const SafetyServices = () => {
         <PageHero
           title="Safety Services"
           subtitle="Comprehensive Maritime Safety Equipment Solutions"
-          description="At Ocean Infinity, we provide comprehensive safety equipment services including life rafts, lifeboats, breathing apparatus, fire fighting equipment, and life saving appliances to ensure the highest standards of maritime safety and regulatory compliance."
-          backgroundImage="/knot and sail images/Asset 39.webp"
+          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive safety equipment services including life rafts, lifeboats, breathing apparatus, fire fighting equipment, and life saving appliances to ensure the highest standards of maritime safety and regulatory compliance."
         />
 
         {/* Safety Services Section */}
@@ -354,7 +328,7 @@ const SafetyServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/971123456789"
+                      href="https://wa.me/+971527756765"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"
@@ -367,11 +341,11 @@ const SafetyServices = () => {
                       >
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
                       </svg>
-                      Contact on WhatsApp
+                      Whatsapp
                     </a>
-                    <a href="/contact" className="btn btn-primary">
+                    <Link to="/contact" className="btn btn-primary">
                       Get Quote
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

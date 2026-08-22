@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Compliance Bar
+ * Ocean Serenity Marine Pvt Ltd - Compliance Bar
  *
  * Enhanced certification and authority section
  * Senior Level: Builds psychological authority and trust
@@ -13,13 +13,13 @@ const ComplianceBar = () => {
       label: "SOLAS",
       icon: "shield",
       description: "Safety of Life at Sea Convention compliance",
-      color: "#1FAF8F",
+      color: "#21ade4",
     },
     {
       label: "IMO",
       icon: "certificate",
       description: "International Maritime Organization standards",
-      color: "#E8F5E8",
+      color: "#f0f7ff",
     },
     {
       label: "ISO 9001",

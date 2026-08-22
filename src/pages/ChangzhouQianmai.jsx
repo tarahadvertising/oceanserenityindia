@@ -4,7 +4,7 @@
  */
 
 import { useEffect } from "react";
-import { ArrowLeft, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
+import { ArrowLeft, CheckCircle, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/pages/PartnerDetail.css";
 
@@ -12,7 +12,7 @@ const ChangzhouQianmai = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title =
-      "Changzhou Qianmai Mechanical Equipment | ASP Global Marine";
+      "Changzhou Qianmai Mechanical Equipment | Ocean Serenity Marine Pvt Ltd";
   }, []);
 
   const separators = [

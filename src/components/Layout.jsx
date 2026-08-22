@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Layout Template
+ * Ocean Serenity Marine Pvt Ltd - Layout Template
  *
  * Reusable layout component that wraps all pages with Header and Footer
  * Maintains the oceanic color theme and existing content structure

@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Contact Page
+ * Ocean Serenity Marine Pvt Ltd - Contact Page
  * 
  * Modern contact page with ocean green hero section
  */
@@ -10,7 +10,6 @@
 
 /* Contact Hero Section - Match Services Page Theme */
 .contact-hero {
-  background: #03251b;
   color: #ffffff;
   padding: 140px 0 100px;
   position: relative;
@@ -24,22 +23,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background:
-    radial-gradient(
-      circle at 30% 70%,
-      rgba(10, 58, 47, 0.4) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 70% 30%,
-      rgba(15, 88, 71, 0.4) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 50% 50%,
-      rgba(13, 76, 61, 0.3) 0%,
-      transparent 70%
-    );
+  background: transparent !important;
   z-index: 1;
 }
 
@@ -50,15 +34,6 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(
-    90deg,
-    var(--ocean-deep) 0%,
-    var(--ocean-dark) 20%,
-    var(--ocean-accent) 40%,
-    var(--ocean-primary) 60%,
-    var(--ocean-secondary) 80%,
-    var(--ocean-light) 100%
-  );
   z-index: 2;
 }
 
@@ -75,16 +50,11 @@
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(
-    135deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.95) 50%,
-    #ffffff 100%
-  );
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 4px 20px rgba(11, 63, 51, 0.3);
+  text-shadow: 0 4px 20px rgba(22, 32, 80, 0.3);
   animation: fadeInUp 1s ease-out;
 }
 
@@ -137,7 +107,7 @@
   background: rgba(255, 255, 255, 0.25);
   border-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(11, 63, 51, 0.3);
+  box-shadow: 0 10px 30px rgba(22, 32, 80, 0.3);
 }
 
 .contact-hero-btn-secondary {
@@ -383,7 +353,6 @@
   .page-subtitle {
     font-size: var(--font-size-lg);
   }
-
   .additional-contact-info {
     padding: var(--spacing-4xl) 0;
   }

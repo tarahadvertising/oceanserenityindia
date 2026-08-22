@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Main App Component
+ * Ocean Serenity Marine Pvt Ltd - Main App Component
  *
  * Technology Stack:
  * - React 18 with functional components and hooks
@@ -25,11 +25,15 @@ import ProductsPage from "./pages/Products.jsx";
 import Services from "./pages/Services.jsx";
 import Contact from "./pages/Contact.jsx";
 import Careers from "./pages/Careers.jsx";
+import Blog from "./pages/Blog.jsx";
 
 // Service Sub-pages
 import SafetyServices from "./pages/SafetyServices.jsx";
 import TechnicalServices from "./pages/TechnicalServices.jsx";
 import DryDockingServices from "./pages/DryDockingServices.jsx";
+import OverseasSubcontracting from "./pages/OverseasSubcontracting.jsx";
+import RidingSquadServices from "./pages/RidingSquadServices.jsx";
+import TestingServices from "./pages/TestingServices.jsx";
 
 // Products Pages
 import EngineStores from "./pages/EngineStores.jsx";
@@ -47,7 +51,7 @@ import HydraulicSystems from "./pages/HydraulicSystems.jsx";
 import LSAFFA from "./pages/LSAFFA.jsx";
 
 // Authorizations Page
-import Authorization from "./pages/Authorization.jsx";
+import Authorizations from "./pages/Authorizations.jsx";
 import Certifications from "./pages/Certifications.jsx";
 import GuangzhouHGMarine from "./pages/GuangzhouHGMarine.jsx";
 import HGMachineryGroup from "./pages/HGMachineryGroup.jsx";
@@ -118,10 +122,10 @@ function App() {
     //   if (navbar) {
     //     if (window.scrollY > 50) {
     //       navbar.style.background = "rgba(255, 255, 255, 0.98)";
-    //       navbar.style.boxShadow = "0 4px 30px rgba(46, 139, 139, 0.15)";
+    //       navbar.style.boxShadow = "0 4px 30px rgba(11, 98, 169, 0.15)";
     //     } else {
     //       navbar.style.background = "rgba(255, 255, 255, 0.95)";
-    //       navbar.style.boxShadow = "0 2px 20px rgba(46, 139, 139, 0.1)";
+    //       navbar.style.boxShadow = "0 2px 20px rgba(11, 98, 169, 0.1)";
     //     }
     //   }
     // };
@@ -144,7 +148,6 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/" element={<Home />} />
-
               {/* About Us Route - Single Page */}
               <Route path="/about" element={<About />} />
 
@@ -163,6 +166,18 @@ function App() {
               <Route
                 path="/services/dry-docking-services"
                 element={<DryDockingServices />}
+              />
+              <Route
+                path="/services/overseas-subcontracting"
+                element={<OverseasSubcontracting />}
+              />
+              <Route
+                path="/services/riding-squad-services"
+                element={<RidingSquadServices />}
+              />
+              <Route
+                path="/services/testing-services"
+                element={<TestingServices />}
               />
 
               {/* Products Routes - Main products page first */}
@@ -214,7 +229,7 @@ function App() {
               <Route path="/products/lsa-ffa" element={<LSAFFA />} />
 
               {/* Authorizations Route */}
-              <Route path="/authorizations" element={<Authorization />} />
+              <Route path="/authorizations" element={<Authorizations />} />
 
               {/* Certifications Route */}
               <Route path="/certifications" element={<Certifications />} />
@@ -235,12 +250,14 @@ function App() {
               />
               <Route path="/changzhou-qianmai" element={<ChangzhouQianmai />} />
 
-
               {/* Contact Route */}
               <Route path="/contact" element={<Contact />} />
 
               {/* Careers Route */}
               <Route path="/careers" element={<Careers />} />
+
+              {/* Blog Route */}
+              {/*<Route path="/blog" element={<Blog />} />*/}
             </Routes>
           </main>
           <Footer />

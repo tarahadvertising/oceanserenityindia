@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Authorizations Page
+ * Ocean Serenity Marine Pvt Ltd - Authorizations Page
  *
  * Company authorizations and certifications
  * Modern design with hero section and document request
@@ -63,7 +63,7 @@ const Authorizations = () => {
     {
       name: "Export Licenses",
       description: "International Trade and Export Authorizations",
-      authority: "UAE Ministry of Economy",
+      authority: "Directorate General of Foreign Trade (DGFT), India",
       scope: "Global marine equipment export",
       icon: FileText,
     },

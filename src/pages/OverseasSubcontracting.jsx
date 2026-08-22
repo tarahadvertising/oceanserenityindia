@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Overseas Subcontracting Services Page
+ * Ocean Serenity Marine Pvt Ltd - Overseas Subcontracting Services Page
  *
  * Comprehensive overseas subcontracting services for marine projects
  * including project management, technical support, and coordination
@@ -7,6 +7,7 @@
 
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero.jsx";
 import { Globe, Users, Wrench, ChevronRight, X } from "lucide-react";
 import "../styles/pages/Services.css";
@@ -17,54 +18,31 @@ const OverseasSubcontracting = () => {
   const subcontractingServicesData = [
     {
       id: 1,
-      title: "Project Management",
+      title: "Global Marine Repair Solutions",
       icon: Users,
-      image: "/knot and sail images/Asset 50.webp",
+      image: "/infinity/63.webp",
       shortDescription:
-        "Comprehensive project management for overseas marine subcontracting projects with expert coordination and supervision.",
+        "We deliver comprehensive ship repair and maintenance services across major international ports, ensuring fast response, technical excellence, and minimal vessel downtime.",
       fullDescription:
         "We provide end-to-end project management services for overseas marine subcontracting projects. Our experienced team handles project planning, resource allocation, timeline management, and quality control to ensure successful project delivery. We coordinate with local partners and manage all aspects of subcontracting operations to meet international standards.",
       features: [
-        "Project planning and scheduling",
-        "Resource coordination",
-        "Quality assurance",
-        "Timeline management",
-        "International standards compliance",
+        "Voyage & Emergency Repairs",
+        "Mechanical & Engine Repairs",
+        "Steel & Structural Repairs",
+        "Hydraulic & Deck Machinery Repairs",
+        "Electrical & Automation Works",
+        "Marine Refrigeration & HVAC",
+        "Marine Safety Services",
+        "Spare Parts Supply & Logistics",
+        "Riding Squad & Project Support",
       ],
-      images: [
-        "/knot and sail images/Asset 50.webp",
-        "/knot and sail images/Asset 51.webp",
-        "/knot and sail images/Asset 59.webp",
-      ],
-    },
-    {
-      id: 2,
-      title: "Technical Support",
-      icon: Wrench,
-      image: "/knot and sail images/Bh8OVy.webp",
-      shortDescription:
-        "Expert technical support and engineering services for overseas marine projects and subcontracting operations.",
-      fullDescription:
-        "Our technical support team provides comprehensive engineering solutions for overseas marine projects. We offer technical expertise, engineering consultations, and on-site support to ensure project success. Our services include technical assessments, problem-solving, and implementation of best practices for marine subcontracting operations.",
-      features: [
-        "Technical consultations",
-        "Engineering support",
-        "On-site assistance",
-        "Problem resolution",
-        "Best practices implementation",
-      ],
-      images: [
-        "/knot and sail images/Bh8OVy.webp",
-        "/knot and sail images/F0F5Nv.webp",
-        "/knot and sail images/cU5Gqw.webp",
-      ],
+      images: ["/infinity/64.webp", "/infinity/65.webp", "/infinity/66.webp"],
     },
   ];
-
   return (
     <>
       <Helmet>
-        <title>Overseas Subcontracting Services | Ocean Infinity</title>
+        <title>Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd</title>
         <meta
           name="description"
           content="Professional overseas subcontracting services for marine projects with comprehensive project management and technical support."
@@ -75,7 +53,7 @@ const OverseasSubcontracting = () => {
         />
         <meta
           property="og:title"
-          content="Overseas Subcontracting Services | Ocean Infinity"
+          content="Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd"
         />
         <meta
           property="og:description"
@@ -89,7 +67,7 @@ const OverseasSubcontracting = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Overseas Subcontracting Services | Ocean Infinity"
+          content="Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd"
         />
         <meta
           name="twitter:description"
@@ -102,17 +80,19 @@ const OverseasSubcontracting = () => {
         <PageHero
           title="Overseas Subcontracting Services"
           subtitle="Global Marine Project Solutions"
-          description="At Ocean Infinity, we provide comprehensive overseas subcontracting services for marine projects with expert project management, technical support, and international coordination to ensure successful project delivery."
-          backgroundImage="/knot and sail images/Asset 41.webp"
+          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive overseas subcontracting services for marine projects with expert project management, technical support, and international coordination to ensure successful project delivery."
         />
 
         {/* Subcontracting Services Section */}
         <section className="services-section-professional">
           <div className="container">
             <div className="services-header">
-              <h2 className="services-title">Global Subcontracting Solutions</h2>
+              <h2 className="services-title">
+                Global Subcontracting Solutions
+              </h2>
               <p className="services-subtitle">
-                Expert management and technical support for international marine projects
+                Expert management and technical support for international marine
+                projects
               </p>
             </div>
 
@@ -196,7 +176,7 @@ const OverseasSubcontracting = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/971123456789"
+                      href="https://wa.me/+971527756765"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"
@@ -211,9 +191,9 @@ const OverseasSubcontracting = () => {
                       </svg>
                       WhatsApp
                     </a>
-                    <a href="/contact" className="btn btn-primary">
+                    <Link to="/contact" className="btn btn-primary">
                       Get Quote
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -220,7 +220,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #00d88579, #205335, #08805886);
+  background: linear-gradient(90deg, #21ade479, #162050, #21ade486);
   border-radius: 16px 16px 0 0;
 }
 
@@ -266,7 +266,7 @@
 .template-card-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #0f7f7a, #6fd1c7);
+  background: linear-gradient(135deg, #0b62a9, #21ade4);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -277,7 +277,7 @@
 }
 
 .template-card-badge {
-  background: linear-gradient(135deg, #0a3d4a, #0f7f7a);
+  background: linear-gradient(135deg, #273171, #0b62a9);
   color: #ffffff;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -294,7 +294,7 @@
 
 .template-card-list li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgb(16, 53, 40);
+  border-bottom: 1px solid rgb(15, 23, 56);
   font-family: "Inter", sans-serif;
   color: black;
 }
@@ -311,10 +311,13 @@
   margin-bottom: 1.5rem;
 }
 
+/* Service Card Template - Enhanced Alignment */
 .template-card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
+  align-items: stretch;
+  justify-items: stretch;
   margin: 2rem 0;
 }
 
@@ -331,28 +334,24 @@
   flex-shrink: 0;
 }
 
-/* Service Card Template - Responsive */
 .service-card-template {
   background: #ffffff;
   border-radius: 20px;
-  padding: 2.5rem;
-  box-shadow: 0 12px 40px rgba(1, 1, 63, 0.06);
-  border: 2px solid rgba(124, 188, 222, 0.08);
+  padding: 0;
+  box-shadow: 0 8px 32px rgba(11, 98, 169, 0.08);
+  border: 1px solid rgba(11, 98, 169, 0.1);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .service-card-template {
-    padding: 1.5rem;
-    border-radius: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  .service-card-template {
-    padding: 1rem;
-    border-radius: 12px;
-  }
+.service-card-template:hover {
+  transform: none;
+  box-shadow: none;
+  border: 1px solid var(--ocean-primary);
 }
 
 .service-card-template::before {
@@ -361,15 +360,163 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, #00d88579, #205335, #08805886);
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--ocean-primary),
+    var(--ocean-secondary),
+    var(--ocean-accent)
+  );
+  z-index: 1;
+}
+
+.service-card-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
   border-radius: 20px 20px 0 0;
+}
+
+.service-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-card-template:hover .service-card-image {
+  transform: none;
+}
+
+.service-card-title-large {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--ocean-dark);
+  margin: 0;
+  padding: 1.5rem 1.5rem 0.75rem;
+  line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.template-card-content {
+  padding: 0 1.5rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.template-card-content p {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.service-card-see-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    var(--ocean-primary),
+    var(--ocean-secondary)
+  );
+  color: white;
+  border: none;
+  padding: 0.875rem 1.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  justify-self: flex-start;
+  text-align: left;
+}
+
+.service-card-see-more:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .template-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .template-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .service-card-template {
+    border-radius: 16px;
+  }
+
+  .service-card-image-container {
+    height: 180px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .service-card-title-large {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.25rem 0.75rem;
+  }
+
+  .template-card-content {
+    padding: 0 1.25rem 1.25rem;
+  }
+
+  .service-card-see-more {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .template-card-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .service-card-template {
+    border-radius: 12px;
+  }
+
+  .service-card-image-container {
+    height: 160px;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .service-card-title-large {
+    font-size: 1.125rem;
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  .template-card-content {
+    padding: 0 1rem 1rem;
+  }
+
+  .service-card-see-more {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
 }
 
 .service-card-icon-large {
   width: 64px;
   height: 64px;
-  background: linear-gradient(90deg, #00d88579, #205335, #08805886);
+  background: linear-gradient(90deg, #21ade479, #162050, #21ade486);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -410,13 +557,15 @@
   .service-card-title-large {
     font-size: 1.5rem;
     margin-bottom: 0.8rem;
+    padding-top: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   .service-card-title-large {
     font-size: 1.25rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.6rem;
+    padding-top: 1rem;
   }
 }
 
@@ -449,7 +598,7 @@
 
 /* Contact Card Template */
 .contact-card-template {
-  background: linear-gradient(135deg, #0a3d2e, #075f4c);
+  background: linear-gradient(135deg, #162050, #162050);
   color: #ffffff;
   border-radius: 20px;
   padding: 2.5rem;
@@ -473,7 +622,6 @@
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
 }
-
 .contact-info-item svg {
   color: #7dbcde;
   width: 20px;

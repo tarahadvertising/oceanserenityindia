@@ -11,17 +11,17 @@ const SEO = ({
   structuredData = null,
 }) => {
   const defaultTitle =
-    "Knot & Sail - Marine Services UAE | Ship Maintenance & Technical Solutions";
+    "Ocean Serenity Marine Pvt Ltd - Advanced Marine Technology & Ship Repair Services";
   const defaultDescription =
-    "Knot & Sail is a premier marine service provider in UAE offering hydro blasting, tank cleaning, painting works, steel fabrication, and technical manpower supply across all UAE ports.";
+    "Ocean Serenity Marine Pvt Ltd is a premier marine service provider delivering high-quality solutions, ship maintenance, technical support, and equipment supply across all ports.";
   const defaultKeywords =
-    "Knot & Sail, marine services UAE, ship maintenance Dubai, hydro blasting UAE, tank cleaning services, marine painting UAE, steel fabrication ships, pipe welding marine, technical manpower supply, riding squad services, antifouling coating UAE, marine maintenance Dubai, ship repair UAE, vessel maintenance, marine services Dubai port";
-  const defaultImage = "https://knotandsail.com/og-image.jpg";
+    "Ocean Serenity Marine Pvt Ltd, marine services India, ship maintenance India, technical services, ship repair, marine equipment supply, vessel maintenance";
+  const defaultImage = "/og-image.jpg";
 
   useEffect(() => {
     // Update page title if provided
     if (title) {
-      document.title = `${title} | Knot & Sail`;
+      document.title = `${title} | Ocean Serenity Marine Pvt Ltd`;
     }
   }, [title]);
 
@@ -44,15 +44,15 @@ const SEO = ({
       <meta property="og:type" content={type} />
       <meta
         property="og:url"
-        content={canonicalUrl || "https://knotandsail.com"}
+        content={canonicalUrl || "https://oceanserenitymarine.com"}
       />
-      <meta property="og:site_name" content="Knot & Sail" />
+      <meta property="og:site_name" content="Ocean Serenity Marine Pvt Ltd" />
       <meta property="og:image" content={ogImage || defaultImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta
         property="og:image:alt"
-        content={`${title || "Knot & Sail"} - Marine Services UAE`}
+        content={`${title || "Ocean Serenity Marine Pvt Ltd"} - Marine Services`}
       />
       <meta property="og:locale" content="en_US" />
 
@@ -66,8 +66,8 @@ const SEO = ({
 
       {/* Language and Regional Tags */}
       <meta name="content-language" content="en" />
-      <meta name="geo.region" content="AE" />
-      <meta name="geo.placename" content="Dubai" />
+      <meta name="geo.region" content="IN" />
+      <meta name="geo.placename" content="India" />
 
       {/* Structured Data */}
       {structuredData && (

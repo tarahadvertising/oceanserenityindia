@@ -1,81 +1,81 @@
 /**
- * Ocean Infinity - CSS Variables
+ * Ocean Serenity Marine Pvt Ltd - CSS Variables
  * 
- * Deep Ocean Green Theme
- * Theme: Ocean Infinity Green Palette
+ * Royal Navy & Cerulean Ocean Theme (Matched to logo.svg)
+ * Theme: Ocean Serenity Marine Pvt Ltd Blue Palette
  */
 
 :root {
-  /* 🌊 Ocean Teal Theme */
-  /* Primary Colors - Ocean Teal Palette */
-  --primary-color: #0f7f7a; /* Ocean Teal */
-  --primary-dark: #0a3d4a; /* Deep Sea Blue */
-  --primary-light: #6fd1c7; /* Soft Aqua */
+  /* 🌊 Ocean Navy & Cerulean Theme (logo.svg) */
+  /* Primary Colors - Ocean Blue Palette */
+  --primary-color: #0b62a9; /* Royal Ocean Blue */
+  --primary-dark: #273171; /* Deep Royal Navy */
+  --primary-light: #21ade4; /* Cerulean Wave Blue */
 
-  /* Secondary Colors - Ocean Teal Palette */
-  --secondary-color: #0a3d4a; /* Deep Sea Blue */
-  --secondary-dark: #2b2b2b; /* Charcoal Grey */
-  --secondary-light: #f5f7f8; /* Light Grey */
+  /* Secondary Colors */
+  --secondary-color: #273171; /* Deep Royal Navy */
+  --secondary-dark: #162050; /* Midnight Navy */
+  --secondary-light: #f0f7ff; /* Light Sky Grey */
 
-  /* Accent Colors - Ocean Teal Palette */
-  --accent-color: #ff6b6b; /* Coral Accent */
-  --accent-dark: #ffc857; /* Sunset Yellow */
-  --accent-light: #6fd1c7; /* Soft Aqua */
+  /* Accent Colors */
+  --accent-color: #21ade4; /* Cerulean Wave Accent */
+  --accent-dark: #0b62a9; /* Royal Blue */
+  --accent-light: #63ccf5; /* Soft Sky Blue */
 
   /* Interactive States */
-  --hover-color: #6fd1c7; /* Soft Aqua */
-  --hover-dark: #0a3d4a;
-  --hover-light: #0f7f7a;
+  --hover-color: #21ade4; /* Cerulean Blue */
+  --hover-dark: #162050;
+  --hover-light: #0b62a9;
 
   /* Light / Background Colors */
-  --light-bg: #f5f7f8; /* Light Grey */
-  --light-bg-dark: #0f7f7a;
+  --light-bg: #f0f7ff; /* Light Sky Blue */
+  --light-bg-dark: #0b62a9;
   --light-bg-light: #ffffff;
 
   /* Text Colors */
   --text-light: #ffffff; /* Pure White */
-  --text-dark: #2b2b2b; /* Charcoal Grey */
+  --text-dark: #1e293b; /* Slate Dark */
   /* Background Colors */
-  --background-dark: #0a3d4a;
-  --background-light: #f5f7f8;
+  --background-dark: #0f1738;
+  --background-light: #f0f7ff;
   --white-color: #ffffff;
 
-  /* 🔥 Ocean Teal Gradients */
-  --ocean-gradient: linear-gradient(180deg, #0f7f7a, #0a3d4a, #6fd1c7);
-  --ocean-gradient-reverse: linear-gradient(180deg, #ffffff, #f5f7f8, #0f7f7a);
+  /* 🔥 Ocean Gradients (Matched to logo.svg) */
+  --ocean-gradient: linear-gradient(180deg, #273171, #0b62a9, #21ade4);
+  --ocean-gradient-reverse: linear-gradient(180deg, #ffffff, #f0f7ff, #0b62a9);
   --primary-gradient: linear-gradient(
     135deg,
-    #0f7f7a 0%,
-    #0a3d4a 50%,
-    #6fd1c7 100%
+    #273171 0%,
+    #0b62a9 50%,
+    #21ade4 100%
   );
-  --accent-gradient: linear-gradient(135deg, #ff6b6b 0%, #6fd1c7 100%);
+  --accent-gradient: linear-gradient(135deg, #0b62a9 0%, #21ade4 100%);
   --hero-gradient: linear-gradient(
     135deg,
-    #0f7f7a 0%,
-    #0a3d4a 50%,
-    #ffffff 100%
+    #0f1738 0%,
+    #273171 50%,
+    #0b62a9 100%
   );
 
-  /* 🎯 Table & Card Colors - Ocean Teal Theme */
-  --table-header-bg: #0a3d4a; /* Deep Sea Blue */
+  /* 🎯 Table & Card Colors - Ocean Theme */
+  --table-header-bg: #273171; /* Deep Royal Navy */
   --table-header-text: #ffffff; /* Pure White */
-  --table-border: #0f7f7a; /* Ocean Teal */
-  --table-row-alt: #f5f7f8; /* Light Grey */
+  --table-border: #0b62a9; /* Royal Blue */
+  --table-row-alt: #f0f7ff; /* Light Tint */
   --card-bg: #ffffff;
   --card-shadow:
-    0 4px 6px -1px rgba(15, 127, 122, 0.1),
-    0 2px 4px -1px rgba(15, 127, 122, 0.06);
-  --card-border: rgba(15, 127, 122, 0.1);
+    0 4px 6px -1px rgba(11, 98, 169, 0.1),
+    0 2px 4px -1px rgba(11, 98, 169, 0.06);
+  --card-border: rgba(33, 173, 228, 0.15);
 
-  /* 🎨 Hover States - Ocean Teal */
-  --hover-primary: #0f7f7a;
-  --hover-secondary: #0a3d4a;
-  --hover-accent: #ff6b6b;
-  --hover-bg: #f5f7f8;
-  --hover-ocean: #6fd1c7;
+  /* 🎨 Hover States - Ocean Blue */
+  --hover-primary: #0b62a9;
+  --hover-secondary: #273171;
+  --hover-accent: #21ade4;
+  --hover-bg: #f0f7ff;
+  --hover-ocean: #63ccf5;
 
-  /* Ocean Infinity - Enhanced Typography - Professional Font Stack for Ocean Technology */
+  /* Ocean Serenity Marine Pvt Ltd - Enhanced Typography - Professional Font Stack for Ocean Technology */
   --font-family:
     "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-family-heading:
@@ -87,7 +87,7 @@
     "Open Sans", "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont,
     sans-serif;
   --font-family-ocean: "Poppins", "Montserrat", "Inter", sans-serif;
-  /* Font Sizes - Ocean Infinity Scale */
+  /* Font Sizes - Ocean Serenity Marine Pvt Ltd Scale */
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
@@ -101,7 +101,7 @@
   --font-size-hero: 4.5rem;
   --font-size-display: 5rem;
 
-  /* Spacing - Ocean Infinity Spacing System */
+  /* Spacing - Ocean Serenity Marine Pvt Ltd Spacing System */
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -116,7 +116,7 @@
   --spacing-container: 24px;
   --spacing-grid: 30px;
 
-  /* Border Radius - Ocean Infinity Design System */
+  /* Border Radius - Ocean Serenity Marine Pvt Ltd Design System */
   --radius-xs: 2px;
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -128,28 +128,28 @@
   --radius-pill: 9999px;
   --radius-ocean: 20px;
 
-  /* Shadows - Ocean Teal tinted */
-  --shadow-sm: 0 1px 2px rgba(15, 127, 122, 0.05);
-  --shadow-md: 0 4px 6px rgba(15, 127, 122, 0.08);
-  --shadow-lg: 0 10px 15px rgba(15, 127, 122, 0.1);
-  --shadow-xl: 0 20px 25px rgba(15, 127, 122, 0.12);
-  --shadow-primary: 0 10px 25px rgba(15, 127, 122, 0.2);
-  --shadow-ocean: 0 8px 30px rgba(15, 127, 122, 0.25);
+  /* Shadows - Ocean Blue tinted */
+  --shadow-sm: 0 1px 2px rgba(11, 98, 169, 0.05);
+  --shadow-md: 0 4px 6px rgba(11, 98, 169, 0.08);
+  --shadow-lg: 0 10px 15px rgba(11, 98, 169, 0.1);
+  --shadow-xl: 0 20px 25px rgba(11, 98, 169, 0.12);
+  --shadow-primary: 0 10px 25px rgba(11, 98, 169, 0.2);
+  --shadow-ocean: 0 8px 30px rgba(33, 173, 228, 0.25);
 
-  /* Transitions - Ocean Infinity Smooth */
+  /* Transitions - Ocean Serenity Marine Pvt Ltd Smooth */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
   --transition-ocean: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-  /* Container - Ocean Infinity Layout */
+  /* Container - Ocean Serenity Marine Pvt Ltd Layout */
   --container-max-width: 1200px;
   --container-padding: 24px;
   --container-wide: 1400px;
   --container-narrow: 800px;
 
-  /* Z-index - Ocean Infinity Layering */
+  /* Z-index - Ocean Serenity Marine Pvt Ltd Layering */
   --z-dropdown: 1000;
   --z-sticky: 1020;
   --z-fixed: 1030;
@@ -290,35 +290,35 @@ button {
   transition: all 0.3s ease;
 }
 
-/* Ocean Infinity Design System Extensions */
+/* Ocean Serenity Marine Pvt Ltd Design System Extensions */
 :root {
-  /* Ocean Infinity Brand Colors - Ocean Teal Palette */
-  --ocean-primary: #0a3d4a; /* Deep Sea Blue - for header/footer */
-  --ocean-secondary: #0f7f7a; /* Ocean Teal - for buttons and primary elements */
-  --ocean-accent: #124b3a96; /* Coral Accent - for CTAs */
-  --ocean-light: #6fd1c7; /* Soft Aqua - for hover effects */
-  --ocean-dark: #2b2b2b; /* Charcoal Grey - for text */
-  --ocean-deep: #0a3d4a; /* Deep Sea Blue */
+  /* Ocean Serenity Marine Pvt Ltd Brand Colors - Matched to logo.svg */
+  --ocean-primary: #273171; /* Deep Royal Navy - for header/footer */
+  --ocean-secondary: #0b62a9; /* Royal Ocean Blue - for buttons and primary elements */
+  --ocean-accent: #21ade4; /* Cerulean Wave Accent - for CTAs & active states */
+  --ocean-light: #63ccf5; /* Soft Azure - for hover effects */
+  --ocean-dark: #1e293b; /* Slate Dark - for text */
+  --ocean-deep: #162050; /* Midnight Navy */
 
-  /* Ocean Infinity Semantic Colors */
-  --color-success: #0f7f7a; /* Ocean Teal */
+  /* Ocean Serenity Marine Pvt Ltd Semantic Colors */
+  --color-success: #0b62a9; /* Royal Blue */
   --color-warning: #ffc857; /* Sunset Yellow */
-  --color-error: #ff6b6b; /* Coral Accent */
-  --color-info: #6fd1c7; /* Soft Aqua */
+  --color-error: #ef4444; /* Error Red */
+  --color-info: #21ade4; /* Cerulean Blue */
 
-  /* Ocean Infinity Component Specific */
-  --button-primary-bg: var(--ocean-primary);
-  --button-primary-hover: var(--ocean-secondary);
+  /* Ocean Serenity Marine Pvt Ltd Component Specific */
+  --button-primary-bg: var(--ocean-secondary);
+  --button-primary-hover: var(--ocean-accent);
   --button-secondary-bg: transparent;
-  --button-secondary-border: var(--ocean-primary);
-  --button-secondary-hover: var(--ocean-primary);
+  --button-secondary-border: var(--ocean-secondary);
+  --button-secondary-hover: var(--ocean-secondary);
 
-  /* Ocean Infinity Layout */
+  /* Ocean Serenity Marine Pvt Ltd Layout */
   --header-height: 80px;
   --footer-height: 200px;
   --sidebar-width: 280px;
 
-  /* Ocean Infinity Breakpoints */
+  /* Ocean Serenity Marine Pvt Ltd Breakpoints */
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;

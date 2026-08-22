@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Pumps Marine & Industrial Page
+ * Ocean Serenity Marine Pvt Ltd - Pumps Marine & Industrial Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Tables
  */

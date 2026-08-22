@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Who We Are Page
+ * Ocean Serenity Marine Pvt Ltd - Who We Are Page
  *
  * Company introduction and overview
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -21,11 +21,11 @@ const WhoWeAre = () => {
         <section className="company-intro">
           <div className="content-with-icon">
             <div className="intro-content">
-              <h2>ASP Global Marine Trading LLC</h2>
+              <h2>Ocean Serenity Marine Pvt Ltd</h2>
               <p>
-                Founded in 2005 and part of Ocean Serenity Group, ASP Global
-                Marine Trading LLC has established itself as a leading supplier
-                of marine and offshore equipment. With strong sourcing networks
+                Founded in 2005 and part of Ocean Serenity Group, Ocean Serenity
+                Marine Pvt Ltd has established itself as a leading supplier of
+                marine and offshore equipment. With strong sourcing networks
                 across Europe and Asia, we understand the critical importance of
                 quality, reliability, and timely delivery.
               </p>
@@ -39,7 +39,7 @@ const WhoWeAre = () => {
             <div className="content-icon">
               <img
                 src="/logo.svg"
-                alt="ASP Global Marine Trading LLC"
+                alt="Ocean Serenity Marine Pvt Ltd"
                 className="asp-global-icon"
               />
             </div>
@@ -88,7 +88,7 @@ const WhoWeAre = () => {
               <p>Strategic management and operations</p>
             </div>
             <div className="company-item">
-              <h4>Ocean Infinity Marine Service LLC</h4>
+              <h4>Ocean Serenity Marine Pvt Ltd</h4>
               <p>Marine services and technical support</p>
             </div>
             <div className="company-item">

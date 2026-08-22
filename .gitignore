@@ -8,6 +8,8 @@ lerna-debug.log*
 # Production build
 build/
 dist/
+build.zip
+.vercel/
 
 # Environment variables
 .env

@@ -4,14 +4,14 @@
  */
 
 import { useEffect } from "react";
-import { ArrowLeft, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
+import { ArrowLeft, CheckCircle, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/pages/PartnerDetail.css";
 
 const HGMachineryGroup = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "HG Machinery Group | ASP Global Marine";
+    document.title = "HG Machinery Group | Ocean Serenity Marine Pvt Ltd";
   }, []);
 
   const products = [

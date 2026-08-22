@@ -1,32 +1,37 @@
+/**
+ * Ocean Serenity Marine Pvt Ltd - Careers Page
+ *
+ * Career opportunities in marine technology and offshore operations
+ */
+
 import React from "react";
 import SEO from "../components/SEO";
 import PageHero from "../components/PageHero";
 import "../styles/pages/Careers.css";
-
 const Careers = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Careers - Knot & Sail",
+    name: "Careers - Ocean Serenity Marine Pvt Ltd",
     description:
-      "Join our team at Knot & Sail. Explore career opportunities in marine services industry.",
-    url: "https://knotandsail.com/careers",
+      "Join our team at Ocean Serenity Marine Pvt Ltd. Explore career opportunities in marine technology and offshore operations.",
+    url: "https://oceaninfinitymarine.com/careers",
     mainEntity: {
       "@type": "Organization",
-      name: "Knot & Sail",
-      url: "https://knotandsail.com",
-      logo: "https://knotandsail.com/logo.webp",
+      name: "Ocean Serenity Marine Pvt Ltd",
+      url: "https://oceaninfinitymarine.com",
+      logo: "https://oceaninfinitymarine.com/logo.webp",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Xavier Business Center, Office Suite No: A5 - 18",
-        addressLocality: "Dubai",
-        addressCountry: "UAE",
+        streetAddress: "Ocean Serenity Marine Pvt Ltd",
+        addressLocality: "India",
+        addressCountry: "India",
       },
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+971 52 775 6765",
         contactType: "careers",
-        email: "info@knotandsail.com",
+        email: "careers@oceanserenitygroup.com",
       },
     },
   };
@@ -34,84 +39,104 @@ const Careers = () => {
   return (
     <>
       <SEO
-        title="Careers - Join Our Team | Knot & Sail"
-        description="Explore career opportunities at Knot & Sail. Join our team of marine services experts in Dubai UAE. Technical, operations, and administrative positions available."
-        keywords="marine services careers, dubai marine jobs, marine technician jobs, hydro blasting jobs, tank cleaning jobs, marine painting jobs, Knot & Sail careers, marine industry jobs UAE"
-        canonicalUrl="https://knotandsail.com/careers"
+        title="Careers - Join Our Team | Ocean Serenity Marine Pvt Ltd"
+        description="Explore career opportunities at Ocean Serenity Marine Pvt Ltd. Join our team of marine technology experts in India. Technical, operations, and administrative positions available."
+        keywords="marine technology careers, india marine jobs, marine technician jobs, offshore operations jobs, marine engineering careers, Ocean Serenity Marine Pvt Ltd careers, marine industry jobs India"
+        canonicalUrl="https://oceaninfinitymarine.com/careers"
         structuredData={structuredData}
       />
-
       {/* Page Hero */}
       <PageHero
         title="Join Our Team"
-        subtitle="Build Your Career in Marine Industry"
+        subtitle="Build Your Career in Marine Technology"
         badge="Career Opportunities"
-        backgroundImage="/knot and sail images/Asset 38.webp"
       />
-
       {/* Careers Introduction */}
       <section className="careers-intro" style={{ backgroundColor: "#ffffff" }}>
         <div className="container">
           <div className="careers-intro-content">
-            <h2>Shape the Future of Marine Industry</h2>
+            <h2>Shape the Future of Marine Technology</h2>
             <p>
-              At ASP Global Marine Trading LLC, we're always looking for
-              talented individuals who share our passion for excellence in the
-              marine industry. As part of the Ocean Serenity Group, we offer
-              exciting career opportunities for professionals who want to make a
-              difference in global marine equipment supply.
+              At Ocean Serenity Marine Pvt Ltd, we're always looking for talented individuals
+              who share our passion for excellence in the marine industry. We
+              offer exciting career opportunities for professionals who want to
+              make a difference in global marine equipment supply and services.
             </p>
             <p>
-              Join our dynamic team in Dubai and contribute to supplying
-              high-quality marine equipment and spare parts to customers
-              worldwide. We believe in nurturing talent, fostering growth, and
-              providing a supportive work environment.
+              Join our dynamic team in India and contribute to delivering
+              high-quality marine solutions and services to customers worldwide.
+              We believe in nurturing talent, fostering growth, and providing a
+              supportive work environment.
             </p>
+          </div>
+          <div className="careers-intro-image">
+            <img
+              src="/career.webp"
+              alt="Professional Marine Technology Team"
+              className="careers-intro-img"
+            />
           </div>
         </div>
       </section>
-
-      {/* Why Join Us */}
-      <section className="std-section" style={{ backgroundColor: "#0c886314" }}>
-        <div className="std-container">
-          <h2 className="std-title">Why Join ASP Global Marine?</h2>
-          <div className="careers-why-join">
-            <div className="careers-why-content">
-              <p>
-                At ASP Global Marine Trading LLC, we offer a dynamic work
-                environment where you can grow your career in the marine
-                equipment industry. As part of the Ocean Serenity Group, we
-                provide competitive compensation, comprehensive benefits, and
-                opportunities for professional development.
-              </p>
-              <p>
-                Join our team of experts in Dubai and contribute to supplying
-                high-quality marine equipment and spare parts to customers
-                worldwide. We value talent, innovation, and dedication to
-                excellence.
-              </p>
-              {/* <ul>
-                <li>Competitive salary and benefits package</li>
-                <li>Health insurance coverage</li>
-                <li>Annual performance bonuses</li>
-                <li>Professional development opportunities</li>
-                <li>International exposure and travel opportunities</li>
-                <li>Supportive work environment</li>
-                <li>Career growth prospects</li>
-                <li>Company-sponsored training programs</li>
-              </ul> */}
+      {/* Career Benefits */}
+      <section
+        className="careers-benefits"
+        style={{ backgroundColor: "#f8fafc" }}
+      >
+        <div className="container">
+          <h2 className="section-title">Why Choose a Career With Us</h2>
+          <div className="benefits-grid">
+            <div className="benefit-item">
+              <div className="benefit-image">
+                <img
+                  src="/why1.webp"
+                  alt="Professional Career Growth"
+                  className="benefit-img"
+                />
+              </div>
+              <div className="benefit-content">
+                <h3>Professional Growth</h3>
+                <p>
+                  Continuous learning opportunities and career advancement in
+                  the marine industry.
+                </p>
+              </div>
             </div>
-            <div className="careers-why-image">
-              <img
-                src="/home.jpg"
-                alt="ASP Global Marine Team"
-                className="careers-team-img"
-              />
+            <div className="benefit-item">
+              <div className="benefit-image">
+                <img
+                  src="/why2.webp"
+                  alt="Global Career Opportunities"
+                  className="benefit-img"
+                />
+              </div>
+              <div className="benefit-content">
+                <h3>Global Impact</h3>
+                <p>
+                  Work on international projects that shape the future of marine
+                  technology worldwide.
+                </p>
+              </div>
+            </div>
+            <div className="benefit-item">
+              <div className="benefit-image">
+                <img
+                  src="/why3.webp"
+                  alt="Innovation Workplace Culture"
+                  className="benefit-img"
+                />
+              </div>
+              <div className="benefit-content">
+                <h3>Innovation Culture</h3>
+                <p>
+                  Be part of a team that values creativity, innovation, and
+                  cutting-edge solutions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </section>{" "}
       {/* Contact Section */}
       <section
         className="careers-contact-section"
@@ -135,20 +160,27 @@ const Careers = () => {
               </div>
               <div className="contact-item">
                 <strong>Phone:</strong>
-                <a href="tel:+97145724542">+971 4 572 4542</a>
+                <a href="tel:+971527756765">+971 52 775 6765</a>
               </div>
               <div className="contact-item">
                 <strong>Location:</strong>
-                Xavier Business Center, Office Suite A5-18, Dubai, UAE
+                Ocean Serenity Marine Pvt Ltd, India
               </div>
             </div>
-
-            <div className="careers-cta-button">
+            <div className="careers-cta-buttons">
               <a
-                href="mailto:careers@oceanserenitygroup.com?subject=Career Inquiry - ASP Global Marine Trading LLC&body=Dear Hiring Manager,%0D%0A%0D%0AI am interested in exploring career opportunities at ASP Global Marine Trading LLC.%0D%0A%0D%0APlease find my resume attached for your consideration.%0D%0A%0D%0AThank you for your time and consideration.%0D%0A%0D%0ABest regards,%0D%0A[Your Name]%0D%0A[Your Phone Number]%0D%0A[Your Current Position/Experience]"
+                href="mailto:careers@oceanserenitygroup.com?subject=Career Inquiry - Ocean Serenity Marine Pvt Ltd&body=Dear Hiring Manager,%0D%0A%0D%0AI am interested in exploring career opportunities at Ocean Serenity Marine Pvt Ltd.%0D%0A%0D%0APlease find my resume attached for your consideration.%0D%0A%0D%0AThank you for your time and consideration.%0D%0A%0D%0ABest regards,%0D%0A[Your Name]%0D%0A[Your Phone Number]%0D%0A[Your Current Position/Experience]"
                 className="std-btn std-btn-primary"
               >
                 Send Your Resume
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ocean-serenity-group/jobs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="std-btn std-btn-secondary"
+              >
+                View LinkedIn Jobs
               </a>
             </div>
           </div>
@@ -157,5 +189,4 @@ const Careers = () => {
     </>
   );
 };
-
 export default Careers;

@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Quality Policy Page
+ * Ocean Serenity Marine Pvt Ltd - Quality Policy Page
  *
  * Company quality policy and standards
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -55,7 +55,7 @@ const QualityPolicy = () => {
           <div className="policy-content">
             <h2>Our Quality Commitment</h2>
             <p>
-              ASP Global Marine Trading LLC is committed to delivering accurate,
+              Ocean Serenity Marine Pvt Ltd is committed to delivering accurate,
               reliable, and compliant marine solutions at the right time, every
               time. We focus on operational reliability, technical compliance,
               maritime industry standards, and long-term client partnerships.

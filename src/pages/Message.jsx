@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Message Page
+ * Ocean Serenity Marine Pvt Ltd - Message Page
  *
  * Management message and company philosophy
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -31,7 +31,7 @@ const Message = () => {
               </p>
 
               <p>
-                Welcome to ASP Global Marine Trading LLC. Since our
+                Welcome to Ocean Serenity Marine Pvt Ltd. Since our
                 establishment in 2005, we have been committed to excellence in
                 the marine and offshore industry. Our journey has been guided by
                 a simple yet powerful principle: delivering quality products and
@@ -75,13 +75,13 @@ const Message = () => {
               <p className="message-closing">
                 Thank you for your trust and partnership. We look forward to
                 serving you with the same dedication and excellence that has
-                defined ASP Global Marine for nearly two decades.
+                defined Ocean Serenity Marine Pvt Ltd for nearly two decades.
               </p>
 
               <div className="signature-section">
                 <p className="signature-salutation">Sincerely,</p>
                 <p className="signature-name">The Management Team</p>
-                <p className="signature-title">ASP Global Marine Trading LLC</p>
+                <p className="signature-title">Ocean Serenity Marine Pvt Ltd</p>
                 <p className="signature-group">Part of Ocean Serenity Group</p>
               </div>
             </div>
@@ -149,7 +149,7 @@ const Message = () => {
           <h2>Our Commitment</h2>
           <div className="commitment-content">
             <p>
-              At ASP Global Marine Trading LLC, we are committed to being more
+              At Ocean Serenity Marine Pvt Ltd, we are committed to being more
               than just a supplier—we strive to be a trusted partner in your
               maritime operations. Our team of experienced professionals works
               tirelessly to ensure that every interaction with us exceeds your

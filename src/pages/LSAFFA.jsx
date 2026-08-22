@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - LSA & FFA (Life-Saving & Fire-Fighting Equipment) Page
+ * Ocean Serenity Marine Pvt Ltd - LSA & FFA (Life-Saving & Fire-Fighting Equipment) Page
  *
  * Comprehensive life-saving appliances and fire-fighting equipment solutions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -399,13 +399,12 @@ const LSAFFA = () => {
 
   return (
     <div className="product-page">
-      <div className="container" style={{ paddingTop: "40px" }}>
-        {/* Page Header */}
-        <div className="portfolio-header">
-          <h1 className="portfolio-title">LSA & FFA EQUIPMENT</h1>
-        </div>
-      </div>
-
+      {/* Hero Section with Background Image */}
+      <PageHero
+        title="LSA & FFA EQUIPMENT"
+        subtitle="Comprehensive Life-Saving Appliances & Fire-Fighting Equipment Solutions"
+        overlay={true}
+      />
       <div className="container">
         {/* Product Grid Layout - Using Global Grid */}
         <section className="product-gallery section-spacing-top section-spacing-bottom">
@@ -426,7 +425,7 @@ const LSAFFA = () => {
                     <p className="product-desc">{product.description}</p>
                     <div className="product-buttons">
                       <a
-                        href={`https://wa.me/971525478137?text=${encodeURIComponent(
+                        href={`https://wa.me/971527756765?text=${encodeURIComponent(
                           product.whatsappMessage,
                         )}`}
                         target="_blank"
@@ -444,7 +443,7 @@ const LSAFFA = () => {
                         </svg>
                       </a>
                       <a
-                        href="mailto:info@aspglobalmarine.com"
+                        href="mailto:info@oceaninfinitymarine.com"
                         className="email-btn"
                         title="Contact via Email"
                       >

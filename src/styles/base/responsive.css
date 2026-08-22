@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Comprehensive Responsive Design System
+ * Ocean Serenity Marine Pvt Ltd - Comprehensive Responsive Design System
  * 
  * Global responsive improvements for all devices
  * Mobile-first approach with breakpoints for all screen sizes
@@ -352,7 +352,7 @@
 .nav-link:focus,
 .template-card:focus,
 .service-card-template:focus {
-  outline: 3px solid #0f7f7a;
+  outline: 3px solid #0b62a9;
   outline-offset: 2px;
 }
 

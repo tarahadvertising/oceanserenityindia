@@ -4,14 +4,14 @@
  */
 
 import { useEffect } from "react";
-import { ArrowLeft, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
+import { ArrowLeft, CheckCircle, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/pages/PartnerDetail.css";
 
 const BeijingZhonghanghua = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Beijing Zhonghanghua Safety Valve | ASP Global Marine";
+    document.title = "Beijing Zhonghanghua Safety Valve | Ocean Serenity Marine Pvt Ltd";
   }, []);
 
   const valves = [
@@ -82,7 +82,6 @@ const BeijingZhonghanghua = () => {
           </div>
         </div>
       </section>
-
       {/* Content Section */}
       <section className="partner-content-section">
         <div className="container">
@@ -104,7 +103,6 @@ const BeijingZhonghanghua = () => {
                 solutions that meet the highest international safety standards
                 for maritime applications.
               </p>
-
               <h3>Key Strengths</h3>
               <ul className="strengths-list">
                 <li>

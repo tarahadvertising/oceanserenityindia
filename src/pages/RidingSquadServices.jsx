@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Riding Squad Services Page
+ * Ocean Serenity Marine Pvt Ltd - Riding Squad Services Page
  *
  * Professional riding squad services for marine vessels including
  * technical support, maintenance, and emergency response teams
@@ -7,6 +7,7 @@
 
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero.jsx";
 import { Users, Wrench, Clock, ChevronRight, X } from "lucide-react";
 import "../styles/pages/Services.css";
@@ -17,76 +18,32 @@ const RidingSquadServices = () => {
   const ridingSquadServicesData = [
     {
       id: 1,
-      title: "Technical Riding Squad",
+      title: "Riding Squad Services",
       icon: Wrench,
-      image: "/knot and sail images/Asset 43.webp",
+      image: "/infinity/69.webp",
       shortDescription:
-        "Expert technical riding squad providing on-board maintenance, repairs, and technical support for marine vessels.",
+        "We provide reliable Riding Squad Services globally, supporting vessels at sea and in port. Our skilled teams perform maintenance and repair works during voyages to reduce downtime, control costs, and maintain class and CAP standards.",
       fullDescription:
         "Our technical riding squad consists of highly skilled engineers and technicians who provide on-board maintenance and repair services for marine vessels. We specialize in engine maintenance, electrical systems, hydraulic repairs, and general technical support. Our team is available for both scheduled maintenance and emergency call-outs, ensuring minimal vessel downtime.",
       features: [
-        "Engine maintenance and repairs",
-        "Electrical system troubleshooting",
-        "Hydraulic system services",
-        "On-board technical support",
-        "Emergency repair services",
+        "Ballast Tank Maintenance: Protection against corrosion through surface preparation and coating maintenance. This reduces steel renewal costs and helps maintain strong CAP ratings.",
+        "Deck Maintenance: Rust removal, coating touch-ups, and structural preservation to protect exposed areas, maintain vessel appearance, and ensure crew safety.",
+        "Accommodation Maintenance: Interior maintenance, corrosion control, and refurbishment to provide a clean, safe, and comfortable living environment for onboard personnel.",
+        "Steel Repair Team: Class-certified welders and fabricators perform structural steel repairs, deck renewals, and outfitting works during voyage to maintain overall vessel integrity.",
+        "Pipeline Cleaning: Internal cleaning and preservation to prevent corrosion, ensure smooth flow, and extend pipeline service life.",
+        "HVAC, Insulation & Cladding: Inspection, repair, and refurbishment of HVAC systems and insulation to improve efficiency and onboard comfort.",
+        "Cargo Hold Maintenance: Coating maintenance and product change washing using certified equipment to ensure cargo readiness and compliance.",
+        "Helideck Maintenance: Maintenance in line with CAP 437 requirements, including friction control and proper markings for safe helicopter operations.",
+        "Engine Service Team: Engine overhauling, troubleshooting, and preventive maintenance to ensure reliable performance and reduced breakdown risk",
       ],
-      images: [
-        "/knot and sail images/Asset 43.webp",
-        "/knot and sail images/Asset 44.webp",
-        "/knot and sail images/Asset 45.webp",
-      ],
-    },
-    {
-      id: 2,
-      title: "Maintenance Riding Squad",
-      icon: Clock,
-      image: "/knot and sail images/Bh8OVy.webp",
-      shortDescription:
-        "Dedicated maintenance riding squad for planned maintenance, inspections, and vessel readiness operations.",
-      fullDescription:
-        "Our maintenance riding squad provides comprehensive planned maintenance services for marine vessels. We handle routine inspections, preventive maintenance, system checks, and vessel readiness operations. Our team follows manufacturer guidelines and class requirements to ensure optimal vessel performance and compliance with maritime standards.",
-      features: [
-        "Planned maintenance systems",
-        "Preventive maintenance",
-        "System inspections",
-        "Vessel readiness checks",
-        "Class survey support",
-      ],
-      images: [
-        "/knot and sail images/Bh8OVy.webp",
-        "/knot and sail images/F0F5Nv.webp",
-        "/knot and sail images/cU5Gqw.webp",
-      ],
-    },
-    {
-      id: 3,
-      title: "Emergency Response Team",
-      icon: Users,
-      image: "/knot and sail images/Asset 50.webp",
-      shortDescription:
-        "24/7 emergency response riding squad for urgent marine repairs, breakdown assistance, and critical support services.",
-      fullDescription:
-        "Our emergency response team provides 24/7 rapid response services for marine vessels experiencing breakdowns or urgent technical issues. We maintain strategically positioned teams ready to deploy at short notice for emergency repairs, troubleshooting, and critical support. Our emergency riding squad minimizes vessel downtime and ensures safe operations.",
-      features: [
-        "24/7 emergency response",
-        "Rapid deployment team",
-        "Breakdown assistance",
-        "Critical troubleshooting",
-        "Urgent repair services",
-      ],
-      images: [
-        "/knot and sail images/Asset 50.webp",
-        "/knot and sail images/Asset 51.webp",
-        "/knot and sail images/Asset 59.webp",
-      ],
+      images: ["/infinity/69.webp", "/infinity/68.webp", "/infinity/70.webp"],
     },
   ];
 
   return (
     <>
       <Helmet>
-        <title>Riding Squad Services | Ocean Infinity</title>
+        <title>Riding Squad Services | Ocean Serenity Marine Pvt Ltd</title>
         <meta
           name="description"
           content="Professional riding squad services for marine vessels including technical support, maintenance, and emergency response teams."
@@ -97,7 +54,7 @@ const RidingSquadServices = () => {
         />
         <meta
           property="og:title"
-          content="Riding Squad Services | Ocean Infinity"
+          content="Riding Squad Services | Ocean Serenity Marine Pvt Ltd"
         />
         <meta
           property="og:description"
@@ -111,7 +68,7 @@ const RidingSquadServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Riding Squad Services | Ocean Infinity"
+          content="Riding Squad Services | Ocean Serenity Marine Pvt Ltd"
         />
         <meta
           name="twitter:description"
@@ -124,15 +81,16 @@ const RidingSquadServices = () => {
         <PageHero
           title="Riding Squad Services"
           subtitle="Expert On-Board Marine Support"
-          description="At Ocean Infinity, we provide professional riding squad services for marine vessels with expert technical teams available for maintenance, repairs, and emergency response 24/7."
-          backgroundImage="/knot and sail images/Asset 41.webp"
+          description="At Ocean Serenity Marine Pvt Ltd, we provide professional riding squad services for marine vessels with expert technical teams available for maintenance, repairs, and emergency response 24/7."
         />
 
         {/* Riding Squad Services Section */}
         <section className="services-section-professional">
           <div className="container">
             <div className="services-header">
-              <h2 className="services-title">Professional Riding Squad Teams</h2>
+              <h2 className="services-title">
+                Professional Riding Squad Teams
+              </h2>
               <p className="services-subtitle">
                 Expert on-board support for marine vessels worldwide
               </p>
@@ -218,7 +176,7 @@ const RidingSquadServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/971123456789"
+                      href="https://wa.me/+971527756765"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"
@@ -233,9 +191,9 @@ const RidingSquadServices = () => {
                       </svg>
                       WhatsApp
                     </a>
-                    <a href="/contact" className="btn btn-primary">
+                    <Link to="/contact" className="btn btn-primary">
                       Get Quote
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

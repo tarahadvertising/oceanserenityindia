@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Certifications Page
+ * Ocean Serenity Marine Pvt Ltd - Certifications Page
  *
  * Dedicated page for company certifications and compliance
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -16,8 +16,7 @@ const Certifications = () => {
       <PageHero
         title="Certifications & Compliance"
         subtitle="Internationally Recognized Standards"
-        description="At Ocean Infinity, we maintain internationally recognized certifications ensuring quality and compliance with global maritime standards, demonstrating our commitment to excellence and operational safety."
-        backgroundImage="/knot and sail images/Asset 37.webp"
+        description="At Ocean Serenity Marine Pvt Ltd, we maintain internationally recognized certifications ensuring quality and compliance with global maritime standards, demonstrating our commitment to excellence and operational safety."
       />
 
       {/* Certifications Grid */}
@@ -36,51 +35,15 @@ const Certifications = () => {
                 </p>
               </div>
             </div>
-
-            <div className="certification-item-modern">
-              <div className="certification-badge-modern">
-                <span className="certification-text-modern">SOLAS</span>
-              </div>
-              <div className="certification-content-modern">
-                <h3 className="certification-name-modern">SOLAS</h3>
-                <p className="certification-desc-modern">
-                  Safety of Life at Sea compliance for maritime safety equipment
-                  and operational standards
-                </p>
-              </div>
-            </div>
-
-            <div className="certification-item-modern">
-              <div className="certification-badge-modern">
-                <span className="certification-text-modern">IMO</span>
-              </div>
-              <div className="certification-content-modern">
-                <h3 className="certification-name-modern">IMO Certified</h3>
-                <p className="certification-desc-modern">
-                  International Maritime Organization certification for global
-                  maritime compliance
-                </p>
-              </div>
-            </div>
-
-            <div className="certification-item-modern">
-              <div className="certification-badge-modern">
-                <span className="certification-text-modern">CLASS</span>
-              </div>
-              <div className="certification-content-modern">
-                <h3 className="certification-name-modern">Class Approved</h3>
-                <p className="certification-desc-modern">
-                  Approved by leading classification societies including DNV,
-                  ABS, and Lloyd's Register
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       {/* Professional CTA Section */}
-      <section className="certifications-cta-professional">
+      <section
+        className="certifications-cta-professional"
+        style={{ backgroundColor: "#f8f9fa" }}
+      >
         <div>
           <div className="certifications-cta-content-professional">
             <h2 className="certifications-cta-title">
@@ -88,7 +51,7 @@ const Certifications = () => {
             </h2>
             <p className="certifications-cta-description">
               Our certifications reflect our dedication to quality, safety, and
-              environmental responsibility. Learn more about how Ocean Infinity
+              environmental responsibility. Learn more about how Ocean Serenity Marine Pvt Ltd
               maintains the highest standards in maritime services.
             </p>
             <Link to="/about" className="btn btn-primary-certifications">

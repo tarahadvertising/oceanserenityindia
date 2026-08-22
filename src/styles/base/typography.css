@@ -314,7 +314,7 @@ h3 {
   font-size: var(--font-size-3xl);
   font-weight: 500;
   letter-spacing: 1px;
-  color: #0c4b65; /* Dark Teal */
+  color: #162050; /* Dark Teal */
 }
 
 h4 {
@@ -375,12 +375,12 @@ a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--ocean-primary); /* Ocean Infinity Green */
+  background: var(--ocean-primary); /* Ocean Serenity Marine Pvt Ltd Green */
   transition: width var(--transition-normal);
 }
 
 a:hover {
-  color: var(--ocean-primary); /* Ocean Infinity Green */
+  color: var(--ocean-primary); /* Ocean Serenity Marine Pvt Ltd Green */
 }
 
 a:hover::after {
@@ -392,7 +392,7 @@ a:hover::after {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #ffffff;
-  background-color: #2abaa3; /* Sea Green */
+  background-color: #21ade4; /* Sea Green */
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -405,9 +405,9 @@ a:hover::after {
 }
 
 .btn:hover {
-  background-color: #239f89; /* Darker Sea Green */
+  background-color: #21ade4; /* Darker Sea Green */
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(42, 186, 163, 0.3);
+  box-shadow: 0 4px 12px rgba(33, 173, 228, 0.3);
 }
 
 .btn-primary {
@@ -434,7 +434,7 @@ a:hover::after {
 }
 
 .nav-link:hover {
-  color: #2abaa3; /* Sea Green */
+  color: #21ade4; /* Sea Green */
 }
 
 .dropdown-item {
@@ -445,33 +445,33 @@ a:hover::after {
 }
 
 .dropdown-item:hover {
-  color: #2abaa3; /* Sea Green */
+  color: #21ade4; /* Sea Green */
 }
 
 /* Special sections with Poppins */
 .text-highlight {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #2abaa3; /* Sea Blue */
+  color: #21ade4; /* Sea Blue */
 }
 
 .text-accent {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #0c4b65; /* Accent Color */
+  color: #162050; /* Accent Color */
 }
 
 .stat-number {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #2abaa3; /* Sea Blue */
+  color: #21ade4; /* Sea Blue */
 }
 
 .quote-text {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
-  color: #0c4b65; /* Accent Color */
+  color: #162050; /* Accent Color */
 }
 
 /* Text utilities */
@@ -496,11 +496,11 @@ a:hover::after {
 }
 
 .text-secondary {
-  color: #2abaa3; /* Sea Green */
+  color: #21ade4; /* Sea Green */
 }
 
 .text-accent {
-  color: #0c4b65; /* Dark Teal */
+  color: #162050; /* Dark Teal */
 }
 
 .text-white {

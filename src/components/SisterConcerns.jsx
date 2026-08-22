@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Sister Concerns Section
+ * Ocean Serenity Marine Pvt Ltd - Sister Concerns Section
  * 
  * Corporate grid of group companies
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -14,7 +14,7 @@ const SisterConcerns = () => {
       description: 'Marine services and solutions provider'
     },
     {
-      name: 'Ocean Infinity Marine Service LLC',
+      name: 'Ocean Serenity Marine Pvt Ltd',
       description: 'Comprehensive marine engineering services'
     },
     {

@@ -1,5 +1,5 @@
 /**
- * Ocean Infinity - Contact Section
+ * Ocean Serenity Marine Pvt Ltd - Contact Section
  * Standard professional design with clean layout
  */
 
@@ -134,8 +134,8 @@ const Contact = () => {
       icon: MapPin,
       title: "Headquarters",
       details: [
-        "Xavier Business Center, Office Suite No: A5 - 18",
-        "Dubai - UAE",
+        "Ocean Serenity Marine Pvt Ltd",
+        "India",
       ],
     },
     {
@@ -158,31 +158,37 @@ const Contact = () => {
       ],
     },
   ];
-
   const nfcCard = {
     company: {
-      name: "Knot & Sail",
+      name: "Ocean Serenity Marine Pvt Ltd",
       title: "Marine Services & Technical Solutions",
       phone: "+971 52 775 6765",
-      email: "info@knotandsail.com",
-      website: "www.knotandsail.com",
-      address: "Dubai - UAE",
+      email: "info@oceaninfinitymarine.com",
+      website: "www.oceaninfinitymarine.com",
+      address: "India",
     },
     arun: {
       name: "Arun V.V",
       title: "Senior Marine Consultant",
       phone: "+971 52 775 6765",
-      email: "info@knotandsail.com",
-      website: "www.knotandsail.com",
-      address: "Dubai - UAE",
+      email: "info@oceaninfinitymarine.com",
+      website: "www.oceaninfinitymarine.com",
+      address: "India",
+    },
+    fahad: {
+      name: "Fahad Habeeb",
+      title: "Technical Sales Engineer",
+      phone: "+971 52 775 6765",
+      email: "info@oceaninfinitymarine.com",
+      website: "www.oceaninfinitymarine.com",
+      address: "India",
     },
   };
-
   return (
     <section
       id="contact"
       className="contact-std"
-      style={{ backgroundColor: "#ffffff" }}
+      style={{ backgroundColor: "#ffffff !important" }}
     >
       <div className="std-container">
         {/* Section Header */}
@@ -193,7 +199,6 @@ const Contact = () => {
             technical solutions
           </p>
         </div>
-
         <div className="contact-layout">
           {/* Contact Info Cards */}
           <div className="info-cards">
@@ -215,10 +220,19 @@ const Contact = () => {
             <div className="qr-section">
               <h4>Scan to Connect</h4>
               <div className="qr-codes">
-                <div className="qr-code-card">
+                <div
+                  className="qr-code-card"
+                  onClick={() =>
+                    window.open(
+                      "https://oceaninfinitymarine.com/nfc/arun/",
+                      "_blank",
+                    )
+                  }
+                  style={{ cursor: "pointer" }}
+                >
                   <div className="qr-code-image">
                     <img
-                      src="/qr-arun.svg"
+                      src="/arun_qr.png"
                       alt="Arun V.V QR Code"
                       onError={(e) => {
                         // Fallback placeholder QR code
@@ -233,10 +247,61 @@ const Contact = () => {
                     {/* <small>Scan for direct contact</small> */}
                   </div>
                 </div>
+                <div
+                  className="qr-code-card"
+                  onClick={() =>
+                    window.open(
+                      "https://oceaninfinitymarine.com/nfc/fahad/",
+                      "_blank",
+                    )
+                  }
+                  style={{ cursor: "pointer" }}
+                >
+                  <div className="qr-code-image">
+                    <img
+                      src="/fahad_qr.png"
+                      alt="Fahad Habeeb QR Code"
+                      onError={(e) => {
+                        // Fallback placeholder QR code
+                        e.target.src =
+                          "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f0f0f0'/%3E%3Crect x='10' y='10' width='30' height='30' fill='%23000'/%3E%3Crect x='20' y='20' width='10' height='10' fill='%23f0f0f0'/%3E%3Crect x='80' y='10' width='30' height='30' fill='%23000'/%3E%3Crect x='90' y='20' width='10' height='10' fill='%23f0f0f0'/%3E%3Crect x='10' y='80' width='30' height='30' fill='%23000'/%3E%3Crect x='20' y='90' width='10' height='10' fill='%23f0f0f0'/%3E%3Crect x='50' y='50' width='20' height='20' fill='%23000'/%3E%3Ctext x='60' y='105' text-anchor='middle' font-family='Arial' font-size='10' fill='%23666'%3EFahad Habeeb%3C/text%3E%3C/svg%3E";
+                      }}
+                    />
+                  </div>
+                  <div className="qr-code-info">
+                    <h5>Fahad Habeeb</h5>
+                    <p>Technical Sales Engineer</p>
+                    {/* <small>Scan for direct contact</small> */}
+                  </div>
+                </div>
+                <div
+                  className="qr-code-card"
+                  onClick={() =>
+                    window.open(
+                      "https://oceaninfinitymarine.com/nfc/bijeesh/",
+                      "_blank",
+                    )
+                  }
+                  style={{ cursor: "pointer" }}
+                >
+                  <div className="qr-code-image">
+                    <img
+                      src="/bijeesh.jpeg"
+                      alt="Bijeesh KB QR Code"
+                      onError={(e) => {
+                        // Fallback to bijeesh.jpeg image
+                        e.target.src = "/bijeesh.jpeg";
+                      }}
+                    />
+                  </div>
+                  <div className="qr-code-info">
+                    <h5>Bijeesh KB</h5>
+                    <p>Procurement lead</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
           {/* Contact Form */}
           <div className="form-card">
             <div className="form-header">
@@ -244,7 +309,6 @@ const Contact = () => {
               <h3>Send us a Message</h3>
               <p>We&apos;ll respond within 24 hours</p>
             </div>
-
             <form
               onSubmit={handleSubmit}
               className="contact-form-std"
@@ -303,7 +367,7 @@ const Contact = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+971 XX XXX XXXX"
+                    placeholder="+91 XXXXX XXXXX"
                   />
                 </div>
               </div>
@@ -353,7 +417,7 @@ const Contact = () => {
               <div className="form-row-std">
                 <div className="form-group-std">
                   <label>
-                    <FileText size={16} /> Trade License
+                    <FileText size={16} /> Trade License / Company Reg
                   </label>
                   <div className="file-upload-wrapper">
                     <input
@@ -376,7 +440,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group-std">
                   <label>
-                    <FileText size={16} /> VAT Certificate
+                    <FileText size={16} /> GST / Tax Certificate
                   </label>
                   <div className="file-upload-wrapper">
                     <input

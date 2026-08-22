@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Engine Spares 4-Stroke Page
+ * Ocean Serenity Marine Pvt Ltd - Engine Spares 4-Stroke Page
  *
  * Product Portfolio with Brand Logos and Product Cards
  */

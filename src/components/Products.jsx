@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Product Gallery
+ * Ocean Serenity Marine Pvt Ltd - Product Gallery
  * Clean product cards with image, name, description, and contact icons
  */
 

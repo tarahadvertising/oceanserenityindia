@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Contact Section Styles
+ * Ocean Serenity Marine Pvt Ltd - Contact Section Styles
  * Enhanced Ocean Blue Theme with Modern Business Cards
  * File Upload Styling
  */
@@ -72,30 +72,9 @@
 
 .contact-std {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  background: #ffffff !important;
   position: relative;
   overflow: hidden;
-}
-
-.contact-std::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background:
-    radial-gradient(
-      circle at 20% 20%,
-      rgba(1, 1, 63, 0.05) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(28, 112, 200, 0.05) 0%,
-      transparent 50%
-    );
-  pointer-events: none;
 }
 
 .std-container {
@@ -117,7 +96,6 @@
   margin-bottom: 1rem;
   filter: drop-shadow(0 2px 4px rgba(10, 47, 74, 0.2));
 }
-
 .section-title-center h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -125,7 +103,6 @@
   margin-bottom: 0.75rem;
   position: relative;
 }
-
 .section-title-center h2::after {
   content: "";
   position: absolute;
@@ -197,7 +174,7 @@
 .info-icon {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #0b7466 0%, #046868 100%);
+  background: linear-gradient(135deg, #0b62a9 0%, #0b62a9 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -224,7 +201,6 @@
   margin-bottom: 0.25rem;
   line-height: 1.5;
 }
-
 .info-content p:last-child {
   margin-bottom: 0;
 }
@@ -406,7 +382,7 @@
   gap: 0.5rem;
   padding: 0.625rem 1rem;
   background: #f0f9ff;
-  color: #0d5c4b5e;
+  color: #21ade45e;
   border: 1px solid #bae6fd;
   border-radius: 8px;
   font-size: 0.875rem;
@@ -512,7 +488,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
-  background: linear-gradient(135deg, #01503f 0%, #001610fb 100%);
+  background: linear-gradient(135deg, #162050 0%, #0f1738fb 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -1496,7 +1472,7 @@
 
 .file-upload label:hover {
   border-color: var(--accent-color);
-  background: rgba(31, 175, 154, 0.05);
+  background: rgba(33, 173, 228, 0.05);
 }
 
 .file-icon {
@@ -1591,11 +1567,11 @@
 }
 
 .arun-btn {
-  background: linear-gradient(135deg, #2e8b8b, #20b2aa);
+  background: linear-gradient(135deg, #0b62a9, #21ade4);
 }
 
 .arun-btn:hover {
-  background: linear-gradient(135deg, #20b2aa, #2e8b8b);
+  background: linear-gradient(135deg, #21ade4, #0b62a9);
 }
 
 /* QR Codes Section */
@@ -1624,7 +1600,7 @@
   transform: translateX(-50%);
   width: 40px;
   height: 2px;
-  background: linear-gradient(135deg, #14b8a6, #0a2f4a);
+  background: linear-gradient(135deg, #21ade4, #0a2f4a);
   border-radius: 1px;
 }
 
@@ -1653,13 +1629,13 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(135deg, #14b8a6, #0a2f4a);
+  background: linear-gradient(135deg, #21ade4, #0a2f4a);
   border-radius: 8px 8px 0 0;
 }
 
 .qr-code-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(20, 184, 166, 0.3);
+  border-color: rgba(33, 173, 228, 0.3);
 }
 
 .qr-code-image {
@@ -1679,7 +1655,7 @@
 }
 
 .qr-code-image img:hover {
-  border-color: #14b8a6;
+  border-color: #21ade4;
   transform: scale(1.05);
 }
 

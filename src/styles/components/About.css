@@ -210,10 +210,10 @@
 .capability-card {
   background: linear-gradient(
     135deg,
-    rgba(31, 175, 154, 0.05) 0%,
-    rgba(31, 175, 154, 0.02) 100%
+    rgba(33, 173, 228, 0.05) 0%,
+    rgba(33, 173, 228, 0.02) 100%
   );
-  border: 1px solid rgba(31, 175, 154, 0.1);
+  border: 1px solid rgba(33, 173, 228, 0.1);
   border-radius: var(--radius-xl);
   padding: var(--spacing-2xl);
   text-align: center;
@@ -225,11 +225,11 @@
   transform: translateY(-5px);
   background: linear-gradient(
     135deg,
-    rgba(31, 175, 154, 0.1) 0%,
-    rgba(31, 175, 154, 0.05) 100%
+    rgba(33, 173, 228, 0.1) 0%,
+    rgba(33, 173, 228, 0.05) 100%
   );
-  border-color: rgba(31, 175, 154, 0.2);
-  box-shadow: 0 15px 30px rgba(31, 175, 154, 0.1);
+  border-color: rgba(33, 173, 228, 0.2);
+  box-shadow: 0 15px 30px rgba(33, 173, 228, 0.1);
 }
 
 .capability-icon {
@@ -311,7 +311,7 @@
 
 .client-item:hover {
   border-color: var(--primary-color);
-  background: rgba(31, 175, 154, 0.02);
+  background: rgba(33, 173, 228, 0.02);
   transform: translateY(-2px);
 }
 

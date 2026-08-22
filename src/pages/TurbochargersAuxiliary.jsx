@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Turbochargers & Auxiliary Engine Products Page
+ * Ocean Serenity Marine Pvt Ltd - Turbochargers & Auxiliary Engine Products Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Tables
  */

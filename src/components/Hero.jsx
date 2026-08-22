@@ -1,9 +1,9 @@
 /**
- * Ocean Infinity - Ocean Wave Hero Section
+ * Ocean Serenity Marine Pvt Ltd - Ocean Wave Hero Section
  *
  * Modern hero design with ocean wave SVG background
  * Floating ship/anchor animations
- * Ocean Infinity Deep Blue Theme
+ * Ocean Serenity Marine Pvt Ltd Deep Blue Theme
  */
 
 import { useEffect, useState } from "react";
@@ -15,7 +15,7 @@ const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   // Single video for home banner background
-  const videoSrc = "/homebanner1.mp4";
+  const videoSrc = "/homebanner1.webm";
 
   useEffect(() => {
     setIsVisible(true);
@@ -39,19 +39,19 @@ const Hero = () => {
         console.log("Font loading failed, using fallback");
       }
     };
-
     loadFont();
   }, []);
 
   return (
     <section className="hero">
-      {/* Video Background */}
+      {/* Hero Background - Cinematic Maritime Image */}
       <div className="hero-video-background">
-        <video autoPlay muted loop playsInline className="hero-video">
-          <source src={videoSrc} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        {/* Video Overlay for content readability */}
+        <img
+          src="/hero_bg.jpg"
+          alt="Ocean Serenity Marine Pvt Ltd"
+          className="hero-bg-image"
+        />
+        {/* Overlay for content readability */}
         <div className="video-overlay"></div>
       </div>
 
@@ -66,7 +66,7 @@ const Hero = () => {
           {/* Modern Description Card - Second */}
           <div className="hero-description-card">
             <p className="hero-description">
-              Premier marine solutions and technical manpower supply in the UAE,
+              Premier marine solutions and technical manpower supply in India,
               setting benchmarks for excellence in the maritime industry through
               innovation and customer-centric approach.
             </p>
@@ -75,20 +75,15 @@ const Hero = () => {
           {/* Modern Subtitle - Third */}
           <div className="hero-subtitle-wrapper">
             <span className="accent-line"></span>
-            <p className="hero-subtitle">UAE Maritime Industry Leader</p>
+            <p className="hero-subtitle">Aiming Indian Maritime Industry Leader</p>
             <span className="accent-line"></span>
           </div>
 
           {/* Professional Trust Indicators - Fifth */}
           <div className="hero-trust-indicators">
             <span className="trust-badge">Technical Excellence</span>
-            <span className="trust-badge">UAE Maritime Focus</span>
+            <span className="trust-badge">Indian Maritime Focus</span>
             <span className="trust-badge">24/7 Support</span>
-          </div>
-
-          {/* Scroll Down Indicator */}
-          <div className="scroll-indicator">
-            <ChevronDown size={32} color="#ffffff" />
           </div>
         </div>
       </div>

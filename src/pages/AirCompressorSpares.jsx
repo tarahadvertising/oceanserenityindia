@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Air Compressor Spares Page
+ * Ocean Serenity Marine Pvt Ltd - Air Compressor Spares Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Table
  */

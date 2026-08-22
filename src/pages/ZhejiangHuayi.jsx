@@ -4,14 +4,14 @@
  */
 
 import { useEffect } from "react";
-import { ArrowLeft, CheckCircle, Phone, Mail, MapPin } from "lucide-react";
+import { ArrowLeft, CheckCircle, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/pages/PartnerDetail.css";
 
 const ZhejiangHuayi = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Zhejiang Huayi Ship Equipment | ASP Global Marine";
+    document.title = "Zhejiang Huayi Ship Equipment | Ocean Serenity Marine Pvt Ltd";
   }, []);
 
   const separators = [

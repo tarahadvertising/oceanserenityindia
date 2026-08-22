@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Mission & Vision Page
+ * Ocean Serenity Marine Pvt Ltd - Mission & Vision Page
  *
  * Company mission, vision and values
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

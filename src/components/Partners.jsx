@@ -1,5 +1,5 @@
 /**
- * ASP Global Marine Trading LLC - Associated Partners Section
+ * Ocean Serenity Marine Pvt Ltd - Associated Partners Section
  * 
  * Premium logo grid with partner descriptions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

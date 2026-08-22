@@ -1,18 +1,18 @@
 /**
- * Ocean Infinity - Hero Styles
+ * Ocean Serenity Marine Pvt Ltd - Hero Styles
  *
  * Modern hero design with video background
- * Ocean Infinity Green Theme
+ * Ocean Serenity Marine Pvt Ltd Green Theme
  */
 
-/* Custom Fonts */
-@font-face {
+/* Custom Fonts - Temporarily disabled due to font file corruption */
+/* @font-face {
   font-family: "Amsterdam Signature";
-  src: url("./amsterdam-signature.otf") format("opentype");
+  src: url("/amsterdam-signature.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
   font-display: block;
-}
+} */
 
 @font-face {
   font-family: "Birds of Paradise";
@@ -73,7 +73,8 @@
   overflow: hidden;
 }
 
-.hero-video {
+.hero-video,
+.hero-bg-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -95,12 +96,12 @@
   background: linear-gradient(
     180deg,
     rgba(10, 61, 74, 0.3) 0%,
-    rgba(15, 127, 122, 0.25) 50%,
-    rgba(111, 209, 199, 0.3) 100%
+    rgba(11, 98, 169, 0.25) 50%,
+    rgba(33, 173, 228, 0.3) 100%
   );
   box-shadow:
-    inset 0 0 100px rgba(15, 127, 122, 0.4),
-    0 0 50px rgba(15, 127, 122, 0.2);
+    inset 0 0 100px rgba(11, 98, 169, 0.4),
+    0 0 50px rgba(11, 98, 169, 0.2);
   z-index: 2;
 }
 
@@ -123,7 +124,7 @@
 
 /* Hero Content - Center Aligned */
 .hero-content {
-  color: #0f7f7a !important;
+  color: #0b62a9 !important;
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out;
@@ -138,7 +139,7 @@
 
 /* Force all hero text to new theme color */
 .hero-content * {
-  color: #0f7f7a !important;
+  color: #0b62a9 !important;
 }
 
 .hero-content.visible {
@@ -173,7 +174,7 @@
   font-family: var(--font-family-heading);
   font-size: clamp(1.6rem, 4vw, 2.2rem);
   font-weight: 500;
-  color: #0f7f7a !important;
+  color: #0b62a9 !important;
   margin: 0;
   animation: fadeInUp 1s ease-out 0.2s forwards;
   opacity: 0;
@@ -250,7 +251,7 @@
 }
 
 .btn-primary {
-  background: #0a3d4a;
+  background: #273171;
   color: var(--white-color);
   border: none;
   box-shadow: var(--shadow-primary);
@@ -259,16 +260,16 @@
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-ocean);
-  background: #0f7f7a;
+  background: #0b62a9;
 }
 
 .btn-secondary {
-  color: #0a3d4a;
-  border: 2px solid #0a3d4a;
+  color: #273171;
+  border: 2px solid #273171;
 }
 
 .btn-secondary:hover {
-  background: #0a3d4a;
+  background: #273171;
   color: #ffffff;
   transform: translateY(-2px);
 }
@@ -352,8 +353,8 @@
 }
 
 .trust-badge:hover {
-  background: rgba(15, 127, 122, 0.9) !important;
-  border-color: rgba(15, 127, 122, 0.8) !important;
+  background: rgba(11, 98, 169, 0.9) !important;
+  border-color: rgba(11, 98, 169, 0.8) !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) !important;
 }

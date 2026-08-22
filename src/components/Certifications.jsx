@@ -17,7 +17,6 @@ const Certifications = () => {
       icon: "icon-cert"
     }
   ];
-
   return (
     <section id="certifications" className="certifications">
       <div className="container">

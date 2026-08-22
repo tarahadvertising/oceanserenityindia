@@ -1,12 +1,12 @@
 /**
- * ASP Global Marine Trading LLC - Products Main Page
+ * Ocean Serenity Marine Pvt Ltd - Products Main Page
  *
  * Professional Product Catalog with Modern Design
- * Enhanced layout with attractive visuals and user experience
+ * Marine technology and equipment solutions for offshore operations
  */
 
 import { Link } from "react-router-dom";
-import { Package, Award, Users, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import PageHero from "../components/PageHero.jsx";
 import "../styles/pages/Products.css";
 
@@ -16,7 +16,7 @@ const ProductsPage = () => {
       id: "engine-stores",
       title: "Engine Stores",
       description:
-        "Complete engine stores including gaskets, seals, filters, and maintenance supplies for marine engines.",
+        "Advanced engine stores and components for marine vessels, featuring cutting-edge technology for optimal performance and reliability in demanding offshore environments.",
       image: "/spare.jpg",
       brands: ["FREUDENBERG", "ELASTOL", "DANFOSS", "SKF"],
     },
@@ -24,7 +24,7 @@ const ProductsPage = () => {
       id: "deck-stores-general",
       title: "Deck Stores & General",
       description:
-        "Comprehensive deck stores, safety equipment, and general marine supplies for vessel operations.",
+        "Comprehensive deck equipment and safety solutions engineered for modern maritime operations, ensuring vessel safety and operational excellence.",
       image: "/deckstore.webp",
       brands: ["VIKING", "SURVITEC", "WILHELMSEN", "SMIT"],
     },
@@ -110,7 +110,6 @@ const ProductsPage = () => {
       brands: ["VIKING", "SURVITEC", "HONEYWELL", "KIDDE"],
     },
   ];
-
   return (
     <div className="products-page">
       {/* Hero Section */}
