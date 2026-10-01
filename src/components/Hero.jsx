@@ -60,7 +60,7 @@ const Hero = () => {
         <div className={`hero-content ${isVisible ? "visible" : ""}`}>
           {/* Tagline - First in order */}
           <h1 className="hero-headline">
-            &quot;Delivering Expectations for Every Voyage&quot;
+            &quot;Delivering Reliability - Assuring Performance.&quot;
           </h1>
 
           {/* Modern Description Card - Second */}

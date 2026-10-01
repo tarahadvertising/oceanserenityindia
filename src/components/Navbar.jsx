@@ -287,7 +287,7 @@ const Navbar = () => {
         </div>
 
         {/* <div className="nav-actions">
-          <a href="mailto:info@aspglobalmarine.com" className="btn-contact">
+          <a href="mailto:anjana@oceanserenitymarine.com" className="btn-contact">
             Get Quote
           </a>
         </div> */}

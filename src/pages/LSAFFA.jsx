@@ -443,7 +443,7 @@ const LSAFFA = () => {
                         </svg>
                       </a>
                       <a
-                        href="mailto:info@oceaninfinitymarine.com"
+                        href="mailto:anjana@oceanserenitymarine.com"
                         className="email-btn"
                         title="Contact via Email"
                       >

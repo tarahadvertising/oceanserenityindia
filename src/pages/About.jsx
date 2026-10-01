@@ -241,7 +241,7 @@ const About = () => {
             <div className="who-we-are-main">
               <div className="who-we-are-text">
                 <p className="who-we-are-paragraph">
-                  Ocean Serenity Marine Pvt Ltd is a trusted provider of integrated marine
+                  Ocean Serenity Marine Services and Trading Pvt. Ltd. is a trusted provider of integrated marine
                   repair, maintenance, and safety solutions, delivering
                   high-quality services to shipowners, offshore operators, and
                   maritime industries worldwide.

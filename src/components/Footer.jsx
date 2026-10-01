@@ -45,7 +45,7 @@ const Footer = () => {
               ports in India and worldwide.
             </p>
             <p className="footer-headline">
-              &quot;Delivering Expectations for Every Voyage&quot;
+              &quot;Delivering Reliability - Assuring Performance&quot;
             </p>
             <div className="footer-social">
               <a
@@ -109,7 +109,6 @@ const Footer = () => {
                 <span>Ocean Serenity FZ-LLC</span>
                 <span>Ocean Serenity Marine Pvt Ltd</span>
                 <span>Warmsol Marine & Industrial</span>
-                <span>ANC Arabia Contracting</span>
                 <span>Knot & Sail</span>
               </div>
             </div>
@@ -124,23 +123,14 @@ const Footer = () => {
                 </address>
                 <div className="footer-contact-details">
                   <a href="tel:+971527756765" className="footer-contact-link">
-                    +971 527756765
+                    +971 52 775 6765
                   </a>
-                  {/* <a href="tel:+971581464580" className="footer-contact-link">
-                    +971 58 146 4580
-                  </a> */}
                   <a
-                    href="mailto:info@oceaninfinitymarine.com"
+                    href="mailto:anjana@oceanserenitymarine.com"
                     className="footer-contact-link"
                   >
-                    info@oceaninfinitymarine.com
+                    anjana@oceanserenitymarine.com
                   </a>
-                  {/* <a
-                    href="mailto:operation@knotandsail.com"
-                    className="footer-contact-link"
-                  >
-                    operation@knotandsail.com
-                  </a> */}
                 </div>
               </div>
             </div>

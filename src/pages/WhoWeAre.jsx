@@ -92,12 +92,12 @@ const WhoWeAre = () => {
               <p>Marine services and technical support</p>
             </div>
             <div className="company-item">
-              <h4>ANC Arabia Contracting Company</h4>
-              <p>Contracting and project solutions</p>
-            </div>
-            <div className="company-item">
               <h4>Warmsol Marine & Industrial Company</h4>
               <p>Industrial and marine equipment</p>
+            </div>
+            <div className="company-item">
+              <h4>Knot & Sail</h4>
+              <p>Yacht management and luxury marine services</p>
             </div>
           </div>
         </section>

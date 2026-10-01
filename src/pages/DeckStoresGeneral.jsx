@@ -465,7 +465,7 @@ const DeckStoresGeneral = () => {
                         </svg>
                       </a>
                       <a
-                        href={`mailto:info@aspglobalmarine.com?subject=${encodeURIComponent(
+                        href={`mailto:anjana@oceanserenitymarine.com?subject=${encodeURIComponent(
                           product.emailMessage
                             ? product.emailMessage
                                 .split("\n")[0]

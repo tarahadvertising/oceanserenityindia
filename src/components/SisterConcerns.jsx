@@ -18,12 +18,12 @@ const SisterConcerns = () => {
       description: 'Comprehensive marine engineering services'
     },
     {
-      name: 'ANC Arabia Contracting',
-      description: 'Industrial contracting and solutions'
-    },
-    {
       name: 'Warmsol Marine & Industrial Company',
       description: 'Marine and industrial equipment solutions'
+    },
+    {
+      name: 'Knot & Sail',
+      description: 'Yacht management and luxury marine services'
     }
   ];
 

@@ -354,7 +354,7 @@ const Services = () => {
                       WhatsApp
                     </a>
                     <a
-                      href="mailto:info@knotandsail.com"
+                      href="mailto:anjana@oceanserenitymarine.com"
                       className="btn btn-email"
                     >
                       <svg
@@ -397,9 +397,6 @@ const Services = () => {
                 </a>
                 <a href="tel:+971527756765" className="btn btn-secondary">
                   Call +971 52 775 6765
-                </a>
-                <a href="tel:+971581464580" className="btn btn-secondary">
-                  Call +971 58 146 4580
                 </a>
               </div>
             </div>
