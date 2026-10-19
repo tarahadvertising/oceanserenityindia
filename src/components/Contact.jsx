@@ -163,7 +163,7 @@ const Contact = () => {
       title: "Marine Services & Technical Solutions",
       phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
-      website: "www.oceaninfinitymarine.com",
+      website: "www.oceanserenitygroup.com",
       address: "Trivandrum, India",
     },
     arun: {
@@ -171,7 +171,7 @@ const Contact = () => {
       title: "Advisor-Technical & Commercial",
       phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
-      website: "www.oceaninfinitymarine.com",
+      website: "www.oceanserenitygroup.com",
       address: "Trivandrum, India",
     },
     anjana: {
@@ -179,7 +179,7 @@ const Contact = () => {
       title: "Commercial Manager",
       phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
-      website: "www.oceaninfinitymarine.com",
+      website: "www.oceanserenitygroup.com",
       address: "Trivandrum, India",
     },
   };
@@ -214,7 +214,6 @@ const Contact = () => {
                 </div>
               </div>
             ))}
-
             {/* QR Codes Section */}
             <div className="qr-section">
               <h4>Scan to Connect</h4>
@@ -250,7 +249,7 @@ const Contact = () => {
                   className="qr-code-card"
                   onClick={() =>
                     window.open(
-                      "https://oceaninfinitymarine.com/nfc/anjana/",
+                      "https://oceanserenitygroup.com/nfc/anjana/",
                       "_blank",
                     )
                   }
