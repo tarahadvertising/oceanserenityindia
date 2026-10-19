@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Our Commitment Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Our Commitment Section
  * 
  * 4 icon boxes in grid: Reliability, Responsiveness, Technical Accuracy, Right Product
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

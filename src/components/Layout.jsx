@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Layout Template
+ * Ocean Serenity Marine Services and Trading Private Limited - Layout Template
  *
  * Reusable layout component that wraps all pages with Header and Footer
  * Maintains the oceanic color theme and existing content structure

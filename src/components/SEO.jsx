@@ -11,17 +11,17 @@ const SEO = ({
   structuredData = null,
 }) => {
   const defaultTitle =
-    "Ocean Serenity Marine Pvt Ltd - Advanced Marine Technology & Ship Repair Services";
+    "Ocean Serenity Marine Services and Trading Private Limited - Advanced Marine Technology & Ship Repair Services";
   const defaultDescription =
-    "Ocean Serenity Marine Pvt Ltd is a premier marine service provider delivering high-quality solutions, ship maintenance, technical support, and equipment supply across all ports.";
+    "Ocean Serenity Marine Services and Trading Private Limited is a premier marine service provider delivering high-quality solutions, ship maintenance, technical support, and equipment supply across all ports.";
   const defaultKeywords =
-    "Ocean Serenity Marine Pvt Ltd, marine services India, ship maintenance India, technical services, ship repair, marine equipment supply, vessel maintenance";
+    "Ocean Serenity Marine Services and Trading Private Limited, marine services India, ship maintenance India, technical services, ship repair, marine equipment supply, vessel maintenance";
   const defaultImage = "/og-image.jpg";
 
   useEffect(() => {
     // Update page title if provided
     if (title) {
-      document.title = `${title} | Ocean Serenity Marine Pvt Ltd`;
+      document.title = `${title} | Ocean Serenity Marine Services and Trading Private Limited`;
     }
   }, [title]);
 
@@ -46,13 +46,13 @@ const SEO = ({
         property="og:url"
         content={canonicalUrl || "https://oceanserenitymarine.com"}
       />
-      <meta property="og:site_name" content="Ocean Serenity Marine Pvt Ltd" />
+      <meta property="og:site_name" content="Ocean Serenity Marine Services and Trading Private Limited" />
       <meta property="og:image" content={ogImage || defaultImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta
         property="og:image:alt"
-        content={`${title || "Ocean Serenity Marine Pvt Ltd"} - Marine Services`}
+        content={`${title || "Ocean Serenity Marine Services and Trading Private Limited"} - Marine Services`}
       />
       <meta property="og:locale" content="en_US" />
 

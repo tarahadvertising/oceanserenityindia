@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - LSA & FFA (Life-Saving & Fire-Fighting Equipment) Page
+ * Ocean Serenity Marine Services and Trading Private Limited - LSA & FFA (Life-Saving & Fire-Fighting Equipment) Page
  *
  * Comprehensive life-saving appliances and fire-fighting equipment solutions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -425,7 +425,7 @@ const LSAFFA = () => {
                     <p className="product-desc">{product.description}</p>
                     <div className="product-buttons">
                       <a
-                        href={`https://wa.me/971527756765?text=${encodeURIComponent(
+                        href={`https://wa.me/919995211427?text=${encodeURIComponent(
                           product.whatsappMessage,
                         )}`}
                         target="_blank"

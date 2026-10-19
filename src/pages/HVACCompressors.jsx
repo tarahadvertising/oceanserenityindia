@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - HVAC Compressors & Spares Page
+ * Ocean Serenity Marine Services and Trading Private Limited - HVAC Compressors & Spares Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Tables
  */

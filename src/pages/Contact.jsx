@@ -9,7 +9,7 @@ const ContactPage = () => {
       <PageHero
         title="Contact Us"
         subtitle="Get In Touch"
-        description="At Ocean Serenity Marine Pvt Ltd, we're here to help you with all your marine service needs. Reach out to us for inquiries, quotes, and expert support for your maritime requirements."
+        description="At Ocean Serenity Marine Services and Trading Private Limited, we're here to help you with all your marine service needs. Reach out to us for inquiries, quotes, and expert support for your maritime requirements."
       />
 
       <Contact />

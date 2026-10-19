@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Hydraulic Systems & Components Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Hydraulic Systems & Components Page
  *
  * Product Portfolio Grid Layout
  */

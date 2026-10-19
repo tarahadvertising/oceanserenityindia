@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Technical Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Technical Services Page
  *
  * Comprehensive technical services including engineering support,
  * maintenance, and technical consulting
@@ -62,9 +62,9 @@ const TechnicalServices = () => {
       icon: Zap,
       image: "/infinity/42.webp",
       shortDescription:
-        "Ocean Serenity Marine Pvt Ltd provides electrical on-board equipment services as a component of the..",
+        "Ocean Serenity Marine Services and Trading Private Limited provides electrical on-board equipment services as a component of the..",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd provides electrical on-board equipment services as a component of the comprehensive marine solutions. Our electrical services cover all aspects of vessel electrical systems and equipment maintenance.",
+        "Ocean Serenity Marine Services and Trading Private Limited provides electrical on-board equipment services as a component of the comprehensive marine solutions. Our electrical services cover all aspects of vessel electrical systems and equipment maintenance.",
       features: [
         "Motor Rewinding and testing",
         "On-board electrical equipment services",
@@ -175,7 +175,7 @@ const TechnicalServices = () => {
   return (
     <>
       <Helmet>
-        <title>Technical Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Technical Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional maritime technical services including blasting and painting, tank cleaning, refrigeration and air conditioning, hydraulic services, and automation services."
@@ -186,11 +186,11 @@ const TechnicalServices = () => {
         />
         <meta
           property="og:title"
-          content="Technical Services | Ocean Serenity Marine Pvt Ltd"
+          content="Technical Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           property="og:description"
-          content="Comprehensive maritime technical services by Ocean Serenity Marine Pvt Ltd including blasting, painting, tank cleaning, HVAC, hydraulic, and automation services."
+          content="Comprehensive maritime technical services by Ocean Serenity Marine Services and Trading Private Limited including blasting, painting, tank cleaning, HVAC, hydraulic, and automation services."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -200,7 +200,7 @@ const TechnicalServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Technical Services | Ocean Serenity Marine Pvt Ltd"
+          content="Technical Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
@@ -213,7 +213,7 @@ const TechnicalServices = () => {
         <PageHero
           title="Technical Services"
           subtitle="Advanced Maritime Technical Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we deliver comprehensive technical services including blasting and painting, tank cleaning, refrigeration and air conditioning, hydraulic services, and automation services to ensure optimal vessel performance and reliability."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we deliver comprehensive technical services including blasting and painting, tank cleaning, refrigeration and air conditioning, hydraulic services, and automation services to ensure optimal vessel performance and reliability."
         />
 
         {/* Technical Services Section */}
@@ -306,7 +306,7 @@ const TechnicalServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

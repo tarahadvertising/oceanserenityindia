@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Who We Are Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Who We Are Page
  *
  * Company introduction and overview
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -21,10 +21,9 @@ const WhoWeAre = () => {
         <section className="company-intro">
           <div className="content-with-icon">
             <div className="intro-content">
-              <h2>Ocean Serenity Marine Pvt Ltd</h2>
+              <h2>Ocean Serenity Marine Services and Trading Private Limited</h2>
               <p>
-                Founded in 2005 and part of Ocean Serenity Group, Ocean Serenity
-                Marine Pvt Ltd has established itself as a leading supplier of
+                Founded in 2005 and part of Ocean Serenity Group, Ocean Serenity Marine Services and Trading Private Limited has established itself as a leading supplier of
                 marine and offshore equipment. With strong sourcing networks
                 across Europe and Asia, we understand the critical importance of
                 quality, reliability, and timely delivery.
@@ -39,7 +38,7 @@ const WhoWeAre = () => {
             <div className="content-icon">
               <img
                 src="/logo.svg"
-                alt="Ocean Serenity Marine Pvt Ltd"
+                alt="Ocean Serenity Marine Services and Trading Private Limited"
                 className="asp-global-icon"
               />
             </div>
@@ -88,8 +87,12 @@ const WhoWeAre = () => {
               <p>Strategic management and operations</p>
             </div>
             <div className="company-item">
-              <h4>Ocean Serenity Marine Pvt Ltd</h4>
+              <h4>Ocean Serenity Marine Services and Trading Private Limited</h4>
               <p>Marine services and technical support</p>
+            </div>
+            <div className="company-item">
+              <h4>ASP Global Marine Trading LLC</h4>
+              <p>Global marine solutions and offshore support</p>
             </div>
             <div className="company-item">
               <h4>Warmsol Marine & Industrial Company</h4>

@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Sister Concerns Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Sister Concerns Section
  * 
  * Corporate grid of group companies
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -14,8 +14,12 @@ const SisterConcerns = () => {
       description: 'Marine services and solutions provider'
     },
     {
-      name: 'Ocean Serenity Marine Pvt Ltd',
+      name: 'Ocean Serenity Marine Services and Trading Private Limited',
       description: 'Comprehensive marine engineering services'
+    },
+    {
+      name: 'ASP Global Marine Trading LLC',
+      description: 'Global marine solutions and offshore support'
     },
     {
       name: 'Warmsol Marine & Industrial Company',

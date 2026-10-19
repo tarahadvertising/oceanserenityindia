@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Air Compressor Spares Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Air Compressor Spares Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Table
  */

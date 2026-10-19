@@ -1,7 +1,7 @@
 {
   "name": "ocean-infinity-website",
   "version": "1.0.0",
-  "description": "Ocean Serenity Marine Pvt Ltd - Professional marine technology and robotics website with Modern Ocean theme",
+  "description": "Ocean Serenity Marine Services and Trading Private Limited - Professional marine technology and robotics website with Modern Ocean theme",
   "main": "src/index.jsx",
   "scripts": {
     "start": "react-scripts start",
@@ -22,7 +22,7 @@
     "website",
     "ocean-infinity"
   ],
-  "author": "Ocean Serenity Marine Pvt Ltd",
+  "author": "Ocean Serenity Marine Services and Trading Private Limited",
   "license": "MIT",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Product Gallery
+ * Ocean Serenity Marine Services and Trading Private Limited - Product Gallery
  * Clean product cards with image, name, description, and contact icons
  */
 

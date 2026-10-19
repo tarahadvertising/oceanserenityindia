@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Pumps Marine & Industrial Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Pumps Marine & Industrial Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Tables
  */

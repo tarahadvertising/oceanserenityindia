@@ -1,6 +1,6 @@
 {
-  "name": "Ocean Serenity Marine Pvt Ltd - Advanced Marine Technology",
-  "short_name": "Ocean Serenity Marine Pvt Ltd",
+  "name": "Ocean Serenity Marine Services and Trading Private Limited - Advanced Marine Technology",
+  "short_name": "Ocean Serenity Marine Services and Trading Private Limited",
   "description": "Leading marine technology and ship repair company in India",
   "start_url": "/",
   "display": "standalone",
@@ -103,7 +103,7 @@
     {
       "name": "Contact Us",
       "short_name": "Contact",
-      "description": "Get in touch with Ocean Serenity Marine Pvt Ltd",
+      "description": "Get in touch with Ocean Serenity Marine Services and Trading Private Limited",
       "url": "/contact",
       "icons": [
         {

@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Mission & Vision Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Mission & Vision Page
  *
  * Company mission, vision and values
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

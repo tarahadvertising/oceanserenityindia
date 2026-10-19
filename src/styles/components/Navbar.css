@@ -1,8 +1,8 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Modern Navbar Component
+ * Ocean Serenity Marine Services and Trading Private Limited - Modern Navbar Component
  * 
- * Professional navigation with Ocean Serenity Marine Pvt Ltd Green theme
- * Clean, modern design with Ocean Serenity Marine Pvt Ltd gradient background
+ * Professional navigation with Ocean Serenity Marine Services and Trading Private Limited Green theme
+ * Clean, modern design with Ocean Serenity Marine Services and Trading Private Limited gradient background
  */
 
 /* Modern Navbar with Deep Sea Blue Background */
@@ -1081,14 +1081,34 @@
   top: 100%;
   left: 0;
   background: #0b62a9;
-  min-width: 200px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
+  min-width: 280px;
+  max-height: 75vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
   transition: all 0.3s ease;
   z-index: 1000;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .dropdown-menu.show {
@@ -1102,18 +1122,37 @@
   color: #ffffff;
   padding: 12px 16px;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 14px;
   text-shadow: none;
 }
 
 .dropdown-item:hover {
-  color: #0b62a9;
+  background: rgba(255, 255, 255, 0.15);
+  color: #21ade4 !important;
+  padding-left: 20px;
 }
 
 .dropdown-item:last-child {
   border-bottom: none;
+}
+
+.dropdown-main {
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.dropdown-main:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #21ade4 !important;
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 0;
 }
 
 /* Comprehensive Font Shadow Removal - ALL NAVBAR ELEMENTS */
@@ -1234,6 +1273,8 @@
     background: rgba(10, 61, 74, 0.3);
     margin-top: 8px;
     border-radius: 4px;
+    max-height: 360px;
+    overflow-y: auto;
   }
 
   .nav-item-dropdown .dropdown-menu.show {

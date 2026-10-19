@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Blog Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Blog Page
  *
  * Industry insights, marine technology updates, and company news
  */
@@ -13,13 +13,13 @@ const Blog = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "Ocean Serenity Marine Pvt Ltd Blog",
+    name: "Ocean Serenity Marine Services and Trading Private Limited Blog",
     description:
-      "Industry insights, marine technology updates, and company news from Ocean Serenity Marine Pvt Ltd",
+      "Industry insights, marine technology updates, and company news from Ocean Serenity Marine Services and Trading Private Limited",
     url: "https://oceaninfinitymarine.com/blog",
     publisher: {
       "@type": "Organization",
-      name: "Ocean Serenity Marine Pvt Ltd",
+      name: "Ocean Serenity Marine Services and Trading Private Limited",
       url: "https://oceaninfinitymarine.com",
       logo: "https://oceaninfinitymarine.com/logo.webp",
     },
@@ -106,9 +106,9 @@ const Blog = () => {
   return (
     <>
       <SEO
-        title="Blog - Ocean Serenity Marine Pvt Ltd | Maritime Industry Insights"
-        description="Stay updated with the latest maritime industry insights, technology trends, and company news from Ocean Serenity Marine Pvt Ltd. Expert perspectives on marine technology and innovation."
-        keywords="maritime blog, ocean technology insights, marine industry news, shipping technology, maritime innovations, Ocean Serenity Marine Pvt Ltd blog"
+        title="Blog - Ocean Serenity Marine Services and Trading Private Limited | Maritime Industry Insights"
+        description="Stay updated with the latest maritime industry insights, technology trends, and company news from Ocean Serenity Marine Services and Trading Private Limited Expert perspectives on marine technology and innovation."
+        keywords="maritime blog, ocean technology insights, marine industry news, shipping technology, maritime innovations, Ocean Serenity Marine Services and Trading Private Limited blog"
         canonicalUrl="https://oceaninfinitymarine.com/blog"
         structuredData={structuredData}
       />
@@ -129,7 +129,7 @@ const Blog = () => {
               Stay informed with the latest developments in maritime technology,
               industry regulations, and sustainable practices. Our blog features
               expert analysis, case studies, and thought leadership from the
-              Ocean Serenity Marine Pvt Ltd team.
+              Ocean Serenity Marine Services and Trading Private Limited team.
             </p>
             <p>
               From cutting-edge marine technology to essential maintenance
@@ -243,7 +243,7 @@ const Blog = () => {
             <h2>Stay Updated</h2>
             <p>
               Subscribe to our newsletter for the latest maritime industry
-              insights and Ocean Serenity Marine Pvt Ltd news delivered to your inbox.
+              insights and Ocean Serenity Marine Services and Trading Private Limited news delivered to your inbox.
             </p>
             <div className="newsletter-form">
               <input

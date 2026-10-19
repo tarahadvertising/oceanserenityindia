@@ -1,12 +1,12 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Products Main Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Products Main Page
  *
  * Professional Product Catalog with Modern Design
  * Marine technology and equipment solutions for offshore operations
  */
 
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { Package, Award, Users, ArrowRight } from "lucide-react";
 import PageHero from "../components/PageHero.jsx";
 import "../styles/pages/Products.css";
 

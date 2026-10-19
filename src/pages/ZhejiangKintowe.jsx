@@ -11,7 +11,7 @@ import "../styles/pages/PartnerDetail.css";
 const ZhejiangKintowe = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Zhejiang Kintowe Sealing Technology | Ocean Serenity Marine Pvt Ltd";
+    document.title = "Zhejiang Kintowe Sealing Technology | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const products = [

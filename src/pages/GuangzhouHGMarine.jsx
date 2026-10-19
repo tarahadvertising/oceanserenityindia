@@ -11,7 +11,7 @@ import "../styles/pages/PartnerDetail.css";
 const GuangzhouHGMarine = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Guangzhou HG Marine Co., Ltd. | Ocean Serenity Marine Pvt Ltd";
+    document.title = "Guangzhou HG Marine Co., Ltd. | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const products = [

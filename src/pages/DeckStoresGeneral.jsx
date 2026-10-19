@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Deck Stores & General Marine Stores Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Deck Stores & General Marine Stores Page
  *
  * Comprehensive deck equipment and general marine supplies solutions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -24,7 +24,7 @@ const DeckStoresGeneral = () => {
       whatsappMessage:
         "Hi, I'm interested in Navigation Light. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Navigation Light\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Navigation Light. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Navigation Light\n\nDear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in Navigation Light. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const DeckStoresGeneral = () => {
       whatsappMessage:
         "Hi, I'm interested in Water Proof Flash Light. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Water Proof Flash Light\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Water Proof Flash Light. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Water Proof Flash Light\n\nDear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in Water Proof Flash Light. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const DeckStoresGeneral = () => {
       whatsappMessage:
         "Hi, I'm interested in Marine Safety Equipment. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Marine Safety Equipment\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Marine Safety Equipment. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Marine Safety Equipment\n\nDear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in Marine Safety Equipment. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ const DeckStoresGeneral = () => {
       whatsappMessage:
         "Hi, I'm interested in Husbandary Items. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Husbandary Items\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Husbandary Items. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Husbandary Items\n\nDear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in Husbandary Items. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 5,
@@ -68,7 +68,7 @@ const DeckStoresGeneral = () => {
       whatsappMessage:
         "Hi, I'm interested in Stationary. Please provide more information and pricing.",
       emailMessage:
-        "Subject: Inquiry about Stationary\n\nDear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in Stationary. Please provide more information and pricing.\n\nThank you.",
+        "Subject: Inquiry about Stationary\n\nDear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in Stationary. Please provide more information and pricing.\n\nThank you.",
     },
     {
       id: 6,
@@ -447,7 +447,7 @@ const DeckStoresGeneral = () => {
                     </p>
                     <div className="product-actions-six">
                       <a
-                        href={`https://wa.me/971525478137?text=${encodeURIComponent(
+                        href={`https://wa.me/919995211427?text=${encodeURIComponent(
                           product.whatsappMessage,
                         )}`}
                         target="_blank"
@@ -478,7 +478,7 @@ const DeckStoresGeneral = () => {
                                 .slice(2)
                                 .join("\n")
                                 .trim()
-                            : "Dear Ocean Serenity Marine Pvt Ltd Trading,\n\nI'm interested in " +
+                            : "Dear Ocean Serenity Marine Services and Trading Private Limited,\n\nI'm interested in " +
                                 product.name +
                                 ". Please provide more information and pricing.\n\nThank you.",
                         )}`}

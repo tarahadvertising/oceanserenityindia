@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Compliance Bar
+ * Ocean Serenity Marine Services and Trading Private Limited - Compliance Bar
  *
  * Enhanced certification and authority section
  * Senior Level: Builds psychological authority and trust

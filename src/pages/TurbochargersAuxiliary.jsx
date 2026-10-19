@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Turbochargers & Auxiliary Engine Products Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Turbochargers & Auxiliary Engine Products Page
  *
  * Product Portfolio with Brand Logos and Manufacturer Tables
  */

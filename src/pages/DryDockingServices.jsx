@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Dry Docking Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Dry Docking Services Page
  *
  * Comprehensive dry docking services including planning, supervision,
  * and project management for vessel repairs and maintenance
@@ -38,7 +38,7 @@ const DryDockingServices = () => {
   return (
     <>
       <Helmet>
-        <title>Dry Docking Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Dry Docking Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional dry docking services across major Indian ports and shipyards with world-class facilities and comprehensive marine support."
@@ -49,11 +49,11 @@ const DryDockingServices = () => {
         />
         <meta
           property="og:title"
-          content="Dry Docking Services | Ocean Serenity Marine Pvt Ltd"
+          content="Dry Docking Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           property="og:description"
-          content="Comprehensive dry docking services by Ocean Serenity Marine Pvt Ltd across major Indian ports with world-class facilities."
+          content="Comprehensive dry docking services by Ocean Serenity Marine Services and Trading Private Limited across major Indian ports with world-class facilities."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -63,7 +63,7 @@ const DryDockingServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Dry Docking Services | Ocean Serenity Marine Pvt Ltd"
+          content="Dry Docking Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
@@ -76,7 +76,7 @@ const DryDockingServices = () => {
         <PageHero
           title="Dry Docking Services"
           subtitle="Premium Dry Dock Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive dry docking services across major ports and shipyards in India with world-class facilities, expert technical support, and complete project management for vessel repairs and maintenance."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we provide comprehensive dry docking services across major ports and shipyards in India with world-class facilities, expert technical support, and complete project management for vessel repairs and maintenance."
         />
 
         {/* Dry Docking Services Section */}
@@ -168,7 +168,7 @@ const DryDockingServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

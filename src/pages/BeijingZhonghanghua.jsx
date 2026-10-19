@@ -11,7 +11,7 @@ import "../styles/pages/PartnerDetail.css";
 const BeijingZhonghanghua = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Beijing Zhonghanghua Safety Valve | Ocean Serenity Marine Pvt Ltd";
+    document.title = "Beijing Zhonghanghua Safety Valve | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const valves = [

@@ -1,9 +1,9 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Footer Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Footer Section
  *
  * Modern footer design with ocean wave SVG
  * Newsletter subscription and maritime theme
- * Ocean Serenity Marine Pvt Ltd Deep Blue Theme
+ * Ocean Serenity Marine Services and Trading Private Limited Deep Blue Theme
  */
 
 import { useEffect } from "react";
@@ -30,12 +30,12 @@ const Footer = () => {
             <div className="footer-logo">
               <img
                 src="/logo.svg"
-                alt="Ocean Serenity Marine Pvt Ltd"
+                alt="Ocean Serenity Marine Services and Trading Private Limited"
                 className="footer-logo-image footer-logo-first"
               />
               <img
                 src="/logo2.svg"
-                alt="Ocean Serenity Marine Pvt Ltd"
+                alt="Ocean Serenity Marine Services and Trading Private Limited"
                 className="footer-logo-image footer-logo-second"
               />
             </div>
@@ -93,6 +93,9 @@ const Footer = () => {
                 <a href="/services" className="footer-link">
                   Services
                 </a>
+                <a href="/products" className="footer-link">
+                  Products
+                </a>
                 <a href="/careers" className="footer-link">
                   Careers
                 </a>
@@ -107,7 +110,8 @@ const Footer = () => {
               <h4 className="footer-links-title">Group Companies</h4>
               <div className="footer-companies">
                 <span>Ocean Serenity FZ-LLC</span>
-                <span>Ocean Serenity Marine Pvt Ltd</span>
+                <span>Ocean Serenity Marine Services and Trading Private Limited</span>
+                <span>ASP Global Marine Trading LLC</span>
                 <span>Warmsol Marine & Industrial</span>
                 <span>Knot & Sail</span>
               </div>
@@ -117,13 +121,13 @@ const Footer = () => {
               <h4 className="footer-links-title">Contact</h4>
               <div className="footer-contact-info">
                 <address>
-                  Ocean Serenity Marine Pvt Ltd
+                  Ocean Serenity Marine Services and Trading Private Limited
                   <br />
-                  India
+                  Trivandrum, India
                 </address>
                 <div className="footer-contact-details">
-                  <a href="tel:+971527756765" className="footer-contact-link">
-                    +971 52 775 6765
+                  <a href="tel:+919995211427" className="footer-contact-link">
+                    +91 99952 11427
                   </a>
                   <a
                     href="mailto:anjana@oceanserenitymarine.com"
@@ -141,7 +145,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="copyright">
-              Copyright © Ocean Serenity Marine Pvt Ltd | Designed by{" "}
+              Copyright © Ocean Serenity Marine Services and Trading Private Limited | Designed by{" "}
               <a
                 href="https://tarah.ae/"
                 target="_blank"

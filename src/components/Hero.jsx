@@ -1,9 +1,9 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Ocean Wave Hero Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Ocean Wave Hero Section
  *
  * Modern hero design with ocean wave SVG background
  * Floating ship/anchor animations
- * Ocean Serenity Marine Pvt Ltd Deep Blue Theme
+ * Ocean Serenity Marine Services and Trading Private Limited Deep Blue Theme
  */
 
 import { useEffect, useState } from "react";
@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="hero-video-background">
         <img
           src="/hero_bg.jpg"
-          alt="Ocean Serenity Marine Pvt Ltd"
+          alt="Ocean Serenity Marine Services and Trading Private Limited"
           className="hero-bg-image"
         />
         {/* Overlay for content readability */}
@@ -75,7 +75,7 @@ const Hero = () => {
           {/* Modern Subtitle - Third */}
           <div className="hero-subtitle-wrapper">
             <span className="accent-line"></span>
-            <p className="hero-subtitle">Aiming Indian Maritime Industry Leader</p>
+            <p className="hero-subtitle">Aiming Maritime Leadership</p>
             <span className="accent-line"></span>
           </div>
 

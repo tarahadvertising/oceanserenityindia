@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Main App Component
+ * Ocean Serenity Marine Services and Trading Private Limited - Main App Component
  *
  * Technology Stack:
  * - React 18 with functional components and hooks
@@ -263,7 +263,7 @@ function App() {
           <Footer />
           {/* WhatsApp Floating Button */}
           <a
-            href="https://wa.me/+971527756765"
+            href="https://wa.me/919995211427"
             className="whatsapp-float"
             target="_blank"
             rel="noopener noreferrer"

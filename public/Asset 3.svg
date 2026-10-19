@@ -20,14 +20,14 @@
 
       .cls-5 {
         fill: #26316e;
-        font-family: Roboto-Regular, Roboto;
-        font-size: 56.1px;
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 54px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <text class="cls-5" transform="translate(115.48 197.91)"><tspan x="0" y="0">MARINE AND TRADING SERVICES • PVT • LTD</tspan></text>
+      <text class="cls-5" x="684.87" y="197.91" text-anchor="middle" textLength="1120" lengthAdjust="spacing">MARINE SERVICES AND TRADING • PVT • LTD</text>
       <rect class="cls-1" x="1265.39" y="176.1" width="104.35" height="8.46"/>
       <rect class="cls-1" y="176.1" width="104.35" height="8.46"/>
       <g>

@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Oil Purifiers & Filters Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Oil Purifiers & Filters Page
  *
  * Product Portfolio with GEA and Alfa Laval Brands
  */

@@ -115,21 +115,21 @@ const Navbar = () => {
           <Link to="/" className="logo-link">
             <img
               src="/logo.svg"
-              alt="Ocean Serenity Marine Pvt Ltd"
+              alt="Ocean Serenity Marine Services and Trading Private Limited"
               className="logo-image logo-first"
             />
           </Link>
           <Link to="/" className="logo-link">
             <img
               src="/logo2.svg"
-              alt="Ocean Serenity Marine Pvt Ltd"
+              alt="Ocean Serenity Marine Services and Trading Private Limited"
               className="logo-image logo-second"
             />
           </Link>
         </div>
-        {/* <img src="/asplogo.svg" alt="Ocean Serenity Marine Pvt Ltd" /> */}
+        {/* <img src="/asplogo.svg" alt="Ocean Serenity Marine Services and Trading Private Limited" /> */}
         {/* <div className="nav-branding">
-          <h1 className="nav-company-name">ASP GLOBAL MARINE TRADING LLC</h1>
+          <h1 className="nav-company-name">Ocean Serenity Marine Services and Trading Private Limited</h1>
           <p className="nav-group-name">Part of Ocean Serenity Group</p>
         </div> */}
         <div
@@ -239,11 +239,96 @@ const Navbar = () => {
                 className={`dropdown-menu ${productsDropdownOpen ? "show" : ""}`}
               >
                 <Link
+                  to="/products"
+                  className="dropdown-item dropdown-main"
+                  onClick={closeMenu}
+                >
+                  View All Products
+                </Link>
+                <div className="dropdown-divider"></div>
+                <Link
+                  to="/products/engine-stores"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Engine Stores
+                </Link>
+                <Link
+                  to="/products/deck-stores-general"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Deck Stores & General Marine Stores
+                </Link>
+                <Link
+                  to="/products/engine-spares-2stroke"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Engine Spares - 2-Stroke
+                </Link>
+                <Link
+                  to="/products/engine-spares-4stroke"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Engine Spares - 4-Stroke
+                </Link>
+                <Link
+                  to="/products/turbochargers-auxiliary"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Turbochargers & Auxiliary Engine Products
+                </Link>
+                <Link
+                  to="/products/purifiers"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Purifiers & Separators
+                </Link>
+                <Link
+                  to="/products/air-compressor-spares"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Air Compressor Spares
+                </Link>
+                <Link
+                  to="/products/hydraulic-systems"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Hydraulic Systems & Components
+                </Link>
+                <Link
+                  to="/products/boilers-incinerators-heat-exchangers"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Boilers, Incinerators & Heat Exchangers
+                </Link>
+                <Link
+                  to="/products/pumps-marine-industrial"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  Pumps – Marine & Industrial
+                </Link>
+                <Link
+                  to="/products/hvac-compressors"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  HVAC Compressors & Spares
+                </Link>
+                <Link
                   to="/products/lsa-ffa"
                   className="dropdown-item"
                   onClick={closeMenu}
                 >
-                  LSA & FFA
+                  LSA & FFA (Life-Saving & Fire-Fighting Equipment)
                 </Link>
               </div>
             </li>

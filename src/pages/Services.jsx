@@ -205,7 +205,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Marine Engineering Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Marine Engineering Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional marine engineering services including deck machinery, engine overhaul, automation systems, ship repair, logistics, workshop services, hydraulic systems, and turbocharger services."
@@ -216,22 +216,22 @@ const Services = () => {
         />
         <meta
           property="og:title"
-          content="Marine Engineering Services | Ocean Serenity Marine Pvt Ltd"
+          content="Marine Engineering Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           property="og:description"
-          content="Comprehensive marine engineering services by Ocean Serenity Marine Pvt Ltd including deck machinery, engine overhaul, automation systems, ship repair, and more."
+          content="Comprehensive marine engineering services by Ocean Serenity Marine Services and Trading Private Limited including deck machinery, engine overhaul, automation systems, ship repair, and more."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://oceaninfinity.com/services" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Marine Engineering Services | Ocean Serenity Marine Pvt Ltd"
+          content="Marine Engineering Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
-          content="Professional marine engineering services including deck machinery, engine overhaul, automation systems, and more by Ocean Serenity Marine Pvt Ltd."
+          content="Professional marine engineering services including deck machinery, engine overhaul, automation systems, and more by Ocean Serenity Marine Services and Trading Private Limited"
         />
       </Helmet>
 
@@ -240,11 +240,11 @@ const Services = () => {
         <PageHero
           title="Marine Engineering Services"
           subtitle="Comprehensive Marine Engineering Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we deliver a full spectrum of marine engineering services tailored to the needs of ship owners and ship management companies, specializing in deck machinery, engine overhaul, automation systems, and comprehensive ship repair solutions."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we deliver a full spectrum of marine engineering services tailored to the needs of ship owners and ship management companies, specializing in deck machinery, engine overhaul, automation systems, and comprehensive ship repair solutions."
           backgroundImage="/knot and sail images/Asset 33.webp"
         />
 
-        {/* Ocean Serenity Marine Pvt Ltd Services Section - Professional Design */}
+        {/* Ocean Serenity Marine Services and Trading Private Limited Services Section - Professional Design */}
         <section
           className="services-section-professional"
           style={{ backgroundColor: "#ffffff" }}
@@ -337,7 +337,7 @@ const Services = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"
@@ -388,15 +388,15 @@ const Services = () => {
                 Ready to Experience Our Marine Services?
               </h2>
               <p className="cta-subtitle">
-                Contact Ocean Serenity Marine Pvt Ltd today to discuss your marine service needs
+                Contact Ocean Serenity Marine Services and Trading Private Limited today to discuss your marine service needs
                 and discover how our expertise can benefit your operations.
               </p>
               <div className="cta-buttons">
                 <a href="/contact" className="btn btn-primary">
                   Contact Us
                 </a>
-                <a href="tel:+971527756765" className="btn btn-secondary">
-                  Call +971 52 775 6765
+                <a href="tel:+919995211427" className="btn btn-secondary">
+                  Call +91 99952 11427
                 </a>
               </div>
             </div>

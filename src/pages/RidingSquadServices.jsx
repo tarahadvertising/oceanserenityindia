@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Riding Squad Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Riding Squad Services Page
  *
  * Professional riding squad services for marine vessels including
  * technical support, maintenance, and emergency response teams
@@ -43,7 +43,7 @@ const RidingSquadServices = () => {
   return (
     <>
       <Helmet>
-        <title>Riding Squad Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Riding Squad Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional riding squad services for marine vessels including technical support, maintenance, and emergency response teams."
@@ -54,7 +54,7 @@ const RidingSquadServices = () => {
         />
         <meta
           property="og:title"
-          content="Riding Squad Services | Ocean Serenity Marine Pvt Ltd"
+          content="Riding Squad Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           property="og:description"
@@ -68,7 +68,7 @@ const RidingSquadServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Riding Squad Services | Ocean Serenity Marine Pvt Ltd"
+          content="Riding Squad Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
@@ -81,7 +81,7 @@ const RidingSquadServices = () => {
         <PageHero
           title="Riding Squad Services"
           subtitle="Expert On-Board Marine Support"
-          description="At Ocean Serenity Marine Pvt Ltd, we provide professional riding squad services for marine vessels with expert technical teams available for maintenance, repairs, and emergency response 24/7."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we provide professional riding squad services for marine vessels with expert technical teams available for maintenance, repairs, and emergency response 24/7."
         />
 
         {/* Riding Squad Services Section */}
@@ -176,7 +176,7 @@ const RidingSquadServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Contact Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Contact Section
  * Standard professional design with clean layout
  */
 
@@ -134,14 +134,14 @@ const Contact = () => {
       icon: MapPin,
       title: "Headquarters",
       details: [
-        "Ocean Serenity Marine Pvt Ltd",
-        "India",
+        "Ocean Serenity Marine Services and Trading Private Limited",
+        "Trivandrum, India",
       ],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+971 52 775 6765"],
+      details: ["+91 99952 11427"],
     },
     {
       icon: Mail,
@@ -152,36 +152,35 @@ const Contact = () => {
       icon: Clock,
       title: "Business Hours",
       details: [
-        "Monday - Friday: 8:00 AM - 6:00 PM",
-        "Saturday: 9:00 AM - 2:00 PM",
+        "Monday - Saturday: 9:00 AM - 6:00 PM",
         "Emergency: 24/7 Available",
       ],
     },
   ];
   const nfcCard = {
     company: {
-      name: "Ocean Serenity Marine Pvt Ltd",
+      name: "Ocean Serenity Marine Services and Trading Private Limited",
       title: "Marine Services & Technical Solutions",
-      phone: "+971 52 775 6765",
+      phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
       website: "www.oceaninfinitymarine.com",
-      address: "India",
+      address: "Trivandrum, India",
     },
     arun: {
       name: "Arun V.V",
       title: "Advisor-Technical & Commercial",
-      phone: "+971 52 775 6765",
+      phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
       website: "www.oceaninfinitymarine.com",
-      address: "India",
+      address: "Trivandrum, India",
     },
     anjana: {
       name: "Anjana",
-      title: "Advisor-Technical & Commercial",
-      phone: "+971 52 775 6765",
+      title: "Commercial Manager",
+      phone: "+91 99952 11427",
       email: "anjana@oceanserenitymarine.com",
       website: "www.oceaninfinitymarine.com",
-      address: "India",
+      address: "Trivandrum, India",
     },
   };
   return (
@@ -270,7 +269,7 @@ const Contact = () => {
                   </div>
                   <div className="qr-code-info">
                     <h5>Anjana</h5>
-                    <p>Advisor-Technical & Commercial</p>
+                    <p>Commercial Manager</p>
                     {/* <small>Scan for direct contact</small> */}
                   </div>
                 </div>

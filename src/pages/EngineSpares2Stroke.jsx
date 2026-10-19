@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Engine Spares 2-Stroke Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Engine Spares 2-Stroke Page
  *
  * Product Portfolio with Brand Logos and Technical Table
  */

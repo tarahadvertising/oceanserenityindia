@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Clients Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Clients Page
  *
  * Our valued clients and partnerships
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -61,7 +61,7 @@ const Clients = () => {
 
         <section className="clients-intro">
           <p>
-            Ocean Serenity Marine Pvt Ltd serves a diverse portfolio of clients
+            Ocean Serenity Marine Services and Trading Private Limited serves a diverse portfolio of clients
             across the maritime industry. Our reputation for quality,
             reliability, and exceptional service has earned us the trust of ship
             owners, operators, and service companies globally.
@@ -95,7 +95,7 @@ const Clients = () => {
             <div className="testimonial-card">
               <div className="testimonial-content">
                 <p>
-                  &ldquo;Ocean Serenity Marine Pvt Ltd has been our trusted supplier for
+                  &ldquo;Ocean Serenity Marine Services and Trading Private Limited has been our trusted supplier for
                   over 10 years. Their quality products and exceptional service
                   have consistently exceeded our expectations.&rdquo;
                 </p>
@@ -123,7 +123,7 @@ const Clients = () => {
             <div className="testimonial-card">
               <div className="testimonial-content">
                 <p>
-                  &ldquo;We rely on Ocean Serenity Marine Pvt Ltd for critical marine
+                  &ldquo;We rely on Ocean Serenity Marine Services and Trading Private Limited for critical marine
                   spares. Their compliance documentation and quality assurance
                   give us complete confidence in their products.&rdquo;
                 </p>

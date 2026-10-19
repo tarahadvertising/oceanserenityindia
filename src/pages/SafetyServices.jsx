@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Safety Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Safety Services Page
  *
  * Comprehensive safety services including safety audits,
  * training programs, and compliance management
@@ -29,9 +29,9 @@ const SafetyServices = () => {
       icon: Shield,
       image: "/safety/safe2.webp",
       shortDescription:
-        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Pvt Ltd..",
+        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Services and Trading Private Limited.",
       fullDescription:
-        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Pvt Ltd comprehensive life raft servicing, inspection, and certification to ensure compliance with maritime safety regulations and operational readiness.",
+        "Commercial ships' life rafts need to be serviced once a year. Ocean Serenity Marine Services and Trading Private Limited comprehensive life raft servicing, inspection, and certification to ensure compliance with maritime safety regulations and operational readiness.",
       features: [
         "Annual life raft servicing and certification",
         "Life raft inspection and maintenance",
@@ -91,9 +91,9 @@ const SafetyServices = () => {
       icon: CheckCircle,
       image: "/safety/safe5.webp",
       shortDescription:
-        "Ocean Serenity Marine Pvt Ltd provides a variety of marine deck equipment supply and...",
+        "Ocean Serenity Marine Services and Trading Private Limited provides a variety of marine deck equipment supply and...",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd provides a variety of marine deck equipment supply and services including inspection, maintenance, and certification of all deck machinery and safety equipment to ensure safe vessel operations.",
+        "Ocean Serenity Marine Services and Trading Private Limited provides a variety of marine deck equipment supply and services including inspection, maintenance, and certification of all deck machinery and safety equipment to ensure safe vessel operations.",
       features: [
         "Deck equipment supply and installation",
         "Mooring equipment maintenance",
@@ -145,9 +145,9 @@ const SafetyServices = () => {
       icon: Users,
       image: "/safety/safe1.webp",
       shortDescription:
-        "Ocean Serenity Marine Pvt Ltd instrumentation and calibration services in India onboard..",
+        "Ocean Serenity Marine Services and Trading Private Limited instrumentation and calibration services in India onboard..",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd provides instrumentation and calibration services in India onboard vessels for all types of marine navigation and safety equipment to ensure accuracy and compliance with international standards.",
+        "Ocean Serenity Marine Services and Trading Private Limited provides instrumentation and calibration services in India onboard vessels for all types of marine navigation and safety equipment to ensure accuracy and compliance with international standards.",
       features: [
         "Navigation instrument calibration",
         "Safety equipment testing and certification",
@@ -163,9 +163,9 @@ const SafetyServices = () => {
       icon: AlertTriangle,
       image: "/safety/safe6.webp",
       shortDescription:
-        "Ocean Serenity Marine Pvt Ltd conducts a thorough inspection of each unit to ensure..",
+        "Ocean Serenity Marine Services and Trading Private Limited conducts a thorough inspection of each unit to ensure..",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd conducts a thorough inspection of each unit to ensure optimal performance and compliance with fire safety regulations for all types of marine fire fighting equipment.",
+        "Ocean Serenity Marine Services and Trading Private Limited conducts a thorough inspection of each unit to ensure optimal performance and compliance with fire safety regulations for all types of marine fire fighting equipment.",
       features: [
         "Fire extinguisher inspection and servicing",
         "Fire detection system maintenance",
@@ -181,9 +181,9 @@ const SafetyServices = () => {
       icon: CheckCircle,
       image: "/safety/safe7.webp",
       shortDescription:
-        "Ocean Serenity Marine Pvt Ltd provides our clients with quality servicing of marine..",
+        "Ocean Serenity Marine Services and Trading Private Limited provides our clients with quality servicing of marine..",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd provides our clients with quality servicing of marine life saving equipment including life jackets, immersion suits, lifebuoys, and other essential safety appliances.",
+        "Ocean Serenity Marine Services and Trading Private Limited provides our clients with quality servicing of marine life saving equipment including life jackets, immersion suits, lifebuoys, and other essential safety appliances.",
       features: [
         "Life jacket inspection and maintenance",
         "Immersion suit servicing",
@@ -201,7 +201,7 @@ const SafetyServices = () => {
   return (
     <>
       <Helmet>
-        <title>Safety Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Safety Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional maritime safety equipment services including life rafts, lifeboats, breathing apparatus, deck equipment, fire fighting equipment, and life saving appliances."
@@ -210,10 +210,10 @@ const SafetyServices = () => {
           name="keywords"
           content="maritime safety equipment, life rafts, lifeboats, davits, breathing apparatus, SCBA, marine deck equipment, fire fighting equipment, life saving equipment, calibration services"
         />
-        <meta property="og:title" content="Safety Services | Ocean Serenity Marine Pvt Ltd" />
+        <meta property="og:title" content="Safety Services | Ocean Serenity Marine Services and Trading Private Limited" />
         <meta
           property="og:description"
-          content="Comprehensive maritime safety equipment services by Ocean Serenity Marine Pvt Ltd including life rafts, lifeboats, breathing apparatus, and fire fighting equipment."
+          content="Comprehensive maritime safety equipment services by Ocean Serenity Marine Services and Trading Private Limited including life rafts, lifeboats, breathing apparatus, and fire fighting equipment."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -221,7 +221,7 @@ const SafetyServices = () => {
           content="https://oceaninfinity.com/safety-services"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Safety Services | Ocean Serenity Marine Pvt Ltd" />
+        <meta name="twitter:title" content="Safety Services | Ocean Serenity Marine Services and Trading Private Limited" />
         <meta
           name="twitter:description"
           content="Professional maritime safety equipment services including life rafts, lifeboats, breathing apparatus, and life saving appliances."
@@ -233,7 +233,7 @@ const SafetyServices = () => {
         <PageHero
           title="Safety Services"
           subtitle="Comprehensive Maritime Safety Equipment Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive safety equipment services including life rafts, lifeboats, breathing apparatus, fire fighting equipment, and life saving appliances to ensure the highest standards of maritime safety and regulatory compliance."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we provide comprehensive safety equipment services including life rafts, lifeboats, breathing apparatus, fire fighting equipment, and life saving appliances to ensure the highest standards of maritime safety and regulatory compliance."
         />
 
         {/* Safety Services Section */}
@@ -328,7 +328,7 @@ const SafetyServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

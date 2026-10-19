@@ -11,7 +11,7 @@ import "../styles/pages/PartnerDetail.css";
 const HGMachineryGroup = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "HG Machinery Group | Ocean Serenity Marine Pvt Ltd";
+    document.title = "HG Machinery Group | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const products = [

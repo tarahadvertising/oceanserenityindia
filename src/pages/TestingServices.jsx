@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Testing Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Testing Services Page
  *
  * Comprehensive water and oil testing services for commercial vessels
  * including lubricating oil, fuel oil, boiler water, cooling water, bilge water, and potable water testing
@@ -24,7 +24,7 @@ const TestingServices = () => {
       shortDescription:
         "Comprehensive water and oil testing services for commercial vessels ensuring compliance with maritime standards and operational safety.",
       fullDescription:
-        "Ocean Serenity Marine Pvt Ltd provides comprehensive water and oil testing services for commercial vessels, ensuring compliance with international maritime standards and operational safety. Our state-of-the-art laboratory facilities and experienced technicians deliver accurate, reliable testing results for all types of marine vessels. We help maintain vessel efficiency, prevent equipment damage, and ensure environmental compliance through regular monitoring and analysis of water and oil systems.",
+        "Ocean Serenity Marine Services and Trading Private Limited provides comprehensive water and oil testing services for commercial vessels, ensuring compliance with international maritime standards and operational safety. Our state-of-the-art laboratory facilities and experienced technicians deliver accurate, reliable testing results for all types of marine vessels. We help maintain vessel efficiency, prevent equipment damage, and ensure environmental compliance through regular monitoring and analysis of water and oil systems.",
       features: [
         "LUBRICATING OIL TESTING",
         "FUEL OIL TESTING (HFO / MGO / VLSFO)",
@@ -40,7 +40,7 @@ const TestingServices = () => {
   return (
     <>
       <Helmet>
-        <title>Testing Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Testing Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional water and oil testing services for commercial vessels including lubricating oil, fuel oil, boiler water, cooling water, bilge water, and potable water testing with world-class laboratory facilities."
@@ -49,10 +49,10 @@ const TestingServices = () => {
           name="keywords"
           content="testing services, water testing, oil testing, lubricating oil testing, fuel oil testing, boiler water testing, cooling water testing, bilge water testing, potable water testing, marine testing, vessel testing"
         />
-        <meta property="og:title" content="Testing Services | Ocean Serenity Marine Pvt Ltd" />
+        <meta property="og:title" content="Testing Services | Ocean Serenity Marine Services and Trading Private Limited" />
         <meta
           property="og:description"
-          content="Comprehensive water and oil testing services by Ocean Serenity Marine Pvt Ltd for commercial vessels with state-of-the-art laboratory facilities."
+          content="Comprehensive water and oil testing services by Ocean Serenity Marine Services and Trading Private Limited for commercial vessels with state-of-the-art laboratory facilities."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -63,7 +63,7 @@ const TestingServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Testing Services | Ocean Serenity Marine Pvt Ltd"
+          content="Testing Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
@@ -76,7 +76,7 @@ const TestingServices = () => {
         <PageHero
           title="Testing Services"
           subtitle="Marine Laboratory Testing Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive water and oil testing services for commercial vessels with state-of-the-art laboratory facilities, expert technicians, and accurate analysis for maritime compliance and operational safety."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we provide comprehensive water and oil testing services for commercial vessels with state-of-the-art laboratory facilities, expert technicians, and accurate analysis for maritime compliance and operational safety."
         />
 
         {/* Testing Services Section */}
@@ -168,7 +168,7 @@ const TestingServices = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

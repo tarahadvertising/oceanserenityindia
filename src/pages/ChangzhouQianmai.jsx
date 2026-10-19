@@ -12,7 +12,7 @@ const ChangzhouQianmai = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title =
-      "Changzhou Qianmai Mechanical Equipment | Ocean Serenity Marine Pvt Ltd";
+      "Changzhou Qianmai Mechanical Equipment | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const separators = [

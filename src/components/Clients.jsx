@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Trusted Clients Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Trusted Clients Section
  * 
  * Testimonial style client showcase
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -23,7 +23,7 @@ const Clients = () => {
             <h3 className="client-name">AL RAFEDAIN Marine Services LLC</h3>
             <p className="client-type">Marine Services & Equipment</p>
             <blockquote className="client-testimonial">
-              &ldquo;Ocean Serenity Marine Pvt Ltd has been our trusted partner for marine equipment supply. 
+              &ldquo;Ocean Serenity Marine Services and Trading Private Limited has been our trusted partner for marine equipment supply. 
               Their commitment to quality and timely delivery has been exceptional.&rdquo;
             </blockquote>
           </div>

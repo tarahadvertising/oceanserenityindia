@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Associated Partners Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Associated Partners Section
  * 
  * Premium logo grid with partner descriptions
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

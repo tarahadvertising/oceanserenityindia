@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Overseas Subcontracting Services Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Overseas Subcontracting Services Page
  *
  * Comprehensive overseas subcontracting services for marine projects
  * including project management, technical support, and coordination
@@ -42,7 +42,7 @@ const OverseasSubcontracting = () => {
   return (
     <>
       <Helmet>
-        <title>Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd</title>
+        <title>Overseas Subcontracting Services | Ocean Serenity Marine Services and Trading Private Limited</title>
         <meta
           name="description"
           content="Professional overseas subcontracting services for marine projects with comprehensive project management and technical support."
@@ -53,7 +53,7 @@ const OverseasSubcontracting = () => {
         />
         <meta
           property="og:title"
-          content="Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd"
+          content="Overseas Subcontracting Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           property="og:description"
@@ -67,7 +67,7 @@ const OverseasSubcontracting = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Overseas Subcontracting Services | Ocean Serenity Marine Pvt Ltd"
+          content="Overseas Subcontracting Services | Ocean Serenity Marine Services and Trading Private Limited"
         />
         <meta
           name="twitter:description"
@@ -80,7 +80,7 @@ const OverseasSubcontracting = () => {
         <PageHero
           title="Overseas Subcontracting Services"
           subtitle="Global Marine Project Solutions"
-          description="At Ocean Serenity Marine Pvt Ltd, we provide comprehensive overseas subcontracting services for marine projects with expert project management, technical support, and international coordination to ensure successful project delivery."
+          description="At Ocean Serenity Marine Services and Trading Private Limited, we provide comprehensive overseas subcontracting services for marine projects with expert project management, technical support, and international coordination to ensure successful project delivery."
         />
 
         {/* Subcontracting Services Section */}
@@ -176,7 +176,7 @@ const OverseasSubcontracting = () => {
 
                   <div className="service-detail-actions">
                     <a
-                      href="https://wa.me/+971527756765"
+                      href="https://wa.me/919995211427"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

@@ -1,8 +1,8 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - CSS Variables
+ * Ocean Serenity Marine Services and Trading Private Limited - CSS Variables
  * 
  * Royal Navy & Cerulean Ocean Theme (Matched to logo.svg)
- * Theme: Ocean Serenity Marine Pvt Ltd Blue Palette
+ * Theme: Ocean Serenity Marine Services and Trading Private Limited Blue Palette
  */
 
 :root {
@@ -75,7 +75,7 @@
   --hover-bg: #f0f7ff;
   --hover-ocean: #63ccf5;
 
-  /* Ocean Serenity Marine Pvt Ltd - Enhanced Typography - Professional Font Stack for Ocean Technology */
+  /* Ocean Serenity Marine Services and Trading Private Limited - Enhanced Typography - Professional Font Stack for Ocean Technology */
   --font-family:
     "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-family-heading:
@@ -87,7 +87,7 @@
     "Open Sans", "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont,
     sans-serif;
   --font-family-ocean: "Poppins", "Montserrat", "Inter", sans-serif;
-  /* Font Sizes - Ocean Serenity Marine Pvt Ltd Scale */
+  /* Font Sizes - Ocean Serenity Marine Services and Trading Private Limited Scale */
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
@@ -101,7 +101,7 @@
   --font-size-hero: 4.5rem;
   --font-size-display: 5rem;
 
-  /* Spacing - Ocean Serenity Marine Pvt Ltd Spacing System */
+  /* Spacing - Ocean Serenity Marine Services and Trading Private Limited Spacing System */
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -116,7 +116,7 @@
   --spacing-container: 24px;
   --spacing-grid: 30px;
 
-  /* Border Radius - Ocean Serenity Marine Pvt Ltd Design System */
+  /* Border Radius - Ocean Serenity Marine Services and Trading Private Limited Design System */
   --radius-xs: 2px;
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -136,20 +136,20 @@
   --shadow-primary: 0 10px 25px rgba(11, 98, 169, 0.2);
   --shadow-ocean: 0 8px 30px rgba(33, 173, 228, 0.25);
 
-  /* Transitions - Ocean Serenity Marine Pvt Ltd Smooth */
+  /* Transitions - Ocean Serenity Marine Services and Trading Private Limited Smooth */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
   --transition-ocean: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-  /* Container - Ocean Serenity Marine Pvt Ltd Layout */
+  /* Container - Ocean Serenity Marine Services and Trading Private Limited Layout */
   --container-max-width: 1200px;
   --container-padding: 24px;
   --container-wide: 1400px;
   --container-narrow: 800px;
 
-  /* Z-index - Ocean Serenity Marine Pvt Ltd Layering */
+  /* Z-index - Ocean Serenity Marine Services and Trading Private Limited Layering */
   --z-dropdown: 1000;
   --z-sticky: 1020;
   --z-fixed: 1030;
@@ -290,9 +290,9 @@ button {
   transition: all 0.3s ease;
 }
 
-/* Ocean Serenity Marine Pvt Ltd Design System Extensions */
+/* Ocean Serenity Marine Services and Trading Private Limited Design System Extensions */
 :root {
-  /* Ocean Serenity Marine Pvt Ltd Brand Colors - Matched to logo.svg */
+  /* Ocean Serenity Marine Services and Trading Private Limited Brand Colors - Matched to logo.svg */
   --ocean-primary: #273171; /* Deep Royal Navy - for header/footer */
   --ocean-secondary: #0b62a9; /* Royal Ocean Blue - for buttons and primary elements */
   --ocean-accent: #21ade4; /* Cerulean Wave Accent - for CTAs & active states */
@@ -300,25 +300,25 @@ button {
   --ocean-dark: #1e293b; /* Slate Dark - for text */
   --ocean-deep: #162050; /* Midnight Navy */
 
-  /* Ocean Serenity Marine Pvt Ltd Semantic Colors */
+  /* Ocean Serenity Marine Services and Trading Private Limited Semantic Colors */
   --color-success: #0b62a9; /* Royal Blue */
   --color-warning: #ffc857; /* Sunset Yellow */
   --color-error: #ef4444; /* Error Red */
   --color-info: #21ade4; /* Cerulean Blue */
 
-  /* Ocean Serenity Marine Pvt Ltd Component Specific */
+  /* Ocean Serenity Marine Services and Trading Private Limited Component Specific */
   --button-primary-bg: var(--ocean-secondary);
   --button-primary-hover: var(--ocean-accent);
   --button-secondary-bg: transparent;
   --button-secondary-border: var(--ocean-secondary);
   --button-secondary-hover: var(--ocean-secondary);
 
-  /* Ocean Serenity Marine Pvt Ltd Layout */
+  /* Ocean Serenity Marine Services and Trading Private Limited Layout */
   --header-height: 80px;
   --footer-height: 200px;
   --sidebar-width: 280px;
 
-  /* Ocean Serenity Marine Pvt Ltd Breakpoints */
+  /* Ocean Serenity Marine Services and Trading Private Limited Breakpoints */
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;

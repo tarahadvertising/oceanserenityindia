@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Boilers, Incinerators & Heat Exchangers Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Boilers, Incinerators & Heat Exchangers Page
  *
  * Product Portfolio with Brand Logos
  */

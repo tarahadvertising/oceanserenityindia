@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Authorizations Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Authorizations Page
  *
  * Company authorizations and certifications
  * Modern design with hero section and document request

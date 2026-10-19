@@ -35,19 +35,19 @@ const About = () => {
   const carouselImages = [
     {
       src: "/who1.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Advanced Marine Technology",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Advanced Marine Technology",
     },
     {
       src: "/who2.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Global Marine Operations",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Global Marine Operations",
     },
     {
       src: "/who3.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Marine Safety Solutions",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Marine Safety Solutions",
     },
     {
       src: "/who4.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Ship Repair Services",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Ship Repair Services",
     },
   ];
 
@@ -61,7 +61,7 @@ const About = () => {
   }, [carouselImages.length]);
   // Card images for the carousel
   const cardImages = [
-    { id: 1, src: "/1.webp", title: "Ocean Serenity Marine Pvt Ltd Excellence" },
+    { id: 1, src: "/1.webp", title: "Ocean Serenity Marine Services and Trading Private Limited Excellence" },
     { id: 2, src: "/map.jpeg", title: "Global Maritime Operations" },
     { id: 3, src: "/quality.jpg", title: "Ocean Technology Solutions" },
     { id: 4, src: "/safety.webp", title: "Ocean Safety Standards" },
@@ -79,7 +79,7 @@ const About = () => {
     {
       id: 1,
       image: "/about1.webp",
-      title: "Ocean Serenity Marine Pvt Ltd",
+      title: "Ocean Serenity Marine Services and Trading Private Limited",
       subtitle:
         "Leading the future of maritime operations with advanced technology and unmatched expertise",
     },
@@ -241,7 +241,7 @@ const About = () => {
             <div className="who-we-are-main">
               <div className="who-we-are-text">
                 <p className="who-we-are-paragraph">
-                  Ocean Serenity Marine Services and Trading Pvt. Ltd. is a trusted provider of integrated marine
+                  Ocean Serenity Marine Services and Trading Private Limited is a trusted provider of integrated marine
                   repair, maintenance, and safety solutions, delivering
                   high-quality services to shipowners, offshore operators, and
                   maritime industries worldwide.

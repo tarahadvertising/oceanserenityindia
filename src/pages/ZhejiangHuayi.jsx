@@ -11,7 +11,7 @@ import "../styles/pages/PartnerDetail.css";
 const ZhejiangHuayi = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Zhejiang Huayi Ship Equipment | Ocean Serenity Marine Pvt Ltd";
+    document.title = "Zhejiang Huayi Ship Equipment | Ocean Serenity Marine Services and Trading Private Limited";
   }, []);
 
   const separators = [

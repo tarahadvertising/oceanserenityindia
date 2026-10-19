@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Certifications Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Certifications Page
  *
  * Dedicated page for company certifications and compliance
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate
@@ -16,7 +16,7 @@ const Certifications = () => {
       <PageHero
         title="Certifications & Compliance"
         subtitle="Internationally Recognized Standards"
-        description="At Ocean Serenity Marine Pvt Ltd, we maintain internationally recognized certifications ensuring quality and compliance with global maritime standards, demonstrating our commitment to excellence and operational safety."
+        description="At Ocean Serenity Marine Services and Trading Private Limited, we maintain internationally recognized certifications ensuring quality and compliance with global maritime standards, demonstrating our commitment to excellence and operational safety."
       />
 
       {/* Certifications Grid */}
@@ -51,7 +51,7 @@ const Certifications = () => {
             </h2>
             <p className="certifications-cta-description">
               Our certifications reflect our dedication to quality, safety, and
-              environmental responsibility. Learn more about how Ocean Serenity Marine Pvt Ltd
+              environmental responsibility. Learn more about how Ocean Serenity Marine Services and Trading Private Limited
               maintains the highest standards in maritime services.
             </p>
             <Link to="/about" className="btn btn-primary-certifications">

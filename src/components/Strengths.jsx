@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Core Strengths Section
+ * Ocean Serenity Marine Services and Trading Private Limited - Core Strengths Section
  * 
  * Horizontal card layout with 5 key strengths
  * ASP PDF Design System: Deep Ocean Blue Maritime Corporate

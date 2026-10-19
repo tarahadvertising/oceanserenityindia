@@ -1,5 +1,5 @@
 /**
- * Ocean Serenity Marine Pvt Ltd - Home Page
+ * Ocean Serenity Marine Services and Trading Private Limited - Home Page
  *
  * Comprehensive home page with multiple sections
  * Technology: React functional component with JSX
@@ -27,19 +27,19 @@ const Home = () => {
   const carouselImages = [
     {
       src: "/who1.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Advanced Marine Technology",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Advanced Marine Technology",
     },
     {
       src: "/who2.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Global Marine Operations",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Global Marine Operations",
     },
     {
       src: "/who3.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Marine Safety Solutions",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Marine Safety Solutions",
     },
     {
       src: "/who4.webp",
-      alt: "Ocean Serenity Marine Pvt Ltd - Ship Repair Services",
+      alt: "Ocean Serenity Marine Services and Trading Private Limited - Ship Repair Services",
     },
   ];
   // Auto-slide effect
@@ -100,7 +100,7 @@ const Home = () => {
               </div>
               <div className="who-we-are-text">
                 <p className="who-we-are-paragraph">
-                  Ocean Serenity Marine Pvt Ltd delivers advanced ship repair, maintenance, and
+                  Ocean Serenity Marine Services and Trading Private Limited delivers advanced ship repair, maintenance, and
                   marine safety solutions to support the performance and
                   longevity of vessels operating in demanding environments.
                 </p>
@@ -185,7 +185,7 @@ const Home = () => {
               </div>
               <h3 className="service-title-modern">Electrical</h3>
               <p className="service-description-modern">
-                Ocean Serenity Marine Pvt Ltd provides electrical on-board equipment services
+                Ocean Serenity Marine Services and Trading Private Limited provides electrical on-board equipment services
                 as a component of the turnkey services package for the maritime
                 industry.
               </p>

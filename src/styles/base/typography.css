@@ -375,12 +375,12 @@ a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--ocean-primary); /* Ocean Serenity Marine Pvt Ltd Green */
+  background: var(--ocean-primary); /* Ocean Serenity Marine Services and Trading Private Limited Green */
   transition: width var(--transition-normal);
 }
 
 a:hover {
-  color: var(--ocean-primary); /* Ocean Serenity Marine Pvt Ltd Green */
+  color: var(--ocean-primary); /* Ocean Serenity Marine Services and Trading Private Limited Green */
 }
 
 a:hover::after {
